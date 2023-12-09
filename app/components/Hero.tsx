@@ -32,7 +32,7 @@ function Hero() {
               />
             </svg>
           </a>
-          <h1 className="mb-8 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white">
+          <h1 className="mb-8 text-xl font-extrabold tracking-tight leading-none md:text-3xl lg:text-4xl 2xl:text-6xl text-white">
             All-In-One Quality IPTV Service
           </h1>
           <p className="mb-12 text-lg font-normal lg:text-xl text-gray-400">
