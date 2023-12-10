@@ -37,9 +37,9 @@ const secondRowimagePaths = [
 
 export const CustomSwiper = () => {
   return (
-    <div className="space-y-9 mt-16 flex justify-center items-center flex-col">
+    <div className="w-full space-y-9 mt-16  ">
       <Swiper
-        className="w-screen px-10 h-full"
+        className="w-full px-10 h-full"
         slidesPerView={8}
         breakpoints={{
           0: {

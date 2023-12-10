@@ -6,19 +6,18 @@ import Image from "next/image";
 function Hero() {
   return (
     <section className="bg-image-1 h-screen bg-no-repeat bg-cover bg-bottom">
-      <div className="bg-bgPrimary bg-opacity-70 h-full flex flex-col justify-end pb-10 items-center">
-        <div className="lg:py-16 text-center max-w-3xl w-full py-6 px-10 mt-8">
+      <div className="bg-bgPrimary bg-opacity-70 h-full flex flex-col justify-center items-center">
+        <div className="mt-32 text-center max-w-3xl w-full  space-y-5 my-4 mx-3">
+          {/* new monthly price banner */}
           <a
             href="#pricing"
-            className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-10 text-sm rounded-full bg-gray-800 text-white hover:bg-gray-700"
+            className="inline-flex justify-between items-center px-3 py-1 text-sm  rounded-full bg-gray-800 text-white hover:bg-gray-700"
             role="alert"
           >
             <span className="text-xs bg-primary-600 rounded-full text-white px-4 py-1.5 mr-3">
               New
             </span>{" "}
-            <span className="text-sm font-medium">
-              New Monthly price
-            </span>
+            <span className="text-sm font-medium">New Monthly price</span>
             <svg
               className="ml-2 w-5 h-5"
               fill="currentColor"
@@ -32,15 +31,18 @@ function Hero() {
               />
             </svg>
           </a>
-          <h1 className="mb-8 text-xl font-extrabold tracking-tight leading-none md:text-3xl lg:text-4xl 2xl:text-6xl text-white">
+          {/* title */}
+          <h1 className="text-3xl font-extrabold tracking-tight leading-none md:text-4xl lg:text-5xl 2xl:text-6xl text-white">
             All-In-One Quality IPTV Service
           </h1>
-          <p className="mb-12 text-lg font-normal lg:text-xl text-gray-400">
-            Enjoy your time with excellent image quality up to 4K, on
-            any device, anytime and anywhere, with over +18,000
-            channels, +88,000 VOD and uptime 100%
+          {/* desciption */}
+          <p className="text-lg font-normal lg:text-xl text-gray-400">
+            Enjoy your time with excellent image quality up to 4K, on any
+            device, anytime and anywhere, with over +18,000 channels, +88,000
+            VOD and uptime 100%
           </p>
-          <div className="flex flex-col mb-10 lg:mb-24 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+          {/* action buttons */}
+          <div className="flex flex-col  lg:mb-24 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4 mx-3">
             <a
               href="#"
               className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4  focus:ring-primary-900"
@@ -74,7 +76,8 @@ function Hero() {
               Get you subscription
             </a>
           </div>
-          <div>
+          {/* platforms image */}
+          <div className="mx-3">
             <Image
               className="m-auto"
               width={400}
@@ -82,10 +85,11 @@ function Hero() {
               src="/images/devices.png"
               alt="devices"
             />
-            {/* <Devices /> */}
           </div>
+          {/* services logos swiper */}
         </div>
         <CustomSwiper />
+
       </div>
     </section>
   );

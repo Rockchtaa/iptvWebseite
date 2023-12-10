@@ -16,9 +16,9 @@ export const MoviesSwiper = async ({
   movies: IMoviesResult[];
 }) => {
   return (
-    <div className="mt-16">
+    <div className="w-full mt-16">
       <Swiper
-        className="w-screen px-10"
+        className="w-full"
         slidesPerView={"auto"}
         breakpoints={{
           0: {

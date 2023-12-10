@@ -9,8 +9,8 @@ function Navbar() {
   // console.log(router.pathname);
 
   return (
-    <header className="antialiased max-w-screen-2xl">
-      <nav className="px-4 lg:px-6 bg-transparent absolute w-full hover:bg-primary-950/20 ">
+    <header className=" antialiased max-w-screen-2xl ">
+      <nav className="absolute px-4 lg:px-6 bg-transparent top-0 left-0 right-0   w-full hover:bg-primary-950/20 ">
         <div className="flex flex-wrap justify-between lg:mx-52 h-20">
           <div className="flex py-2 justify-start items-center">
             <button
