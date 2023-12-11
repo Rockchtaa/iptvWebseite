@@ -13,8 +13,8 @@ function page() {
             provide you with a reliable and uninterrupted viewing
             experience. However, there are certain circumstances
             beyond our control that may affect the availability of our
-            service. Therefore, we would like to outline our "No
-            Refund Policy" to ensure transparency and clarity
+            service. Therefore, we would like to outline our <span className="font-semibold">No
+            Refund Policy</span> to ensure transparency and clarity
             regarding our responsibilities and limitations.
           </p>
 
@@ -112,8 +112,8 @@ function page() {
             </li>
           </ol>
           <p className="text-gray-300">
-            By using our service, you agree to comply with this "No
-            Refund Policy" and acknowledge that you have read and
+            By using our service, you agree to comply with this <span className="font-semibold">No
+            Refund Policy</span> and acknowledge that you have read and
             understood its contents. We reserve the right to modify or
             update this policy at any time without prior notice. It is
             your responsibility to review this policy periodically to
