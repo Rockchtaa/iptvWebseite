@@ -3,7 +3,7 @@ import React from "react";
 function page() {
   return (
     <div className="flex flex-col mt-32 mb-10 justify-center items-center px-4 sm:px-0">
-      <section className="max-w-4xl flex flex-col gap-4">
+      <section className="max-w-4xl flex flex-col gap-16">
         <h1 className="text-3xl font-extrabold tracking-tight leading-none md:text-4xl lg:text-5xl 2xl:text-6xl text-white">
           Privacy and Refund Policy
         </h1>
@@ -21,9 +21,9 @@ function page() {
           <ol className="sm:ml-12 w-full max-w-3xl">
             <li className="flex flex-col box-border">
               <span className="text-xl text-primary-600 font-semibold">
-                1.Service Interruptions
+                1. Service Interruptions
               </span>
-              <span className="ml-4 text-md font-normal text-gray-300 flex flex-col gap-3 py-3">
+              <span className="ml-6 text-md font-normal text-gray-300 flex flex-col gap-3 py-3">
                 <p>
                   <span className="font-semibold text-primary-700">
                     a.
@@ -46,13 +46,13 @@ function page() {
             </li>
             <li>
               <span className="text-xl text-primary-600 font-semibold">
-                2.Replacement Subscriptions
+                2. Replacement Subscriptions
               </span>
-              <span className="ml-4 text-md font-normal text-gray-300 flex flex-col gap-3 py-3">
+              <span className="ml-6 text-md font-normal text-gray-300 flex flex-col gap-3 py-3">
                 <p>
                   <span className="font-semibold text-primary-700">
                     a.
-                  </span>
+                  </span>{" "}
                   If you have been a customer for less than 6 months
                   and experience a service interruption due to reasons
                   stated in point 1, we will provide you with a
@@ -62,7 +62,7 @@ function page() {
                 <p>
                   <span className="font-semibold text-primary-700">
                     b.
-                  </span>
+                  </span>{" "}
                   To qualify for a replacement subscription, you must
                   notify us of the interruption within a reasonable
                   timeframe and provide any necessary information to
@@ -73,13 +73,13 @@ function page() {
             </li>
             <li>
               <span className="text-xl text-primary-600 font-semibold">
-                3.Customers with Over 6 Months
+                3. Customers with Over 6 Months
               </span>
-              <span className="ml-4 text-md font-normal text-gray-300 flex flex-col gap-3 py-3">
+              <span className="ml-6 text-md font-normal text-gray-300 flex flex-col gap-3 py-3">
                 <p>
                   <span className="font-semibold text-primary-700">
                     a.
-                  </span>
+                  </span>{" "}
                   Customers who have been subscribed for more than 6
                   months are not eligible for replacement
                   subscriptions in the event of service interruptions
@@ -88,7 +88,7 @@ function page() {
                 <p>
                   <span className="font-semibold text-primary-700">
                     b.
-                  </span>
+                  </span>{" "}
                   This policy is in place because, after 6 months of
                   uninterrupted service, it is reasonable to expect
                   that you have experienced the reliability and
@@ -98,9 +98,9 @@ function page() {
             </li>
             <li>
               <span className="text-xl text-primary-600 font-semibold">
-                4.Limited Liability
-              </span>
-              <span className="ml-4 text-md font-normal text-gray-300 flex flex-col gap-3 py-3">
+                4. Limited Liability
+              </span>{" "}
+              <span className="ml-6 text-md font-normal text-gray-300 flex flex-col gap-3 py-3">
                 <p>
                   We shall not be held liable for any loss or damages
                   arising from service interruptions, including but

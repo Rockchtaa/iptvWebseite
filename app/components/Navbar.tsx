@@ -62,7 +62,7 @@ function Navbar() {
               href="/privacy-policy"
               className="px-5 h-full hover:bg-bgPrimary/30  hover:cursor-pointer flex justify-center items-center "
             >
-              Privacy policy
+              Privacy Policy
             </Link>
             <Link
               href={"/#pricing"}
