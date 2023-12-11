@@ -65,12 +65,6 @@ function Navbar() {
               Privacy policy
             </Link>
             <Link
-              href="/refund-policy"
-              className="px-5 h-full hover:bg-bgPrimary/30  hover:cursor-pointer flex justify-center items-center "
-            >
-              Refund Policy
-            </Link>
-            <Link
               href={"/#pricing"}
               className="px-5 h-full hover:bg-bgPrimary/30  hover:cursor-pointer flex justify-center items-center "
             >
