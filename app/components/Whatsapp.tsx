@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const Whatsapp = () => {
   return (
-    <div className={`fixed bottom-8 right-8 z-50`}>
-      <Link href={"/"}>
+    <div className={`fixed bottom-8 right-8 z-50 hover:cursor-pointer`}>
+      <Link target="_blank" rel="noopener noreferrer" href={"https://api.whatsapp.com/message/PF3KPNAZ4IFDF1"}>
         <Image
           className="rounded-full"
           width={70}
