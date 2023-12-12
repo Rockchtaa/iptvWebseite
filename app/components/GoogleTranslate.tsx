@@ -2,7 +2,6 @@
 import { useEffect, useState } from "react";
 import { getCookie, hasCookie, setCookie } from "cookies-next";
 import "/node_modules/flag-icons/css/flag-icons.min.css";
-import { get } from "http";
 
 interface Language {
   key: string;
@@ -21,12 +20,13 @@ function GoogleTranslate() {
   const GOOGLE_TRANS_COOKIE = "googtrans";
 
   const googleTranslateElementInit = () => {
-    new window.google.translate.TranslateElement(
+    new (window as any).google.translate.TranslateElement(
       {
         pageLanguage: "auto",
         autoDisplay: false,
         includedLanguages: "en,fr", // If you remove it, by default all google supported language will be included
-        layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+        layout: (window as any).google.translate.TranslateElement.InlineLayout
+          .SIMPLE,
       },
       "google_translate_element"
     );
@@ -39,7 +39,7 @@ function GoogleTranslate() {
       "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
     );
     document.body.appendChild(addScript);
-    window.googleTranslateElementInit = googleTranslateElementInit;
+    (window as any).googleTranslateElementInit = googleTranslateElementInit;
     const cookie = getCookie(GOOGLE_TRANS_COOKIE);
     const language = languages.find((l) => l.value === cookie);
     console.log({ language });
