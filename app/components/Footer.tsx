@@ -26,7 +26,7 @@ function Footer() {
             <li key={link.title}>
               <Link
                 href={link.href}
-                className="hidden sm:block font-medium hover:cursor-pointer mr-4 hover:underline md:mr-6 "
+                className="block font-medium hover:cursor-pointer mr-4 hover:underline md:mr-6 "
               >
                 {link.title}
               </Link>
