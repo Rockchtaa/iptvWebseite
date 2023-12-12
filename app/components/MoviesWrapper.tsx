@@ -3,6 +3,7 @@
 import React, { Suspense } from "react";
 import { getMovies } from "../api";
 import { MoviesSwiper } from "./MoviesSwiper";
+import { SportSwiper } from "./SportSwiper";
 
 export interface IMoviesResult {
   adult: boolean;
@@ -22,6 +23,7 @@ export interface IMoviesResult {
   vote_count: number;
 }
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default async function () {
   const movies = await getMovies();
   return (
