@@ -6,8 +6,8 @@ import Image from "next/image";
 function Hero() {
   return (
     <section className="bg-image-1 h-screen bg-no-repeat bg-cover bg-bottom">
-      <div className="bg-bgPrimary bg-opacity-70 h-full flex flex-col justify-center items-center">
-        <div className="mt-32 text-center max-w-3xl w-full  space-y-5 my-4 mx-3">
+      <div className="bg-bgPrimary bg-opacity-70 h-full flex flex-col justify-end items-center pb-5">
+        <div className="mt-32 h-[60%] text-center max-w-3xl w-full space-y-5 my-4 mx-3">
           {/* new monthly price banner */}
           <a
             href="#pricing"
@@ -89,7 +89,6 @@ function Hero() {
           {/* services logos swiper */}
         </div>
         <CustomSwiper />
-
       </div>
     </section>
   );
