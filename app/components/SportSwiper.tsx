@@ -43,7 +43,7 @@ export const SportSwiper = () => {
             spaceBetween: 30,
           },
           1536: {
-            slidesPerView: 8,
+            slidesPerView: 6,
             spaceBetween: 50,
           },
         }}
