@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "./Logo";
 import Link from "next/link";
-import { useRouter } from "next/router";
+import GoogleTranslate from "./GoogleTranslate";
 
 function Navbar() {
   // "use client"
@@ -35,10 +35,7 @@ function Navbar() {
               </svg>
               <span className="sr-only">Toggle sidebar</span>
             </button>
-            <a
-              href="/"
-              className="flex mr-4 items-center justify-center"
-            >
+            <a href="/" className="flex mr-4 items-center justify-center">
               <Logo />
               <span className="translate-y-1 text-2xl font-semibold whitespace-nowrap dark:text-white">
                 IPTV
@@ -76,6 +73,7 @@ function Navbar() {
             >
               About
             </Link>
+            <GoogleTranslate />
           </div>
         </div>
       </nav>

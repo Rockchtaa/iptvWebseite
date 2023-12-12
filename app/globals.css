@@ -25,3 +25,10 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+body {
+  top: 0px !important;
+}
+body > .skiptranslate {
+  display: none !important;
+}
