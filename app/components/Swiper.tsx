@@ -3,21 +3,9 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
-import "swiper/css/grid";
-import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import { Autoplay } from "swiper/modules";
 import Image from "next/image";
-
-// const firstRowimagePaths = [
-//   "/images/brand_item06.webp",
-//   "/images/brand_item07.webp",
-//   "/images/brand_item08.webp",
-//   "/images/brand_item09.webp",
-//   "/images/brand_item10.webp",
-//   "/images/brand_item11.webp",
-//   "/images/brand_item12.webp",
-// ];
 
 const secondRowimagePaths = [
   "/images/brand_item13.webp",

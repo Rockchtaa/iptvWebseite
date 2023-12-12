@@ -1,68 +1,69 @@
 import React from "react";
 
-function Logo() {
+type IconProps = React.HTMLAttributes<SVGElement>;
+
+function Logo(props: IconProps) {
   return (
-    <>
-      {/*?xml version="1.0" encoding="UTF-8" standalone="no"?*/}
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        version="1.1"
-        viewBox="0.00 0.00 662.00 644.00"
-        className="mr-3 h-14"
-      >
-        <g strokeWidth={2.0} fill="none" strokeLinecap="butt">
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      version="1.1"
+      viewBox="0.00 0.00 662.00 644.00"
+    
+    >
+      <g strokeWidth={2.0} fill="none" strokeLinecap="butt">
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 247.81 29.49
   Q 247.04 28.99 246.75 28.49
   Q 242.52 20.89 234.94 17.00
   Q 231.46 15.21 226.60 14.81
   Q 217.56 14.08 210.06 17.33
   Q 206.34 18.95 201.32 24.07"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 455.68 68.11
   Q 454.92 67.46 454.64 67.87
   Q 453.00 70.27 450.97 72.34
   Q 450.43 72.89 449.98 73.41"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 449.57 74.13
   Q 448.52 74.75 447.69 75.70
   Q 441.38 82.96 435.73 90.73"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 418.14 112.51
   L 395.34 140.71
   A 1.67 1.67 0.0 0 0 395.42 142.90
   Q 406.08 154.27 413.63 168.60"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 416.11 173.56
   Q 416.20 175.79 419.00 175.78
   Q 461.31 175.76 504.43 175.85
   Q 509.01 175.86 513.03 176.44
   Q 519.38 177.36 521.50 178.06
   Q 527.14 179.95 532.81 181.73"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 532.81 181.73
   Q 542.04 186.28 544.63 187.87
   Q 551.12 191.88 557.82 199.41
@@ -78,64 +79,64 @@ function Logo() {
   Q 630.99 253.21 624.87 255.28
   Q 621.40 256.46 615.50 256.46
   Q 604.76 256.46 594.03 256.79"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 593.01 257.15
   Q 592.20 256.73 591.29 256.62"
-          />
-          <path
-            stroke="#4a0d7f"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#4a0d7f"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 591.29 256.62
   L 577.09 256.86"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 577.09 256.86
   L 576.27 257.01
   Q 575.72 257.11 575.78 257.67
   L 575.83 258.03"
-          />
-          <path
-            stroke="#4a0d7f"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#4a0d7f"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 575.83 258.03
   L 576.04 300.33"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 576.04 300.33
   L 576.10 339.59
   A 1.23 1.22 -0.2 0 0 577.34 340.81
   L 593.90 340.59"
-          />
-          <path
-            stroke="#4a0d7f"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#4a0d7f"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 593.90 340.59
   L 604.00 340.60"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 604.00 340.60
   Q 605.48 341.57 606.87 340.62"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 622.37 341.06
   Q 623.92 341.79 627.27 342.16
   C 629.34 342.39 631.06 344.19 632.95 345.11
@@ -148,11 +149,11 @@ function Logo() {
   Q 623.76 380.34 622.08 380.34
   Q 605.83 380.26 592.45 380.01
   C 592.20 380.01 591.90 380.16 591.71 380.31"
-          />
-          <path
-            stroke="#270c4e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#270c4e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 591.71 380.31
   Q 591.43 380.32 591.38 380.69
   Q 591.32 381.04 591.13 380.75
@@ -163,21 +164,21 @@ function Logo() {
   L 575.91 422.81
   Q 575.90 423.68 576.77 423.59
   Q 584.57 422.71 593.07 423.57"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 593.07 423.57
   Q 606.51 423.58 620.17 423.55
   Q 623.25 423.54 625.60 424.60
   Q 630.57 426.87 634.09 429.54
   C 636.92 431.69 637.51 435.03 639.36 437.80"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 639.36 437.80
   Q 640.51 442.23 639.77 445.52
   Q 639.08 448.56 636.50 452.63
@@ -186,89 +187,89 @@ function Logo() {
   Q 599.16 462.29 579.70 462.30
   Q 578.82 462.30 577.92 462.13
   Q 576.88 461.94 576.24 463.24"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 575.92 465.03
   L 574.01 469.29"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 574.01 469.29
   Q 572.39 472.30 571.89 475.41"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 558.52 496.06
   Q 556.08 497.89 554.50 500.36"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 547.84 506.24
   Q 545.14 507.60 542.62 509.18
   Q 539.53 511.12 537.39 512.13
   Q 533.32 514.04 529.22 515.92
   Q 524.47 518.11 512.54 520.42"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 511.45 520.62
   L 500.33 521.46
   A 0.90 0.89 -15.0 0 0 499.59 522.74
   Q 501.24 526.12 503.00 529.09
   Q 510.86 542.36 516.54 556.28"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 516.11 563.42
   Q 512.17 577.63 498.74 579.47
   Q 493.91 580.13 488.76 578.51
   C 486.71 577.86 484.29 576.07 482.78 574.53
   Q 476.03 567.66 468.78 561.42"
-          />
-          <path
-            stroke="#808593"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#808593"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 429.49 522.84
   Q 425.56 520.94 419.25 521.11
   Q 414.81 521.24 414.74 521.24
   Q 333.86 521.29 253.04 521.25
   A 3.24 3.24 0.0 0 0 250.80 522.15
   L 246.49 526.23"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 222.14 550.06
   L 198.32 573.52"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 196.25 575.30
   Q 194.61 576.03 193.16 577.00
   Q 191.39 578.19 190.06 578.54
   Q 183.24 580.37 175.98 578.92"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 174.57 578.04
   Q 168.88 574.04 166.06 568.37
   Q 164.66 565.55 164.55 561.93
@@ -277,64 +278,64 @@ function Logo() {
   Q 174.49 534.03 180.70 522.87
   A 0.36 0.35 -71.0 0 0 180.45 522.35
   Q 179.70 522.23 180.14 522.55"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 171.84 521.38
   Q 161.21 519.49 151.23 516.03"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 149.67 515.56
   L 132.77 505.37"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 118.74 490.22
   Q 109.90 477.49 105.88 463.15
   A 1.41 1.41 0.0 0 0 104.52 462.12
   Q 83.37 461.96 62.50 462.42
   Q 56.15 462.56 49.64 459.50"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 40.90 450.47
   Q 41.03 448.09 39.12 446.52"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 39.75 437.24
   Q 41.23 435.22 41.85 432.99"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 57.39 423.49
   Q 70.26 423.39 83.00 423.69
   Q 83.57 423.70 83.71 423.16"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 84.86 422.55
   Q 84.92 422.50 84.98 422.46"
-          />
-          <path
-            stroke="#270c4e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#270c4e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 84.98 422.46
   C 86.49 422.97 87.95 423.42 89.56 423.36
   Q 95.46 423.14 101.83 423.14
@@ -342,202 +343,202 @@ function Logo() {
   Q 105.43 401.20 104.81 381.50
   A 1.26 1.25 -0.9 0 0 103.55 380.29
   L 88.77 380.35"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 88.77 380.35
   Q 73.70 380.17 58.63 380.53
   C 57.03 380.57 55.67 379.90 54.08 379.84
   Q 52.57 379.78 50.98 379.04
   Q 48.43 377.85 45.97 377.06"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 41.00 371.34
   Q 37.68 364.93 37.76 362.50
   Q 37.83 360.34 37.52 358.49"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 47.16 344.04
   L 53.23 341.80
   Q 53.70 341.63 54.19 341.71
   Q 56.42 342.07 57.53 340.93"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 80.17 340.92
   Q 81.01 341.18 81.23 340.46"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 81.23 340.46
   L 100.11 339.63
   Q 100.54 339.61 100.94 339.78
   Q 102.81 340.59 104.47 339.36
   Q 104.85 339.08 104.85 338.60
   L 104.61 291.76"
-          />
-          <path
-            stroke="#270c4e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#270c4e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 104.61 291.76
   L 104.61 290.27"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 104.61 290.27
   L 104.62 265.27"
-          />
-          <path
-            stroke="#4a0d7f"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#4a0d7f"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 104.62 265.27
   L 104.83 257.48
   Q 104.84 256.95 104.31 256.94
   L 93.03 256.82"
-          />
-          <path
-            stroke="#66108c"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#66108c"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 93.03 256.82
   L 86.45 256.80"
-          />
-          <path
-            stroke="#731291"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#731291"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 86.45 256.80
   L 58.51 256.79"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 58.51 256.79
   L 52.19 255.41"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 51.26 218.90
   Q 57.80 216.62 64.25 216.75
   Q 82.19 217.11 100.50 216.55
   Q 106.01 216.39 111.46 216.75
   A 1.04 1.04 0.0 0 0 112.47 216.17
   L 115.78 209.44"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 149.26 180.97
   Q 152.01 180.84 154.48 179.21"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 159.76 177.62
   Q 164.36 177.06 168.93 176.47
   Q 173.55 175.88 178.13 175.87
   Q 220.31 175.79 262.50 175.55
   Q 264.51 175.54 263.77 174.67"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 283.17 143.28
   Q 284.89 143.16 284.55 141.99"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 222.63 68.01
   Q 215.22 67.57 208.05 63.91"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 198.87 54.51
   L 195.72 47.17"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 195.62 45.27
   Q 195.09 38.11 197.31 31.52
   Q 198.04 29.36 201.32 24.07"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 247.81 29.49
   Q 248.13 31.37 248.88 33.10
   Q 249.80 35.23 249.94 36.60
   Q 250.56 42.42 249.62 48.24"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 248.85 51.66
   C 247.04 52.98 246.97 54.38 248.38 56.10
   Q 264.27 75.48 268.78 80.47
   Q 279.39 92.22 283.00 96.75
   Q 291.89 107.93 301.52 118.53"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 305.48 123.17
   Q 307.20 126.45 309.18 126.84"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 350.72 120.92
   Q 355.21 122.20 359.78 122.96
   Q 361.72 123.28 364.00 124.31
   Q 366.04 125.23 368.26 125.80"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 374.94 123.11
   Q 383.18 113.61 391.21 103.98
   Q 406.82 85.27 422.56 66.68
   Q 427.36 61.02 431.85 55.11
   Q 432.44 54.33 431.74 53.79"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 431.62 53.48
   Q 431.88 51.75 430.99 50.40
   A 1.98 1.93 26.5 0 1 430.66 49.46
@@ -546,35 +547,35 @@ function Logo() {
   L 430.30 38.82
   Q 430.16 38.82 430.17 38.95
   Q 430.35 41.06 430.10 43.17"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 441.02 19.41
   L 446.34 16.40"
-          />
-          <path
-            stroke="#601091"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#601091"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 104.61 290.27
   Q 100.95 292.45 98.52 295.57
   Q 98.17 296.02 98.72 295.91
   Q 99.77 295.71 100.62 294.60
   Q 101.92 292.88 104.61 291.76"
-          />
-          <path
-            stroke="#925cb1"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#925cb1"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 81.23 340.46
   L 78.35 339.28"
-          />
-          <path
-            stroke="#af13e4"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#af13e4"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 93.03 256.82
   Q 93.95 260.76 90.63 263.17
   A 1.24 1.20 -15.7 0 0 90.14 264.01
@@ -590,47 +591,47 @@ function Logo() {
   Q 84.24 295.39 82.97 295.12
   Q 80.89 294.69 80.41 294.69
   Q 69.97 294.57 59.26 294.58"
-          />
-          <path
-            stroke="#805995"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#805995"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 88.77 380.35
   Q 88.80 382.08 88.51 382.69"
-          />
-          <path
-            stroke="#925cb1"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#925cb1"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 88.51 382.69
   Q 83.21 385.60 80.25 387.90
   C 76.92 390.48 71.80 396.87 72.40 401.62
   C 72.83 405.08 72.23 407.97 73.84 411.29
   Q 76.34 416.46 81.42 419.82
   C 82.66 420.64 84.03 420.89 85.43 421.35"
-          />
-          <path
-            stroke="#805995"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#805995"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 85.43 421.35
   Q 85.76 421.45 85.72 421.78
   Q 85.70 421.99 85.50 422.15
   Q 85.29 422.31 84.98 422.46"
-          />
-          <path
-            stroke="#a25bc6"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#a25bc6"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 591.29 256.62
   Q 591.10 256.60 590.97 256.66
   A 0.40 0.39 -22.5 0 0 590.75 257.18
   Q 591.07 257.95 591.97 258.52"
-          />
-          <path
-            stroke="#af13e4"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#af13e4"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 591.97 258.52
   L 591.79 258.96
   Q 591.58 259.49 591.01 259.44
@@ -639,22 +640,22 @@ function Logo() {
   Q 590.95 268.15 590.65 276.49
   C 590.60 278.07 591.26 279.44 590.94 281.50
   Q 590.34 285.30 591.20 296.36"
-          />
-          <path
-            stroke="#a25bc6"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#a25bc6"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 591.20 296.36
   Q 590.99 296.98 591.00 297.94
   Q 591.01 298.51 591.29 299.00
   Q 591.60 299.54 591.43 300.14
   A 1.10 1.09 31.9 0 0 591.68 301.20
   Q 592.71 302.33 593.62 301.05"
-          />
-          <path
-            stroke="#a25bc6"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#a25bc6"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 607.58 301.05
   Q 617.88 305.05 621.58 314.39
   Q 621.60 314.43 621.76 314.70
@@ -662,11 +663,11 @@ function Logo() {
   Q 621.70 315.50 621.80 315.85
   C 624.20 323.80 620.49 331.85 614.00 336.17
   Q 610.03 338.81 604.00 340.60"
-          />
-          <path
-            stroke="#8212c2"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#8212c2"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 593.90 340.59
   Q 592.64 340.58 591.83 339.11
   Q 591.34 338.23 591.40 336.79
@@ -680,59 +681,59 @@ function Logo() {
   L 578.76 306.77
   Q 578.20 307.11 578.00 306.48
   L 576.04 300.33"
-          />
-          <path
-            stroke="#a25bc6"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#a25bc6"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 575.83 258.03
   Q 575.83 258.81 576.04 259.42
   Q 576.23 259.96 576.53 259.47
   Q 577.22 258.30 577.09 256.86"
-          />
-          <path
-            stroke="#805995"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#805995"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 591.84 381.79
   Q 591.69 381.29 591.22 381.56
   A 0.29 0.29 0.0 0 0 591.08 381.77
   L 590.93 383.39"
-          />
-          <path
-            stroke="#601091"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#601091"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 590.93 383.39
   Q 591.50 392.93 591.01 402.68
   C 590.69 409.18 590.85 414.87 590.93 421.01
   Q 590.95 422.78 593.07 423.57"
-          />
-          <path
-            stroke="#bf5ed2"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#bf5ed2"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 591.20 296.36
   Q 598.25 294.95 602.28 290.27
   Q 606.20 285.71 606.41 279.37
   Q 606.70 270.69 600.25 264.05
   C 599.20 262.97 598.05 263.05 597.02 261.84
   Q 595.00 259.48 591.97 258.52"
-          />
-          <path
-            stroke="#cb5fd7"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#cb5fd7"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 58.51 256.79
   Q 45.56 258.56 40.17 268.80
   Q 36.90 274.99 38.09 280.96
   Q 39.49 287.99 44.78 292.45
   C 49.38 296.34 53.49 295.64 58.80 295.72"
-          />
-          <path
-            stroke="#a25bc6"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#a25bc6"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 58.80 295.72
   L 85.48 295.81
   A 1.93 1.93 0.0 0 1 87.40 297.52
@@ -741,18 +742,18 @@ function Logo() {
   Q 73.01 302.85 68.06 314.87
   Q 67.65 315.86 67.40 317.69
   Q 67.20 319.17 66.73 320.55"
-          />
-          <path
-            stroke="#925cb1"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#925cb1"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 639.57 437.52
   Q 639.08 437.77 639.36 437.80"
-          />
-          <path
-            stroke="#601091"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#601091"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 85.43 421.35
   Q 86.60 419.72 85.89 418.57
   Q 85.64 418.15 85.63 417.67
@@ -761,38 +762,38 @@ function Logo() {
   C 87.52 400.79 86.91 397.30 86.97 393.79
   Q 87.00 392.20 87.90 388.84
   Q 88.66 386.00 88.51 382.69"
-          />
-          <path
-            stroke="#d818f5"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#d818f5"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 86.45 256.80
   Q 82.95 260.26 79.64 263.24
   Q 75.41 267.05 73.70 269.08
   Q 70.70 272.65 69.01 276.01
   Q 64.01 285.96 61.36 290.51
   Q 60.26 292.40 59.26 294.58"
-          />
-          <path
-            stroke="#bb15e9"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#bb15e9"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 59.26 294.58
   Q 59.94 295.26 58.49 295.38
   Q 58.35 295.40 58.48 295.43
   Q 58.72 295.50 58.80 295.72"
-          />
-          <path
-            stroke="#925cb1"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#925cb1"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 574.18 469.45
   Q 573.81 469.58 574.01 469.29"
-          />
-          <path
-            stroke="#8212c2"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#8212c2"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 104.62 265.27
   Q 102.45 265.89 100.75 267.01
   C 99.85 267.61 99.34 268.81 98.05 269.26
@@ -815,20 +816,20 @@ function Logo() {
   Q 86.39 334.46 85.90 337.95
   A 2.24 2.23 7.3 0 1 83.44 339.85
   L 78.35 339.28"
-          />
-          <path
-            stroke="#a25bc6"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#a25bc6"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 78.35 339.28
   Q 73.10 336.68 70.35 332.00
   Q 69.70 330.89 68.66 327.85
   Q 67.92 325.68 66.97 323.65"
-          />
-          <path
-            stroke="#5a586e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#5a586e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 461.43 68.14
   Q 462.95 67.01 465.54 66.87
   Q 466.05 66.85 466.49 66.57
@@ -840,18 +841,18 @@ function Logo() {
   Q 473.90 18.62 469.71 16.85
   Q 464.95 14.84 459.99 14.57
   Q 455.12 14.30 449.74 15.28"
-          />
-          <path
-            stroke="#805995"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#805995"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 592.00 380.99
   Q 591.78 380.82 591.71 380.31"
-          />
-          <path
-            stroke="#925cb1"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#925cb1"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 594.46 422.34
   Q 594.34 422.38 594.24 422.19
   A 0.33 0.33 0.0 0 1 594.31 421.77
@@ -859,11 +860,11 @@ function Logo() {
   Q 606.62 409.17 606.09 401.47
   Q 605.64 394.95 600.64 390.04
   Q 596.08 385.57 590.93 383.39"
-          />
-          <path
-            stroke="#605c78"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#605c78"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 418.02 602.95
   Q 418.98 603.76 420.75 603.75
   Q 426.36 603.72 431.93 604.29
@@ -877,18 +878,18 @@ function Logo() {
   C 484.14 607.92 485.57 608.82 487.29 608.73
   Q 491.84 608.52 493.36 608.89
   Q 497.62 609.94 502.23 610.13"
-          />
-          <path
-            stroke="#605c78"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#605c78"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 511.76 612.15
   Q 513.30 613.69 516.22 613.60"
-          />
-          <path
-            stroke="#605c78"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#605c78"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 518.58 614.77
   Q 519.07 615.26 520.69 616.30
   Q 522.82 617.64 521.14 619.45
@@ -903,76 +904,76 @@ function Logo() {
   Q 454.53 628.64 450.64 628.95
   Q 448.30 629.13 442.84 629.21
   Q 438.73 629.26 434.75 630.08"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 425.27 630.28
   Q 422.50 629.65 421.02 630.69"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 414.22 630.74
   L 383.51 630.93"
-          />
-          <path
-            stroke="#605c78"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#605c78"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 383.51 630.93
   L 285.79 631.16"
-          />
-          <path
-            stroke="#605c78"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#605c78"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 244.98 629.97
   Q 236.26 628.80 227.26 629.26"
-          />
-          <path
-            stroke="#605c78"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#605c78"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 215.70 628.43
   Q 203.03 627.51 190.32 626.60
   C 188.55 626.47 186.41 625.68 184.25 625.88
   Q 182.17 626.08 180.35 625.41
   C 178.31 624.66 176.39 624.89 174.25 624.81"
-          />
-          <path
-            stroke="#605c78"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#605c78"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 174.12 624.55
   Q 165.06 623.07 160.51 620.82
   Q 157.23 619.20 159.23 616.04"
-          />
-          <path
-            stroke="#605c78"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#605c78"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 159.23 616.04
   Q 161.16 614.96 163.08 614.01
   Q 164.76 613.19 167.21 612.74
   Q 170.36 612.17 173.29 611.14"
-          />
-          <path
-            stroke="#605c78"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#605c78"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 173.45 611.09
   Q 179.09 610.09 184.44 609.81
   C 186.40 609.70 188.00 608.87 190.03 609.02
   C 193.47 609.28 195.85 607.86 199.30 607.96
   Q 203.72 608.08 207.72 606.56"
-          />
-          <path
-            stroke="#605c78"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#605c78"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 227.43 605.27
   Q 232.62 605.69 237.77 605.11
   C 242.01 604.62 246.52 605.54 250.10 604.41
@@ -980,18 +981,18 @@ function Logo() {
   Q 260.79 603.99 263.44 603.40
   C 266.19 602.79 269.51 603.24 272.50 603.05
   Q 279.22 602.64 285.99 602.11"
-          />
-          <path
-            stroke="#925cb1"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#925cb1"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 386.32 631.22
   Q 385.38 630.61 383.51 630.93"
-          />
-          <path
-            stroke="#808593"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#808593"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 308.50 209.86
   Q 256.31 209.61 203.50 209.73
   Q 194.77 209.75 186.28 210.14
@@ -999,33 +1000,33 @@ function Logo() {
   Q 139.88 243.04 138.63 255.46
   Q 137.48 266.91 138.12 285.39
   Q 138.15 286.22 138.75 287.35"
-          />
-          <path
-            stroke="#731291"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#731291"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 138.75 287.35
   Q 138.28 287.72 138.28 288.75
   Q 138.09 329.00 138.23 370.15"
-          />
-          <path
-            stroke="#4a0d7f"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#4a0d7f"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 138.23 370.15
   L 138.32 422.76"
-          />
-          <path
-            stroke="#2a0f61"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#2a0f61"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 138.32 422.76
   Q 137.14 433.05 139.23 442.63"
-          />
-          <path
-            stroke="#270c4e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#270c4e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 139.23 442.63
   L 139.17 443.90
   Q 139.14 444.51 139.27 445.10
@@ -1040,25 +1041,25 @@ function Logo() {
   C 322.80 377.07 325.94 373.61 329.43 370.48
   Q 334.19 366.19 336.92 363.34
   Q 341.47 358.60 346.11 354.13"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 346.11 354.13
   L 364.42 336.81"
-          />
-          <path
-            stroke="#270c4e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#270c4e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 364.42 336.81
   Q 364.30 336.72 364.17 336.64"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 364.17 336.64
   Q 368.02 333.22 371.13 330.14
   Q 380.62 320.73 390.32 311.52
@@ -1068,11 +1069,11 @@ function Logo() {
   L 395.84 305.75
   Q 396.17 305.34 396.67 305.16
   Q 398.25 304.58 399.22 303.07"
-          />
-          <path
-            stroke="#66108c"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#66108c"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 399.22 303.07
   Q 401.67 300.53 403.92 297.91
   Q 404.73 296.96 405.65 296.24
@@ -1092,32 +1093,32 @@ function Logo() {
   Q 435.93 266.00 437.02 265.90
   Q 437.47 265.86 437.81 265.56
   L 440.09 263.46"
-          />
-          <path
-            stroke="#270c4e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#270c4e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 440.09 263.46
   Q 441.81 263.18 442.55 261.53"
-          />
-          <path
-            stroke="#4a0d7f"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#4a0d7f"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 442.55 261.53
   L 447.11 256.96"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 447.11 256.96
   L 452.45 252.03"
-          />
-          <path
-            stroke="#4a0d7f"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#4a0d7f"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 452.45 252.03
   Q 453.33 251.72 453.25 250.69
   Q 453.17 249.81 453.90 250.20
@@ -1127,59 +1128,59 @@ function Logo() {
   Q 458.35 246.94 457.72 245.45
   A 0.17 0.17 0.0 0 1 457.95 245.23
   Q 459.60 246.00 459.81 245.22"
-          />
-          <path
-            stroke="#11083e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#11083e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 459.81 245.22
   Q 460.30 245.05 460.46 244.65"
-          />
-          <path
-            stroke="#4a0d7f"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#4a0d7f"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 460.46 244.65
   L 468.86 236.04
   A 0.86 0.85 -40.4 0 0 468.95 234.95
   Q 461.60 224.59 451.05 217.95"
-          />
-          <path
-            stroke="#11083e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#11083e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 451.05 217.95
   Q 449.57 215.43 446.26 214.36
   Q 443.88 213.58 441.66 212.78
   C 440.24 212.27 439.07 211.16 437.48 211.15
   Q 433.94 211.13 430.39 210.29
   Q 428.71 209.89 426.71 210.18"
-          />
-          <path
-            stroke="#4a0d7f"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#4a0d7f"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 426.71 210.18
   Q 426.25 210.01 425.53 210.09"
-          />
-          <path
-            stroke="#66108c"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#66108c"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 425.53 210.09
   L 380.25 209.80"
-          />
-          <path
-            stroke="#731291"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#731291"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 380.25 209.80
   L 308.50 209.86"
-          />
-          <path
-            stroke="#d818f5"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#d818f5"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 380.25 209.80
   L 384.58 209.93
   A 0.99 0.99 0.0 0 1 385.33 211.53
@@ -1262,18 +1263,18 @@ function Logo() {
   Q 210.75 324.21 210.41 324.99
   Q 210.21 325.43 209.76 325.59
   Q 209.09 325.84 209.27 326.44"
-          />
-          <path
-            stroke="#bb15e9"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#bb15e9"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 209.27 326.44
   Q 199.13 325.84 188.92 328.28"
-          />
-          <path
-            stroke="#f28cfd"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#f28cfd"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 188.92 328.28
   Q 188.93 316.97 189.06 306.00
   Q 189.15 297.82 190.51 292.68
@@ -1284,22 +1285,22 @@ function Logo() {
   Q 307.86 234.62 309.70 234.11
   C 317.30 232.00 320.28 223.63 316.93 217.00
   Q 314.87 212.92 308.50 209.86"
-          />
-          <path
-            stroke="#af13e4"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#af13e4"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 425.53 210.09
   Q 425.78 210.52 425.82 210.90
   Q 425.88 211.39 425.44 211.63
   Q 424.83 211.95 424.28 212.76
   Q 422.07 216.00 415.80 224.26
   Q 406.20 236.94 378.76 269.14"
-          />
-          <path
-            stroke="#9f15cf"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#9f15cf"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 378.76 269.14
   Q 372.12 276.86 364.92 284.12
   C 361.74 287.31 358.87 290.74 355.83 294.09
@@ -1308,43 +1309,43 @@ function Logo() {
   Q 304.34 348.93 301.63 351.66
   Q 287.83 365.54 274.07 379.47
   Q 271.59 381.98 268.52 384.92"
-          />
-          <path
-            stroke="#af13e4"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#af13e4"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 268.52 384.92
   Q 267.98 381.66 267.00 378.63
   Q 265.64 374.40 265.14 372.49
   Q 262.78 363.49 258.95 356.53
   C 248.92 338.31 229.83 328.00 209.27 326.44"
-          />
-          <path
-            stroke="#7212b9"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#7212b9"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 259.94 394.12
   Q 244.18 410.99 227.41 426.93
   Q 218.17 435.72 206.89 441.09
   Q 196.70 445.93 185.31 446.59
   C 168.04 447.59 152.00 440.99 140.33 428.30
   C 138.83 426.67 138.63 424.83 138.32 422.76"
-          />
-          <path
-            stroke="#c988eb"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#c988eb"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 188.92 328.28
   Q 188.94 355.59 189.05 383.44
   Q 189.07 388.67 187.81 391.09
   C 183.75 398.90 172.42 399.79 167.44 392.64
   Q 165.00 389.12 165.00 385.25
   Q 165.00 357.48 164.99 329.70"
-          />
-          <path
-            stroke="#f28cfd"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#f28cfd"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 164.99 329.70
   Q 165.01 320.31 165.01 310.90
   Q 165.01 298.37 166.11 292.15
@@ -1355,38 +1356,38 @@ function Logo() {
   C 159.78 253.88 156.51 263.12 156.79 273.36
   C 156.98 280.00 157.28 289.42 148.69 291.20
   Q 142.78 292.43 138.75 287.35"
-          />
-          <path
-            stroke="#590b96"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#590b96"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 426.71 210.18
   Q 429.53 210.80 432.38 211.24
   Q 435.73 211.74 437.99 212.52
   Q 444.65 214.79 451.05 217.95"
-          />
-          <path
-            stroke="#590b96"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#590b96"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 460.46 244.65
   Q 459.73 243.73 458.87 243.47
   Q 458.31 243.30 458.57 243.82
   Q 459.06 244.84 459.81 245.22"
-          />
-          <path
-            stroke="#8212c2"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#8212c2"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 452.45 252.03
   Q 452.20 251.82 451.94 251.28
   Q 451.72 250.83 451.33 251.13
   Q 448.00 253.72 447.11 256.96"
-          />
-          <path
-            stroke="#700fa6"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#700fa6"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 442.55 261.53
   Q 441.97 261.63 441.84 261.50
   Q 441.20 260.90 442.10 260.34
@@ -1400,148 +1401,148 @@ function Logo() {
   Q 453.34 246.55 453.69 245.77
   Q 454.16 244.74 453.28 245.44
   L 447.01 250.43"
-          />
-          <path
-            stroke="#af13e4"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#af13e4"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 447.01 250.43
   Q 447.11 249.91 446.53 249.94"
-          />
-          <path
-            stroke="#700fa6"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#700fa6"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 446.53 249.94
   L 452.32 244.69
   Q 452.55 244.48 452.32 244.27
   Q 452.19 244.15 452.10 243.99
   Q 451.84 243.53 452.24 243.19
   Q 455.79 240.07 457.98 236.04"
-          />
-          <path
-            stroke="#700fa6"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#700fa6"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 457.98 236.04
   Q 460.02 234.26 461.85 232.41
   Q 462.15 232.11 462.00 231.81
   Q 461.84 231.49 461.57 231.72
   Q 459.45 233.49 457.98 236.04"
-          />
-          <path
-            stroke="#700fa6"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#700fa6"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 457.98 236.04
   L 456.97 236.66"
-          />
-          <path
-            stroke="#af13e4"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#af13e4"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 456.97 236.66
   Q 457.11 235.96 456.27 235.94"
-          />
-          <path
-            stroke="#700fa6"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#700fa6"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 456.27 235.94
   Q 458.30 232.96 460.91 230.51
   Q 460.92 230.51 460.91 230.50
   L 460.70 230.28
   Q 460.56 230.13 460.42 230.28
   L 448.33 243.25"
-          />
-          <path
-            stroke="#af13e4"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#af13e4"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 448.33 243.25
   Q 448.19 242.31 447.77 242.43"
-          />
-          <path
-            stroke="#700fa6"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#700fa6"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 447.77 242.43
   L 459.12 230.06
   Q 459.28 229.88 459.11 229.71
   L 458.92 229.52
   Q 458.74 229.34 458.57 229.52
   L 426.71 263.71"
-          />
-          <path
-            stroke="#af13e4"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#af13e4"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 426.71 263.71
   Q 426.35 263.61 425.79 263.71"
-          />
-          <path
-            stroke="#700fa6"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#700fa6"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 425.79 263.71
   Q 441.61 245.89 457.76 228.38
   Q 457.90 228.23 457.75 228.09
   L 457.74 228.08
   Q 457.59 227.94 457.45 228.09
   Q 453.83 231.96 450.02 235.65"
-          />
-          <path
-            stroke="#af13e4"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#af13e4"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 450.02 235.65
   Q 448.18 236.92 447.85 236.48"
-          />
-          <path
-            stroke="#700fa6"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#700fa6"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 447.85 236.48
   Q 452.59 231.84 456.64 226.60
   Q 456.73 226.49 456.62 226.40
   L 456.62 226.39
   Q 456.51 226.30 456.41 226.40
   Q 450.95 231.96 445.94 237.93"
-          />
-          <path
-            stroke="#700fa6"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#700fa6"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 445.94 237.93
   L 444.08 239.70"
-          />
-          <path
-            stroke="#af13e4"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#af13e4"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 444.08 239.70
   Q 443.96 239.52 443.91 239.25
   Q 443.83 238.81 443.43 239.00
   L 442.57 239.42"
-          />
-          <path
-            stroke="#700fa6"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#700fa6"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 442.57 239.42
   L 432.76 251.70"
-          />
-          <path
-            stroke="#af13e4"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#af13e4"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 432.76 251.70
   Q 432.80 251.18 432.04 251.22"
-          />
-          <path
-            stroke="#700fa6"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#700fa6"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 432.04 251.22
   L 443.02 236.91
   Q 443.17 236.71 442.97 236.56
@@ -1550,32 +1551,32 @@ function Logo() {
   C 438.56 241.62 434.73 246.63 430.12 251.62
   Q 424.72 257.45 419.32 263.26
   C 413.31 269.72 405.87 278.55 398.77 285.90"
-          />
-          <path
-            stroke="#8212c2"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#8212c2"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 398.77 285.90
   Q 398.02 285.94 398.23 285.21"
-          />
-          <path
-            stroke="#700fa6"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#700fa6"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 398.23 285.21
   L 405.45 277.08"
-          />
-          <path
-            stroke="#590b96"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#590b96"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 405.45 277.08
   L 406.77 275.79"
-          />
-          <path
-            stroke="#700fa6"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#700fa6"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 406.77 275.79
   L 421.33 259.30
   Q 421.65 258.94 422.12 258.82
@@ -1593,47 +1594,47 @@ function Logo() {
   Q 423.63 255.95 422.97 256.18
   Q 422.50 256.35 422.18 256.73
   L 406.49 275.12"
-          />
-          <path
-            stroke="#590b96"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#590b96"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 406.49 275.12
   L 404.97 276.72"
-          />
-          <path
-            stroke="#700fa6"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#700fa6"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 404.97 276.72
   L 401.73 280.08"
-          />
-          <path
-            stroke="#8212c2"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#8212c2"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 401.73 280.08
   Q 400.76 280.32 400.71 279.70"
-          />
-          <path
-            stroke="#700fa6"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#700fa6"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 400.71 279.70
   L 403.97 276.02"
-          />
-          <path
-            stroke="#700fa6"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#700fa6"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 403.97 276.02
   Q 404.55 275.94 404.87 275.60
   Q 407.68 272.52 410.04 268.94"
-          />
-          <path
-            stroke="#8212c2"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#8212c2"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 410.04 268.94
   L 417.06 260.66
   Q 417.20 260.50 417.04 260.36
@@ -1642,27 +1643,27 @@ function Logo() {
   Q 413.32 263.71 410.38 267.58
   Q 410.09 267.96 410.06 268.45
   L 410.04 268.94"
-          />
-          <path
-            stroke="#700fa6"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#700fa6"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 410.04 268.94
   Q 406.19 271.83 403.97 276.02"
-          />
-          <path
-            stroke="#700fa6"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#700fa6"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 403.97 276.02
   Q 403.75 276.00 403.53 276.03
   Q 403.33 276.06 403.16 276.24
   Q 397.55 282.05 392.01 287.88"
-          />
-          <path
-            stroke="#8212c2"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#8212c2"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 392.01 287.88
   Q 391.50 287.92 391.21 287.72
   Q 390.69 287.35 391.16 286.91
@@ -1728,11 +1729,11 @@ function Logo() {
   Q 382.03 268.73 381.41 268.45
   Q 380.71 268.14 380.16 268.69
   Q 379.55 269.30 378.76 269.14"
-          />
-          <path
-            stroke="#601091"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#601091"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 392.01 287.88
   Q 388.78 291.31 385.84 294.98
   Q 385.75 295.10 385.86 295.20
@@ -1740,22 +1741,22 @@ function Logo() {
   Q 385.98 295.31 386.09 295.20
   Q 389.48 291.71 392.75 288.09
   Q 396.62 283.81 400.71 279.70"
-          />
-          <path
-            stroke="#601091"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#601091"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 401.73 280.08
   L 377.30 306.59
   Q 377.28 306.61 377.30 306.63
   L 377.49 306.79
   Q 377.68 306.96 377.86 306.77
   L 398.23 285.21"
-          />
-          <path
-            stroke="#6213a4"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#6213a4"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 298.77 374.88
   L 297.20 375.47
   Q 296.77 375.63 296.52 376.02
@@ -1780,18 +1781,18 @@ function Logo() {
   Q 265.90 389.91 265.17 390.29
   Q 263.47 391.15 262.06 393.22
   Q 261.28 394.35 259.94 394.12"
-          />
-          <path
-            stroke="#8212c2"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#8212c2"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 259.94 394.12
   L 268.52 384.92"
-          />
-          <path
-            stroke="#bb15e9"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#bb15e9"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 164.99 329.70
   Q 163.73 330.33 163.98 331.15
   Q 164.11 331.61 163.93 332.05
@@ -1800,115 +1801,115 @@ function Logo() {
   Q 162.18 338.36 161.81 338.74
   Q 156.19 344.55 150.69 350.44
   Q 145.08 356.44 138.23 370.15"
-          />
-          <path
-            stroke="#8c12b3"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#8c12b3"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 446.53 249.94
   L 425.87 271.83"
-          />
-          <path
-            stroke="#370965"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#370965"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 425.87 271.83
   Q 425.88 270.88 425.32 270.94"
-          />
-          <path
-            stroke="#760ea2"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#760ea2"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 410.46 286.72
   Q 409.90 287.08 409.88 287.40
   Q 409.76 288.88 410.79 287.80
   Q 414.80 283.58 419.02 279.40
   C 419.77 278.67 420.24 277.32 420.85 276.86
   Q 423.75 274.72 425.87 271.83"
-          />
-          <path
-            stroke="#370965"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#370965"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 406.77 275.79
   Q 406.87 275.09 406.49 275.12"
-          />
-          <path
-            stroke="#8c12b3"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#8c12b3"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 447.77 242.43
   L 416.76 275.79"
-          />
-          <path
-            stroke="#370965"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#370965"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 416.76 275.79
   Q 416.76 275.18 415.97 275.48"
-          />
-          <path
-            stroke="#8c12b3"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#8c12b3"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 415.97 275.48
   L 426.71 263.71"
-          />
-          <path
-            stroke="#760ea2"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#760ea2"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 415.97 275.48
   L 412.20 279.43"
-          />
-          <path
-            stroke="#8c12b3"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#8c12b3"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 412.20 279.43
   L 407.18 285.08"
-          />
-          <path
-            stroke="#760ea2"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#760ea2"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 407.18 285.08
   L 395.04 298.28"
-          />
-          <path
-            stroke="#8c12b3"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#8c12b3"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 388.99 302.04
   Q 390.37 301.98 391.32 300.12"
-          />
-          <path
-            stroke="#760ea2"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#760ea2"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 391.32 300.12
   L 393.09 298.56"
-          />
-          <path
-            stroke="#370965"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#370965"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 405.45 277.08
   Q 405.09 277.26 404.97 276.72"
-          />
-          <path
-            stroke="#8c12b3"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#8c12b3"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 456.27 235.94
   L 410.56 285.31
   A 1.67 1.63 70.8 0 0 410.14 286.21
   L 410.05 286.84"
-          />
-          <path
-            stroke="#8c12b3"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#8c12b3"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 410.05 286.84
   Q 409.17 286.99 408.93 287.37
   Q 408.59 287.92 409.23 287.89
@@ -1919,11 +1920,11 @@ function Logo() {
   Q 422.89 276.40 423.73 275.55
   Q 428.23 270.98 432.67 266.16
   Q 439.89 258.33 447.01 250.43"
-          />
-          <path
-            stroke="#8c12b3"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#8c12b3"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 440.09 263.46
   Q 439.74 262.62 438.45 264.11
   Q 438.31 264.26 438.15 264.14
@@ -1957,11 +1958,11 @@ function Logo() {
   C 405.00 295.95 402.61 297.92 400.48 300.22
   A 1.75 1.68 72.4 0 0 400.06 301.07
   Q 399.82 302.38 399.01 302.10"
-          />
-          <path
-            stroke="#601091"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#601091"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 399.01 302.10
   L 399.01 301.53
   Q 399.01 300.82 398.42 301.22
@@ -1972,22 +1973,22 @@ function Logo() {
   Q 385.12 314.76 383.17 316.93
   Q 373.39 327.78 369.64 330.64
   Q 365.77 333.59 364.17 336.64"
-          />
-          <path
-            stroke="#601091"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#601091"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 364.42 336.81
   Q 363.84 336.77 363.22 336.30
   Q 362.73 335.93 363.20 335.54
   Q 363.51 335.29 363.55 334.88
   Q 363.63 334.18 363.17 334.71
   L 346.11 354.13"
-          />
-          <path
-            stroke="#501088"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#501088"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 139.23 442.63
   Q 140.23 444.47 141.35 445.91
   Q 142.67 447.60 143.32 449.20
@@ -2011,11 +2012,11 @@ function Logo() {
   Q 292.88 381.49 292.96 381.28
   Q 293.10 380.88 293.45 380.62
   Q 296.71 378.25 298.77 374.88"
-          />
-          <path
-            stroke="#601091"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#601091"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 298.77 374.88
   Q 300.05 374.30 300.89 373.01
   Q 301.57 371.99 302.88 371.05
@@ -2093,11 +2094,11 @@ function Logo() {
   Q 367.89 319.80 372.82 314.29
   Q 382.40 303.59 390.56 294.98
   C 393.37 292.02 395.93 288.85 398.77 285.90"
-          />
-          <path
-            stroke="#8c12b3"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#8c12b3"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 432.04 251.22
   Q 426.48 257.10 420.75 262.85
   Q 419.31 264.30 416.84 267.50
@@ -2107,11 +2108,11 @@ function Logo() {
   L 399.94 287.06
   Q 400.22 287.28 400.46 287.02
   L 432.76 251.70"
-          />
-          <path
-            stroke="#8c12b3"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#8c12b3"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 442.57 239.42
   Q 442.76 239.30 442.97 239.50
   Q 443.27 239.77 443.07 240.12
@@ -2126,37 +2127,37 @@ function Logo() {
   Q 388.12 301.71 388.12 301.87
   Q 388.13 302.05 388.29 301.96
   Q 388.55 301.81 388.99 302.04"
-          />
-          <path
-            stroke="#8c12b3"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#8c12b3"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 388.99 302.04
   Q 389.36 302.77 388.23 303.40
   Q 388.05 303.50 388.24 303.59
   Q 388.38 303.66 388.54 303.68
   Q 388.82 303.71 389.03 303.53
   L 395.04 298.28"
-          />
-          <path
-            stroke="#370965"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#370965"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 395.04 298.28
   Q 394.78 298.77 395.01 298.99
   Q 395.23 299.20 395.48 299.09"
-          />
-          <path
-            stroke="#8c12b3"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#8c12b3"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 395.48 299.09
   L 388.28 306.24"
-          />
-          <path
-            stroke="#601091"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#601091"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 388.28 306.24
   L 384.76 309.84
   Q 384.63 309.97 384.63 310.16
@@ -2175,33 +2176,33 @@ function Logo() {
   Q 384.72 313.82 384.89 313.33
   C 385.51 311.41 386.97 311.08 388.31 309.87
   Q 393.18 305.46 397.71 300.71"
-          />
-          <path
-            stroke="#8c12b3"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#8c12b3"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 397.71 300.71
   L 409.01 289.86
   A 0.41 0.41 0.0 0 0 409.13 289.57
   L 409.13 289.16
   Q 409.13 288.37 408.57 288.93
   L 397.24 300.25"
-          />
-          <path
-            stroke="#601091"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#601091"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 397.24 300.25
   L 385.92 310.96
   A 0.28 0.26 -43.5 0 1 385.54 310.96
   L 385.31 310.72
   Q 385.08 310.49 385.31 310.25
   L 388.53 306.79"
-          />
-          <path
-            stroke="#8c12b3"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#8c12b3"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 388.53 306.79
   Q 398.00 297.75 407.01 288.27
   Q 407.78 287.46 408.51 286.57
@@ -2210,57 +2211,57 @@ function Logo() {
   C 428.31 265.34 432.63 259.98 437.49 254.91
   Q 441.08 251.17 444.05 247.77
   Q 446.10 245.43 448.33 243.25"
-          />
-          <path
-            stroke="#9f15cf"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#9f15cf"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 388.53 306.79
   Q 388.33 306.61 388.28 306.24"
-          />
-          <path
-            stroke="#760ea2"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#760ea2"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 395.48 299.09
   Q 402.40 292.41 405.87 288.62
   Q 406.62 287.81 407.76 285.81"
-          />
-          <path
-            stroke="#8c12b3"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#8c12b3"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 407.76 285.81
   L 412.86 280.19"
-          />
-          <path
-            stroke="#760ea2"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#760ea2"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 412.86 280.19
   L 416.76 275.79"
-          />
-          <path
-            stroke="#8c12b3"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#8c12b3"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 425.79 263.71
   C 422.83 266.43 420.32 270.01 417.82 272.53
   Q 409.55 280.85 407.36 283.51
   Q 401.81 290.24 395.89 296.64
   Q 395.34 297.24 393.09 298.56"
-          />
-          <path
-            stroke="#370965"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#370965"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 393.09 298.56
   Q 393.08 297.95 392.26 298.21"
-          />
-          <path
-            stroke="#8c12b3"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#8c12b3"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 392.26 298.21
   Q 397.55 293.25 402.35 287.81
   Q 408.79 280.53 412.06 277.08
@@ -2271,147 +2272,147 @@ function Logo() {
   Q 443.70 241.27 444.21 241.44
   Q 444.84 241.65 444.97 240.98
   Q 447.33 238.30 450.02 235.65"
-          />
-          <path
-            stroke="#760ea2"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#760ea2"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 392.26 298.21
   L 390.93 299.71"
-          />
-          <path
-            stroke="#8c12b3"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#8c12b3"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 390.93 299.71
   Q 388.71 300.71 388.99 302.04"
-          />
-          <path
-            stroke="#8c12b3"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#8c12b3"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 444.08 239.70
   Q 444.13 239.84 444.20 239.93
   Q 444.40 240.20 444.68 240.01
   Q 445.78 239.26 445.94 237.93"
-          />
-          <path
-            stroke="#8c12b3"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#8c12b3"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 447.85 236.48
   Q 446.87 237.98 445.94 237.93"
-          />
-          <path
-            stroke="#8c12b3"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#8c12b3"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 456.97 236.66
   L 425.32 270.94"
-          />
-          <path
-            stroke="#760ea2"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#760ea2"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 425.32 270.94
   L 410.46 286.72"
-          />
-          <path
-            stroke="#cb16f0"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#cb16f0"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 410.46 286.72
   Q 410.15 286.71 410.05 286.84"
-          />
-          <path
-            stroke="#370965"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#370965"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 412.86 280.19
   Q 412.02 280.15 412.20 279.43"
-          />
-          <path
-            stroke="#370965"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#370965"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 407.76 285.81
   Q 408.00 285.09 407.18 285.08"
-          />
-          <path
-            stroke="#370965"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#370965"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 391.32 300.12
   Q 390.90 300.10 390.93 299.71"
-          />
-          <path
-            stroke="#9f15cf"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#9f15cf"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 397.71 300.71
   Q 397.16 301.02 397.24 300.25"
-          />
-          <path
-            stroke="#9f15cf"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#9f15cf"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 399.22 303.07
   Q 398.82 303.19 399.01 302.10"
-          />
-          <path
-            stroke="#080e32"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#080e32"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 463.61 261.34
   L 462.00 262.22"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 462.00 262.22
   Q 460.34 263.38 459.19 265.26
   Q 458.80 265.89 459.29 266.04"
-          />
-          <path
-            stroke="#080e32"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#080e32"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 459.29 266.04
   Q 459.33 266.37 458.94 266.32"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 458.94 266.32
   Q 458.26 265.97 457.69 266.46"
-          />
-          <path
-            stroke="#080e32"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#080e32"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 457.69 266.46
   Q 456.88 266.34 457.04 266.71"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 457.04 266.71
   L 452.18 271.48"
-          />
-          <path
-            stroke="#080e32"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#080e32"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 452.18 271.48
   Q 451.73 271.96 451.76 272.68"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 451.76 272.68
   L 448.97 275.54
   Q 448.58 275.95 448.02 276.04
@@ -2421,18 +2422,18 @@ function Logo() {
   Q 444.54 279.90 444.59 280.05
   Q 444.72 280.43 444.44 280.71
   L 435.27 290.15"
-          />
-          <path
-            stroke="#080e32"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#080e32"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 435.27 290.15
   Q 434.93 290.03 434.83 289.66"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 434.83 289.66
   Q 435.12 288.54 435.80 287.62
   Q 435.93 287.45 435.75 287.33
@@ -2451,11 +2452,11 @@ function Logo() {
   Q 404.55 318.03 404.03 318.25
   Q 403.58 318.45 403.26 318.81
   L 400.23 322.23"
-          />
-          <path
-            stroke="#11083e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#11083e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 400.23 322.23
   Q 399.18 322.45 398.68 323.45
   Q 398.45 323.89 398.06 324.18
@@ -2486,18 +2487,18 @@ function Logo() {
   Q 313.67 482.87 314.85 482.06
   Q 316.46 480.97 317.97 479.49
   Q 323.58 474.01 328.74 468.36"
-          />
-          <path
-            stroke="#270c4e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#270c4e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 328.74 468.36
   L 335.60 461.55"
-          />
-          <path
-            stroke="#11083e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#11083e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 335.60 461.55
   Q 339.49 458.73 343.11 454.86
   Q 351.23 446.18 359.60 438.24
@@ -2514,56 +2515,56 @@ function Logo() {
   L 479.77 315.18
   Q 479.60 314.90 479.37 315.13
   L 477.46 317.05"
-          />
-          <path
-            stroke="#080e32"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#080e32"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 477.46 317.05
   Q 477.27 317.15 477.09 317.13
   Q 476.78 317.11 476.71 316.81
   Q 476.67 316.65 476.61 316.42"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 476.61 316.42
   Q 478.51 314.98 479.75 312.97
   Q 479.83 312.85 479.72 312.76
   L 479.53 312.57
   A 0.30 0.30 0.0 0 0 479.11 312.58
   L 474.29 317.20"
-          />
-          <path
-            stroke="#080e32"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#080e32"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 474.29 317.20
   Q 473.73 316.96 473.96 316.26"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 473.96 316.26
   L 479.84 309.63
   A 0.25 0.25 0.0 0 0 479.80 309.27
   L 479.54 309.07
   Q 479.35 308.93 479.18 309.10
   L 457.77 331.82"
-          />
-          <path
-            stroke="#080e32"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#080e32"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 457.77 331.82
   Q 457.78 331.35 456.94 331.19"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 456.94 331.19
   L 460.13 327.56
   Q 460.29 327.37 460.11 327.21
@@ -2600,11 +2601,11 @@ function Logo() {
   Q 420.53 368.08 420.30 368.07
   Q 419.73 368.07 419.36 368.50
   L 417.28 370.92"
-          />
-          <path
-            stroke="#11083e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#11083e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 417.28 370.92
   Q 416.50 370.73 416.02 371.06
   Q 415.26 371.57 415.74 370.78
@@ -2639,11 +2640,11 @@ function Logo() {
   C 434.36 346.25 436.06 344.71 437.28 342.56
   A 2.05 1.98 -89.4 0 1 437.97 341.86
   Q 439.08 341.20 439.48 339.89"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 439.48 339.89
   L 447.31 331.49
   Q 447.61 331.16 448.00 330.94
@@ -2654,20 +2655,20 @@ function Logo() {
   Q 456.85 321.33 456.32 321.00
   Q 455.60 320.55 455.05 321.29
   Q 453.60 323.21 452.03 325.08"
-          />
-          <path
-            stroke="#080e32"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#080e32"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 452.03 325.08
   Q 451.92 324.91 451.88 324.74
   Q 451.81 324.44 451.51 324.39
   L 450.96 324.28"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 450.96 324.28
   L 457.80 316.71
   Q 458.09 316.39 458.06 315.96
@@ -2681,55 +2682,55 @@ function Logo() {
   Q 479.81 296.70 479.78 296.56
   Q 479.65 296.03 479.24 296.38
   L 478.47 297.02"
-          />
-          <path
-            stroke="#080e32"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#080e32"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 478.47 297.02
   Q 478.24 297.17 478.03 296.97
   Q 477.81 296.74 477.96 296.29"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 477.96 296.29
   L 479.90 294.08
   Q 480.07 293.89 479.87 293.73
   L 479.63 293.52
   Q 479.44 293.36 479.27 293.54
   L 476.22 296.81"
-          />
-          <path
-            stroke="#080e32"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#080e32"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 476.22 296.81
   Q 475.28 297.10 475.07 296.41"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 475.07 296.41
   L 479.63 291.46
   A 0.43 0.41 -34.4 0 0 479.72 291.04
   Q 479.37 289.93 479.00 291.05"
-          />
-          <path
-            stroke="#080e32"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#080e32"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 479.00 291.05
   L 478.59 291.13
   Q 478.06 291.23 478.09 290.69
   L 478.12 290.00"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 478.12 290.00
   Q 479.23 288.87 479.47 287.74
   Q 479.68 286.79 479.06 287.54
@@ -2741,11 +2742,11 @@ function Logo() {
   Q 438.93 329.88 436.69 331.64
   Q 436.34 331.92 436.20 332.20
   Q 436.00 332.62 436.01 332.99"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 436.01 332.99
   Q 435.35 333.20 434.97 333.85
   Q 434.71 334.28 434.21 334.23
@@ -2754,25 +2755,25 @@ function Logo() {
   Q 433.20 334.82 432.45 335.37
   Q 431.94 335.75 432.56 335.90
   Q 432.73 335.94 432.99 335.85"
-          />
-          <path
-            stroke="#080e32"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#080e32"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 432.99 335.85
   Q 433.81 336.14 434.43 337.10"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 434.43 337.10
   L 432.98 339.71"
-          />
-          <path
-            stroke="#270c4e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#270c4e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 432.98 339.71
   L 432.72 339.96
   Q 432.33 340.34 431.92 340.00
@@ -2789,27 +2790,27 @@ function Logo() {
   Q 431.61 342.62 431.56 342.20
   Q 431.48 341.55 432.13 341.47
   Q 433.02 341.37 433.53 340.04"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 433.53 340.04
   Q 436.33 336.04 439.83 332.62
   Q 439.94 332.52 441.58 330.38
   Q 442.46 329.23 444.00 328.63"
-          />
-          <path
-            stroke="#080e32"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#080e32"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 444.00 328.63
   Q 444.11 328.95 444.22 329.05"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 444.22 329.05
   Q 444.04 329.88 443.37 330.25
   A 0.62 0.61 68.1 0 0 443.08 330.94
@@ -2818,37 +2819,37 @@ function Logo() {
   Q 441.64 333.28 440.80 333.65
   A 1.25 1.23 -0.8 0 0 440.16 334.30
   L 439.96 334.77"
-          />
-          <path
-            stroke="#270c4e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#270c4e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 439.96 334.77
   Q 439.80 335.49 439.38 335.63
   Q 438.11 336.05 437.68 336.79"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 437.68 336.79
   L 431.05 345.70
   A 0.31 0.31 0.0 0 0 431.25 346.19
   Q 431.68 346.26 431.97 345.70"
-          />
-          <path
-            stroke="#080e32"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#080e32"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 431.97 345.70
   Q 432.10 346.01 432.07 346.39
   Q 432.03 346.78 432.42 346.77
   Q 432.58 346.77 432.78 346.75"
-          />
-          <path
-            stroke="#11083e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#11083e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 432.78 346.75
   L 414.90 366.74
   Q 414.56 367.12 414.06 367.19
@@ -2867,11 +2868,11 @@ function Logo() {
   Q 418.86 359.94 417.93 359.98
   Q 417.12 360.02 417.60 359.37
   L 421.04 354.67"
-          />
-          <path
-            stroke="#270c4e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#270c4e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 421.04 354.67
   Q 424.01 352.15 425.91 348.72
   Q 426.34 347.96 425.80 347.37
@@ -2879,11 +2880,11 @@ function Logo() {
   Q 424.92 347.79 424.95 348.11
   Q 424.99 348.71 424.60 349.18
   L 420.76 353.76"
-          />
-          <path
-            stroke="#11083e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#11083e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 420.76 353.76
   Q 420.28 353.74 420.34 353.12
   A 0.57 0.56 68.7 0 1 420.47 352.82
@@ -2914,52 +2915,52 @@ function Logo() {
   Q 414.66 346.76 413.99 346.93
   Q 413.35 347.09 413.44 346.43
   Q 413.55 345.61 413.33 345.08"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 413.33 345.08
   L 418.53 340.03"
-          />
-          <path
-            stroke="#11083e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#11083e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 418.53 340.03
   Q 420.61 339.34 421.76 337.22
   Q 421.99 336.80 422.45 336.65
   Q 423.43 336.34 423.52 335.25"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 423.52 335.25
   Q 423.95 334.92 423.98 333.99"
-          />
-          <path
-            stroke="#270c4e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#270c4e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 423.98 333.99
   L 424.66 333.86
   Q 425.34 333.72 424.80 333.28
   Q 424.54 333.07 424.26 332.92
   Q 423.43 332.46 423.97 333.24
   Q 424.22 333.60 423.98 333.99"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 423.98 333.99
   Q 423.75 334.26 423.28 333.96"
-          />
-          <path
-            stroke="#11083e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#11083e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 423.28 333.96
   Q 422.98 333.31 422.29 332.92
   Q 421.79 332.65 422.01 332.13
@@ -2970,27 +2971,27 @@ function Logo() {
   L 424.06 326.63
   A 0.57 0.57 0.0 0 1 424.83 326.48
   Q 425.24 326.76 425.17 327.48"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 425.17 327.48
   Q 425.90 328.91 425.99 326.49"
-          />
-          <path
-            stroke="#11083e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#11083e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 425.99 326.49
   L 426.65 326.62
   Q 427.16 326.72 427.51 326.33
   L 431.64 321.75"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 431.64 321.75
   L 434.54 318.91
   Q 434.90 318.56 435.05 318.09
@@ -3006,22 +3007,22 @@ function Logo() {
   Q 434.19 317.41 434.07 317.88
   Q 433.88 318.58 433.44 318.93
   Q 431.71 320.33 430.93 321.57"
-          />
-          <path
-            stroke="#11083e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#11083e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 430.93 321.57
   L 427.88 324.43
   Q 427.52 324.77 427.05 324.95
   Q 426.52 325.15 426.27 325.65
   Q 426.03 326.13 425.50 326.12
   Q 425.21 326.12 424.95 325.98"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 424.95 325.98
   L 425.00 325.63
   A 1.06 1.06 0.0 0 1 425.33 324.99
@@ -3034,18 +3035,18 @@ function Logo() {
   A 0.30 0.30 0.0 0 0 440.76 306.77
   Q 437.29 310.39 434.32 314.38
   C 433.77 315.12 432.99 315.61 432.26 316.16"
-          />
-          <path
-            stroke="#11083e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#11083e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 432.26 316.16
   Q 431.94 316.04 431.84 315.67"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 431.84 315.67
   Q 433.49 313.01 435.70 310.84
   Q 435.90 310.65 435.97 310.40
@@ -3056,27 +3057,27 @@ function Logo() {
   Q 433.70 312.16 433.55 312.16
   A 0.45 0.44 20.0 0 0 433.18 312.33
   L 427.68 319.06"
-          />
-          <path
-            stroke="#11083e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#11083e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 427.68 319.06
   Q 427.54 319.11 427.38 319.05
   Q 427.24 319.00 427.19 318.84
   Q 427.09 318.58 427.13 318.17"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 427.13 318.17
   Q 428.19 317.64 427.95 316.95"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 427.95 316.95
   Q 428.81 316.89 428.99 316.03
   Q 429.13 315.36 429.72 314.99
@@ -3085,11 +3086,11 @@ function Logo() {
   Q 433.60 310.37 435.02 308.45
   A 0.27 0.27 0.0 0 0 434.80 308.02
   L 433.94 308.02"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 433.94 308.02
   Q 433.78 306.87 434.35 306.44
   Q 434.80 306.09 435.08 306.58
@@ -3104,18 +3105,18 @@ function Logo() {
   Q 437.61 303.63 439.59 301.25
   A 0.48 0.48 0.0 0 0 439.44 300.52
   Q 439.17 300.38 438.89 300.47"
-          />
-          <path
-            stroke="#080e32"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#080e32"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 438.89 300.47
   Q 439.25 300.00 439.77 299.76"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 439.77 299.76
   Q 439.67 300.01 439.70 300.22
   A 0.37 0.37 0.0 0 0 440.35 300.41
@@ -3124,18 +3125,18 @@ function Logo() {
   Q 442.71 297.09 442.88 297.11
   Q 443.36 297.19 443.70 296.83
   L 458.49 281.08"
-          />
-          <path
-            stroke="#080e32"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#080e32"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 458.49 281.08
   Q 458.81 281.34 458.93 281.86"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 458.93 281.86
   C 456.10 285.39 452.94 288.62 450.06 292.12
   Q 447.98 294.64 445.30 296.62
@@ -3150,20 +3151,20 @@ function Logo() {
   Q 446.22 296.55 446.89 296.37
   Q 447.41 296.23 447.77 295.84
   L 453.98 289.12"
-          />
-          <path
-            stroke="#080e32"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#080e32"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 453.98 289.12
   Q 454.36 289.09 454.59 289.17
   Q 454.77 289.24 454.83 289.41
   Q 454.87 289.56 454.85 289.77"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 454.85 289.77
   Q 448.31 297.12 441.41 304.15
   C 440.58 305.01 439.52 305.66 438.54 306.33
@@ -3180,36 +3181,36 @@ function Logo() {
   Q 478.65 264.53 478.90 263.56
   Q 478.98 263.22 478.84 262.99
   Q 478.63 262.66 478.21 262.77"
-          />
-          <path
-            stroke="#080e32"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#080e32"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 478.21 262.77
   L 478.08 262.16"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 478.08 262.16
   L 478.47 261.24
   Q 478.66 260.79 478.51 260.32
   L 475.79 251.73
   A 1.09 1.09 0.0 0 0 473.99 251.28
   L 463.61 261.34"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 478.08 262.16
   L 453.98 289.12"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 458.93 281.86
   L 477.45 261.27
   A 1.12 1.08 -25.7 0 0 477.74 260.48
@@ -3224,42 +3225,42 @@ function Logo() {
   Q 476.21 253.91 474.88 252.34
   Q 474.53 251.92 474.14 252.31
   L 471.69 254.77"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 471.69 254.77
   L 463.64 262.75
   A 0.33 0.33 0.0 0 0 463.57 263.09
   L 463.83 263.82
   Q 463.99 264.27 464.31 263.92
   L 472.05 255.59"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 472.05 255.59
   L 474.40 253.18
   Q 474.46 253.12 474.54 253.13
   Q 474.88 253.17 474.77 253.59
   Q 474.71 253.81 474.61 254.02
   Q 474.15 254.88 473.96 255.70"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 473.96 255.70
   Q 473.84 255.76 473.70 255.75
   A 0.52 0.50 -65.5 0 0 473.32 255.90
   L 463.26 266.27"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 463.26 266.27
   Q 462.56 267.14 461.66 267.79
   Q 461.47 267.92 461.33 267.73
@@ -3268,11 +3269,11 @@ function Logo() {
   Q 462.36 266.47 462.96 265.54
   Q 463.34 264.95 462.85 264.44
   Q 461.75 263.28 463.61 261.34"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 454.22 281.38
   L 473.85 258.57
   Q 473.98 258.42 473.83 258.29
@@ -3286,30 +3287,30 @@ function Logo() {
   Q 454.17 279.39 454.00 279.46
   Q 453.84 279.53 453.87 279.36
   Q 453.97 278.84 453.70 278.56"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 473.96 255.70
   Q 474.17 256.22 473.91 256.48
   Q 468.86 261.54 464.06 266.84"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 478.21 262.77
   Q 477.98 263.63 477.49 264.24
   C 473.89 268.77 469.61 272.85 466.06 277.14
   Q 463.76 279.93 460.95 282.76
   Q 459.79 283.92 458.95 285.16
   C 457.74 286.93 456.24 288.17 454.85 289.77"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 458.49 281.08
   Q 459.47 279.75 460.64 278.60
   Q 461.93 277.32 462.77 276.13
@@ -3355,11 +3356,11 @@ function Logo() {
   Q 440.88 297.06 440.88 298.08
   A 1.22 1.19 66.2 0 1 440.58 298.88
   L 439.77 299.76"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 438.89 300.47
   L 429.89 309.99
   A 0.49 0.48 41.1 0 0 429.94 310.70
@@ -3368,11 +3369,11 @@ function Logo() {
   Q 431.84 309.99 432.20 308.63
   Q 432.33 308.16 432.79 307.97
   Q 433.31 307.75 433.94 308.02"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 433.94 308.02
   Q 434.48 308.39 433.93 308.73
   Q 432.64 309.56 431.95 311.26
@@ -3386,51 +3387,51 @@ function Logo() {
   Q 428.10 310.83 427.73 311.07
   Q 427.00 311.55 427.79 311.90
   Q 428.43 312.19 428.17 312.77"
-          />
-          <path
-            stroke="#170c48"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#170c48"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 428.17 312.77
   Q 428.14 313.44 427.92 313.61
   Q 426.28 314.88 425.06 316.53
   Q 424.56 317.19 423.87 316.68"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 423.87 316.68
   L 426.72 313.20
   Q 426.84 313.06 426.74 312.90
   L 426.55 312.54
   Q 426.36 312.22 426.14 312.51
   L 423.99 315.24"
-          />
-          <path
-            stroke="#170c48"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#170c48"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 423.99 315.24
   Q 422.31 314.66 424.73 312.83
   Q 424.96 312.65 424.97 312.36
   Q 424.98 312.23 424.88 312.13
   Q 424.45 311.72 424.12 312.22
   Q 422.42 314.82 419.73 315.90"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 419.73 315.90
   Q 422.84 311.96 425.76 308.55
   Q 425.79 308.52 426.62 307.86
   Q 427.12 307.46 427.02 306.71"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 427.02 306.71
   L 431.10 302.50
   Q 431.37 302.22 431.18 301.88
@@ -3439,11 +3440,11 @@ function Logo() {
   Q 431.95 301.29 432.23 301.39
   Q 432.62 301.54 432.81 301.16
   L 434.11 298.55"
-          />
-          <path
-            stroke="#2e1059"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#2e1059"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 434.11 298.55
   L 436.22 296.55
   Q 436.48 296.30 436.67 296.61
@@ -3452,11 +3453,11 @@ function Logo() {
   Q 437.11 297.13 437.31 296.95
   Q 437.68 296.61 437.29 296.30
   Q 436.62 295.78 437.26 295.16"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 437.26 295.16
   L 454.60 275.83
   Q 454.93 275.46 454.93 274.97
@@ -3465,45 +3466,45 @@ function Logo() {
   Q 455.95 273.48 455.89 273.33
   Q 455.70 272.88 455.38 273.25
   L 436.99 294.53"
-          />
-          <path
-            stroke="#2e1059"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#2e1059"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 436.99 294.53
   L 433.55 297.93"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 433.55 297.93
   L 427.50 305.33
   Q 427.20 305.70 427.11 306.18
   L 427.02 306.71"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 427.02 306.71
   Q 426.65 306.75 426.29 306.88
   Q 425.85 307.04 425.54 307.40
   L 417.00 317.46"
-          />
-          <path
-            stroke="#170c48"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#170c48"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 417.00 317.46
   Q 416.83 317.45 416.67 317.43
   Q 416.35 317.40 416.29 317.08
   Q 416.26 316.89 416.22 316.69"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 416.22 316.69
   L 430.74 299.75
   Q 430.86 299.61 430.73 299.47
@@ -3512,27 +3513,27 @@ function Logo() {
   Q 427.67 301.95 426.82 303.36
   C 426.19 304.41 425.19 305.04 424.63 305.83
   Q 420.61 311.43 415.47 316.05"
-          />
-          <path
-            stroke="#170c48"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#170c48"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 415.47 316.05
   Q 414.93 315.92 414.98 315.25"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 414.98 315.25
   L 427.64 300.92
   Q 427.89 300.64 427.94 300.26
   L 427.98 300.00"
-          />
-          <path
-            stroke="#2e1059"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#2e1059"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 427.98 300.00
   Q 429.67 299.84 430.15 298.52
   Q 430.40 297.80 431.00 298.25
@@ -3548,47 +3549,47 @@ function Logo() {
   Q 429.64 296.92 429.78 297.03
   A 0.41 0.41 0.0 0 1 429.85 297.60
   L 427.98 300.00"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 427.98 300.00
   Q 427.45 299.98 427.11 300.34
   Q 424.69 302.90 422.36 305.51
   Q 422.05 305.87 420.29 308.15
   Q 419.27 309.47 418.00 310.61"
-          />
-          <path
-            stroke="#170c48"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#170c48"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 418.00 310.61
   Q 417.51 310.69 417.29 310.46
   Q 417.00 310.18 417.21 309.69"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 417.21 309.69
   L 422.68 303.84
   A 0.23 0.23 0.0 0 0 422.69 303.53
   L 422.48 303.31
   Q 422.46 303.29 422.44 303.31
   Q 419.82 305.50 417.52 308.06"
-          />
-          <path
-            stroke="#170c48"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#170c48"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 417.52 308.06
   Q 416.91 308.19 416.87 307.64"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 416.87 307.64
   Q 419.74 304.67 422.76 301.77
   Q 423.92 300.65 424.87 299.31
@@ -3596,11 +3597,11 @@ function Logo() {
   Q 430.21 294.98 432.22 291.73
   Q 432.50 291.29 432.98 291.06
   Q 433.99 290.57 434.83 289.66"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 435.27 290.15
   L 430.55 295.18
   Q 430.18 295.57 430.66 295.83
@@ -3619,11 +3620,11 @@ function Logo() {
   Q 450.88 274.79 452.18 273.17
   A 0.25 0.25 0.0 0 0 452.06 272.77
   Q 451.95 272.74 451.76 272.68"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 452.18 271.48
   Q 452.24 271.95 452.44 272.18
   Q 452.98 272.79 452.97 271.97
@@ -3631,11 +3632,11 @@ function Logo() {
   Q 455.19 269.40 456.95 267.61
   Q 457.20 267.35 457.15 266.99
   Q 457.12 266.81 457.04 266.71"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 457.69 266.46
   L 457.99 267.16
   Q 458.17 267.61 458.61 267.81
@@ -3646,11 +3647,11 @@ function Logo() {
   Q 459.61 269.45 459.91 269.07
   Q 460.32 268.52 459.80 268.08
   Q 458.92 267.34 458.94 266.32"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 459.29 266.04
   Q 460.06 265.98 460.11 266.75
   Q 460.12 266.89 460.25 266.94
@@ -3667,36 +3668,36 @@ function Logo() {
   Q 462.37 264.65 461.50 264.15
   Q 461.03 263.88 461.31 263.41
   L 462.00 262.22"
-          />
-          <path
-            stroke="#170c48"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#170c48"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 463.26 266.27
   Q 463.48 266.16 463.66 266.14
   Q 463.99 266.12 464.02 266.45
   Q 464.04 266.62 464.06 266.84"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 464.06 266.84
   L 455.23 276.98
   Q 455.04 277.20 454.89 277.46
   Q 454.53 278.14 453.70 278.56"
-          />
-          <path
-            stroke="#170c48"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#170c48"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 453.70 278.56
   L 452.77 279.23"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 452.77 279.23
   Q 452.10 279.26 452.47 280.48
   Q 452.56 280.76 452.27 280.82
@@ -3714,18 +3715,18 @@ function Logo() {
   Q 452.34 281.45 452.51 281.22
   Q 452.75 280.92 453.13 280.93
   L 453.98 280.95"
-          />
-          <path
-            stroke="#170c48"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#170c48"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 453.98 280.95
   Q 454.10 281.16 454.22 281.38"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 454.22 281.38
   Q 453.95 282.09 453.28 282.37
   Q 453.06 282.47 453.02 282.71
@@ -3734,25 +3735,25 @@ function Logo() {
   L 475.56 257.94
   Q 475.90 257.55 475.62 257.12
   Q 474.94 256.10 473.96 255.70"
-          />
-          <path
-            stroke="#170c48"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#170c48"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 472.05 255.59
   L 471.69 254.77"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 453.98 280.95
   Q 453.92 279.64 452.77 279.23"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 417.21 309.69
   Q 415.41 310.82 413.60 313.37
   Q 413.30 313.79 412.75 313.91
@@ -3760,18 +3761,18 @@ function Logo() {
   Q 411.46 315.74 410.52 315.86
   Q 409.59 315.98 410.25 315.32
   L 417.52 308.06"
-          />
-          <path
-            stroke="#601091"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#601091"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 437.26 295.16
   Q 436.79 294.97 436.99 294.53"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 416.22 316.69
   Q 414.95 317.51 414.77 318.43
   Q 414.66 318.99 415.23 319.00
@@ -3784,11 +3785,11 @@ function Logo() {
   Q 413.62 318.56 413.76 318.56
   Q 414.00 318.56 414.08 318.34
   Q 414.51 317.11 415.47 316.05"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 416.87 307.64
   Q 413.82 309.63 411.37 312.39
   Q 411.12 312.66 410.75 312.76
@@ -3801,138 +3802,138 @@ function Logo() {
   Q 401.75 321.52 401.17 322.63
   A 0.52 0.51 -68.8 0 1 400.59 322.89
   Q 399.86 322.69 400.23 322.23"
-          />
-          <path
-            stroke="#601091"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#601091"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 434.11 298.55
   Q 434.16 297.72 433.55 297.93"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 419.73 315.90
   Q 418.40 316.81 416.86 318.49
   Q 416.83 318.73 416.57 318.71
   Q 416.19 318.68 416.40 318.37
   L 417.00 317.46"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 423.99 315.24
   Q 422.23 317.51 423.87 316.68"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 428.17 312.77
   Q 428.11 313.43 428.54 313.55"
-          />
-          <path
-            stroke="#170c48"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#170c48"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 428.54 313.55
   Q 426.62 316.49 424.35 319.30
   Q 423.88 319.88 424.48 320.13"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 424.48 320.13
   Q 424.27 320.40 424.27 320.61
   Q 424.27 321.11 424.72 320.88
   Q 425.63 320.43 425.88 319.63
   Q 425.97 319.30 425.65 319.21
   Q 425.47 319.16 425.33 319.22"
-          />
-          <path
-            stroke="#170c48"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#170c48"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 425.33 319.22
   Q 426.26 319.00 426.05 318.75"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 426.05 318.75
   L 426.53 318.88
   Q 426.88 318.97 426.90 318.62
   Q 426.92 318.38 427.13 318.17"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 427.68 319.06
   Q 426.93 319.78 427.07 320.52
   Q 427.20 321.24 427.67 320.68
   L 431.84 315.67"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 430.93 321.57
   Q 431.14 322.12 431.64 321.75"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 425.99 326.49
   Q 425.93 326.28 425.68 326.29
   Q 425.32 326.30 425.28 326.66
   L 425.17 327.48"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 423.28 333.96
   Q 422.91 334.48 423.19 335.08
   Q 423.24 335.20 423.38 335.23
   Q 423.45 335.24 423.52 335.25"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 418.53 340.03
   L 418.54 339.49
   Q 418.56 338.86 418.07 339.27
   Q 417.70 339.58 417.52 340.02
   A 1.42 1.33 -11.5 0 1 417.15 340.54
   Q 414.72 342.62 413.33 345.08"
-          />
-          <path
-            stroke="#370965"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#370965"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 420.76 353.76
   Q 420.98 353.95 420.49 354.40
   Q 420.19 354.68 420.59 354.79
   Q 420.76 354.84 421.04 354.67"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 439.23 339.31
   Q 439.04 339.72 439.48 339.89"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 417.28 370.92
   L 416.38 372.33
   Q 416.12 372.73 415.73 372.99
@@ -3944,11 +3945,11 @@ function Logo() {
   C 415.15 374.02 415.49 373.63 416.08 373.40
   Q 416.65 373.17 416.88 372.60
   Q 417.24 371.70 418.56 371.49"
-          />
-          <path
-            stroke="#170c48"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#170c48"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 418.56 371.49
   Q 417.98 372.20 418.00 372.69
   Q 418.04 373.29 418.57 373.01
@@ -3959,18 +3960,18 @@ function Logo() {
   L 427.06 364.84
   Q 427.60 365.10 427.64 364.50
   Q 427.69 363.76 427.99 363.29"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 427.99 363.29
   Q 428.84 363.08 429.10 363.50"
-          />
-          <path
-            stroke="#170c48"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#170c48"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 429.10 363.50
   L 428.79 367.13
   Q 428.74 367.72 428.24 367.40
@@ -3996,38 +3997,38 @@ function Logo() {
   Q 466.55 329.14 467.61 328.04
   Q 468.74 326.86 469.90 325.23
   Q 471.31 323.27 477.46 317.05"
-          />
-          <path
-            stroke="#370965"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#370965"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 335.60 461.55
   Q 331.43 463.78 328.74 468.36"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 414.98 315.25
   Q 411.16 317.93 408.54 321.76
   A 0.38 0.38 0.0 0 1 407.99 321.85
   L 407.78 321.69
   Q 407.62 321.56 407.76 321.41
   L 418.00 310.61"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 427.95 316.95
   Q 428.02 315.02 430.01 313.71
   A 0.62 0.61 36.4 0 0 429.84 312.60
   Q 429.16 312.41 428.54 313.55"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 476.61 316.42
   C 472.28 320.54 468.63 325.20 464.38 329.39
   Q 461.76 331.96 459.64 334.90
@@ -4038,11 +4039,11 @@ function Logo() {
   A 0.49 0.48 62.9 0 1 430.30 363.77
   Q 430.25 363.47 429.97 363.29
   Q 429.31 362.89 429.10 363.50"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 427.99 363.29
   Q 428.11 363.14 428.32 363.10
   Q 428.74 363.04 429.00 362.71
@@ -4051,11 +4052,11 @@ function Logo() {
   L 431.04 358.58
   Q 430.77 357.51 430.04 358.34
   L 418.56 371.49"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 456.94 331.19
   L 439.56 350.02
   Q 439.20 350.41 439.03 350.91
@@ -4070,11 +4071,11 @@ function Logo() {
   Q 441.73 350.90 441.37 350.89
   Q 440.98 350.88 440.88 351.25
   Q 440.78 351.61 440.94 351.94"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 440.94 351.94
   Q 440.03 352.28 439.37 353.01
   Q 438.65 353.81 438.15 354.25
@@ -4085,22 +4086,22 @@ function Logo() {
   L 441.00 352.64
   Q 441.20 352.45 441.09 352.19
   Q 441.04 352.06 440.94 351.94"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 440.94 351.94
   Q 441.07 352.03 441.21 352.06
   Q 441.42 352.11 441.57 351.96
   L 453.83 339.54
   Q 454.28 339.09 454.71 338.62
   L 474.29 317.20"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 479.00 291.05
   Q 468.17 302.55 459.47 310.95
   Q 459.31 311.11 459.06 311.15
@@ -4114,11 +4115,11 @@ function Logo() {
   Q 458.73 311.87 459.62 311.47
   Q 460.74 310.97 461.67 310.04
   Q 468.42 303.26 475.07 296.41"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 476.22 296.81
   L 461.18 312.90
   Q 460.91 313.18 460.54 313.07
@@ -4129,11 +4130,11 @@ function Logo() {
   Q 461.05 313.13 461.88 313.08
   Q 462.44 313.04 462.82 312.63
   L 477.96 296.29"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 478.47 297.02
   L 461.45 315.94
   Q 460.84 316.61 460.19 315.98
@@ -4147,50 +4148,50 @@ function Logo() {
   Q 449.23 325.95 449.34 325.97
   Q 449.49 325.99 449.66 325.80
   Q 450.33 325.03 450.96 324.28"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 452.03 325.08
   L 439.23 339.31"
-          />
-          <path
-            stroke="#170c48"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#170c48"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 439.23 339.31
   Q 437.91 340.56 436.61 341.83
   Q 435.68 342.75 434.67 344.25
   Q 433.80 345.55 432.78 346.75"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 431.97 345.70
   L 438.08 337.08"
-          />
-          <path
-            stroke="#2e1059"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#2e1059"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 438.08 337.08
   Q 439.01 336.85 440.33 335.57"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 440.33 335.57
   Q 442.64 332.95 444.69 330.01
   Q 444.94 329.65 444.86 329.43
   Q 444.75 329.13 444.22 329.05"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 444.00 328.63
   Q 443.95 327.94 444.55 327.30
   Q 446.82 324.86 449.09 322.46
@@ -4202,20 +4203,20 @@ function Logo() {
   Q 442.86 328.78 442.18 328.97
   Q 441.70 329.11 441.36 329.48
   L 434.43 337.10"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 432.99 335.85
   Q 433.10 334.97 433.91 334.89
   Q 434.82 334.81 435.03 334.67
   Q 435.81 334.14 436.01 332.99"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 424.95 325.98
   L 424.51 325.92
   Q 424.12 325.87 424.10 325.48
@@ -4228,57 +4229,57 @@ function Logo() {
   Q 426.83 321.85 427.10 322.05
   A 0.61 0.60 -54.4 0 0 427.93 321.91
   C 429.36 319.98 431.51 318.72 432.26 316.16"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 427.95 316.95
   Q 426.80 317.40 426.05 318.75"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 425.33 319.22
   Q 425.03 320.16 424.48 320.13"
-          />
-          <path
-            stroke="#601091"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#601091"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 433.53 340.04
   Q 433.20 339.93 432.98 339.71"
-          />
-          <path
-            stroke="#601091"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#601091"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 440.33 335.57
   Q 439.99 335.56 439.96 334.77"
-          />
-          <path
-            stroke="#601091"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#601091"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 438.08 337.08
   Q 437.88 336.93 437.68 336.79"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 478.12 290.00
   L 440.55 328.30
   Q 440.20 328.66 440.01 329.12
   Q 439.51 330.32 438.86 330.63
   Q 437.70 331.18 437.07 332.34
   Q 436.71 333.01 436.01 332.99"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 473.96 316.26
   L 444.72 347.01
   Q 444.68 347.05 444.63 347.01
@@ -4290,11 +4291,11 @@ function Logo() {
   Q 454.96 335.79 455.13 335.04
   Q 455.27 334.46 455.76 334.11
   Q 456.98 333.22 457.77 331.82"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 467.79 278.52
   Q 467.39 278.76 467.16 279.15
   Q 465.35 282.14 462.54 284.20
@@ -4317,22 +4318,22 @@ function Logo() {
   Q 479.19 265.31 478.82 265.74
   L 468.46 277.94
   Q 468.17 278.29 467.79 278.52"
-          />
-          <path
-            stroke="#808593"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#808593"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 513.59 287.27
   C 516.75 294.93 524.68 297.41 532.14 295.40
   C 534.52 294.76 537.25 293.03 538.36 290.83
   Q 544.03 279.65 536.03 271.99
   C 531.34 267.50 524.57 266.42 519.03 270.40
   C 513.87 274.10 511.07 281.16 513.59 287.27"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 471.80 277.10
   C 470.21 279.11 468.27 280.87 466.74 282.93
   Q 465.02 285.24 463.14 287.39
@@ -4354,11 +4355,11 @@ function Logo() {
   Q 479.37 268.14 478.99 268.65
   C 478.36 269.50 477.85 270.48 477.07 271.25
   Q 474.22 274.04 471.80 277.10"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 461.12 293.51
   C 459.28 295.31 457.50 296.97 455.87 298.97
   C 454.79 300.30 453.40 301.08 452.55 302.47
@@ -4381,11 +4382,11 @@ function Logo() {
   Q 464.88 288.67 463.57 290.49
   Q 463.24 290.95 462.81 291.31
   C 462.07 291.92 461.72 292.93 461.12 293.51"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 479.6988 275.2283
   A 0.29 0.29 0.0 0 0 479.6545 274.8205
   L 479.4051 274.6200
@@ -4395,11 +4396,11 @@ function Logo() {
   L 470.0549 286.7600
   A 0.29 0.29 0.0 0 0 470.4626 286.7157
   L 479.6988 275.2283"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 479.7722 278.1795
   A 0.26 0.26 0.0 0 0 479.7319 277.8140
   L 479.3885 277.5389
@@ -4409,11 +4410,11 @@ function Logo() {
   L 472.2915 287.1011
   A 0.26 0.26 0.0 0 0 472.6570 287.0608
   L 479.7722 278.1795"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 472.74 288.82
   Q 471.28 290.11 470.45 291.48
   Q 469.69 292.72 470.80 291.78
@@ -4422,11 +4423,11 @@ function Logo() {
   Q 477.37 282.30 476.92 284.12
   Q 476.79 284.65 476.38 285.02
   C 475.07 286.21 474.04 287.67 472.74 288.82"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 479.07 284.22
   Q 475.92 288.93 471.82 292.71
   Q 471.48 293.02 471.03 293.03
@@ -4447,11 +4448,11 @@ function Logo() {
   Q 479.94 284.38 479.83 284.29
   L 479.62 284.13
   Q 479.29 283.89 479.07 284.22"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 467.65 289.81
   Q 467.05 290.16 466.50 290.78
   Q 459.30 298.84 451.72 306.55
@@ -4495,21 +4496,21 @@ function Logo() {
   Q 467.34 288.24 467.69 288.83
   L 467.84 289.08
   Q 468.11 289.54 467.65 289.81"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 468.90 291.23
   Q 467.36 292.85 466.09 294.81
   C 465.50 295.72 464.72 296.16 463.95 296.95
   Q 459.65 301.40 455.27 305.77
   Q 448.56 312.45 442.02 319.27"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 442.02 319.27
   Q 441.65 319.37 441.38 319.61
   Q 441.09 319.85 440.99 320.23
@@ -4527,31 +4528,31 @@ function Logo() {
   Q 439.66 323.13 440.09 322.32
   A 1.63 1.60 -89.1 0 1 440.78 321.64
   Q 442.34 320.82 442.02 319.27"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 442.02 319.27
   L 443.00 319.10
   Q 443.50 319.02 443.86 318.66
   Q 454.84 307.78 465.68 296.73
   Q 467.56 294.82 468.94 292.75
   Q 469.25 292.28 468.90 291.23"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 468.90 291.23
   Q 470.97 290.23 471.78 288.23
   Q 471.99 287.71 471.52 288.01
   Q 469.65 289.21 468.90 291.23"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 478.47 301.27
   Q 478.78 301.09 479.09 301.34
   Q 479.65 301.79 479.55 301.07
@@ -4578,11 +4579,11 @@ function Logo() {
   Q 466.05 315.52 477.61 302.86
   Q 478.01 302.42 478.10 301.82
   Q 478.15 301.45 478.47 301.27"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 445.71 338.84
   Q 445.12 339.16 445.00 339.46
   Q 444.18 341.46 445.70 339.91
@@ -4602,11 +4603,11 @@ function Logo() {
   Q 453.55 330.14 453.19 330.56
   Q 449.83 334.44 446.44 338.27
   Q 446.15 338.60 445.71 338.84"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 479.8916 306.8110
   A 0.26 0.26 0.0 0 0 479.8801 306.4435
   L 479.6031 306.1833
@@ -4616,11 +4617,11 @@ function Logo() {
   L 460.6169 326.9567
   A 0.26 0.26 0.0 0 0 460.9844 326.9451
   L 479.8916 306.8110"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 434.57 321.61
   Q 436.60 320.35 437.85 318.27
   Q 438.19 317.70 438.81 317.42
@@ -4642,33 +4643,33 @@ function Logo() {
   Q 432.07 324.44 432.45 324.15
   Q 433.44 323.42 433.95 322.32
   Q 434.15 321.87 434.57 321.61"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 457.95 318.97
   Q 457.18 318.93 456.95 319.31
   Q 456.73 319.67 457.10 320.11
   Q 457.53 320.63 458.20 320.75
   Q 458.73 320.85 458.45 320.38
   Q 457.95 319.56 457.95 318.97"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 457.95 318.97
   L 458.68 318.88
   Q 459.41 318.78 459.01 318.15
   Q 458.86 317.92 458.70 317.70
   Q 458.16 316.99 458.07 317.87
   L 457.95 318.97"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 479.7805 319.2221
   A 0.28 0.28 0.0 0 0 479.7764 318.8261
   L 479.6906 318.7422
@@ -4678,21 +4679,21 @@ function Logo() {
   L 436.0894 363.4378
   A 0.28 0.28 0.0 0 0 436.4853 363.4337
   L 479.7805 319.2221"
-          />
-          <path
-            stroke="#808593"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#808593"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 540.82 333.76
   A 14.28 14.28 0.0 0 0 526.54 319.48
   A 14.28 14.28 0.0 0 0 512.26 333.76
   A 14.28 14.28 0.0 0 0 526.54 348.04
   A 14.28 14.28 0.0 0 0 540.82 333.76"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 430.06 329.75
   L 433.86 325.76
   Q 434.21 325.39 434.03 324.91
@@ -4707,11 +4708,11 @@ function Logo() {
   Q 429.49 330.74 429.74 330.50
   Q 429.91 330.35 429.90 330.15
   Q 429.90 329.92 430.06 329.75"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 429.40 327.22
   Q 429.61 327.00 429.92 326.78
   Q 430.05 326.69 430.00 326.54
@@ -4723,36 +4724,36 @@ function Logo() {
   Q 428.88 328.96 428.96 328.57
   Q 429.03 328.22 429.10 327.85
   Q 429.18 327.44 429.40 327.22"
-          />
-          <path
-            stroke="#270c4e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#270c4e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 434.97 330.79
   Q 433.90 331.13 434.03 331.73
   Q 434.45 333.68 434.85 331.73
   Q 434.92 331.39 435.49 330.86"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 435.49 330.86
   L 437.17 328.58
   Q 437.44 328.21 436.98 328.25
   Q 435.22 328.42 434.97 330.79"
-          />
-          <path
-            stroke="#601091"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#601091"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 435.49 330.86
   Q 435.18 330.67 434.97 330.79"
-          />
-          <path
-            stroke="#270c4e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#270c4e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 423.78 329.04
   Q 423.35 329.07 423.26 329.49
   Q 423.11 330.13 423.70 329.82
@@ -4761,11 +4762,11 @@ function Logo() {
   Q 424.48 328.07 424.28 328.23
   Q 424.00 328.46 424.00 328.82
   A 0.23 0.23 0.0 0 1 423.78 329.04"
-          />
-          <path
-            stroke="#270c4e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#270c4e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 424.46 330.98
   Q 424.28 331.05 424.20 331.22
   Q 424.07 331.49 424.24 331.74
@@ -4777,11 +4778,11 @@ function Logo() {
   Q 425.85 329.61 425.36 330.01
   Q 425.02 330.29 424.79 330.70
   Q 424.67 330.90 424.46 330.98"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 430.01 336.01
   L 431.42 334.90
   Q 431.88 334.54 431.94 333.95
@@ -4795,21 +4796,21 @@ function Logo() {
   Q 430.53 339.03 430.75 338.36
   Q 431.09 337.35 430.13 336.94
   Q 429.29 336.58 430.01 336.01"
-          />
-          <path
-            stroke="#270c4e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#270c4e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 426.60 335.51
   Q 426.41 336.41 427.14 335.85
   Q 427.91 335.26 427.91 334.41
   Q 427.90 333.67 427.35 334.16
   Q 426.77 334.67 426.60 335.51"
-          />
-          <path
-            stroke="#270c4e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#270c4e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 422.14 340.65
   Q 422.73 340.59 422.92 340.06
   Q 423.65 338.09 425.42 337.51
@@ -4824,22 +4825,22 @@ function Logo() {
   Q 417.98 345.88 418.02 345.52
   C 418.28 343.26 420.55 343.03 421.48 341.12
   A 0.86 0.85 9.0 0 1 422.14 340.65"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 429.91 339.75
   Q 429.87 339.40 429.63 339.14
   A 0.32 0.32 0.0 0 0 429.09 339.29
   Q 428.98 339.80 429.15 340.26
   Q 429.56 341.40 429.87 340.22
   Q 429.93 340.00 429.91 339.75"
-          />
-          <path
-            stroke="#270c4e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#270c4e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 428.10 341.85
   Q 428.48 341.84 428.63 341.48
   A 0.26 0.25 10.3 0 0 428.38 341.12
@@ -4849,11 +4850,11 @@ function Logo() {
   Q 427.76 342.82 427.84 342.50
   Q 427.89 342.33 427.86 342.16
   Q 427.81 341.87 428.10 341.85"
-          />
-          <path
-            stroke="#270c4e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#270c4e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 426.98 347.62
   Q 427.16 347.89 427.44 347.87
   Q 428.02 347.82 427.65 347.36
@@ -4867,11 +4868,11 @@ function Logo() {
   Q 425.13 345.26 425.36 345.71
   Q 425.88 346.77 426.71 347.34
   Q 426.88 347.45 426.98 347.62"
-          />
-          <path
-            stroke="#3a0f6a"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#3a0f6a"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 421.30 356.72
   Q 420.68 357.17 420.45 357.81
   Q 420.22 358.45 420.87 358.24
@@ -4887,11 +4888,11 @@ function Logo() {
   Q 426.45 351.23 423.13 354.64
   Q 422.49 355.30 421.94 356.07
   A 2.91 2.76 -88.9 0 1 421.30 356.72"
-          />
-          <path
-            stroke="#270c4e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#270c4e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 367.50 468.21
   Q 365.54 469.90 363.89 472.11
   Q 363.67 472.41 363.34 472.56
@@ -4936,11 +4937,11 @@ function Logo() {
   Q 381.49 454.11 380.15 455.47
   Q 375.64 460.06 371.00 464.90
   Q 369.45 466.51 367.50 468.21"
-          />
-          <path
-            stroke="#808593"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#808593"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 512.14 384.20
   C 512.67 386.24 512.59 388.73 513.57 390.54
   Q 519.05 400.66 531.37 398.70
@@ -4952,11 +4953,11 @@ function Logo() {
   C 519.80 371.45 516.99 373.87 515.39 375.81
   C 513.73 377.82 513.11 380.71 512.19 383.25
   Q 512.01 383.72 512.14 384.20"
-          />
-          <path
-            stroke="#270c4e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#270c4e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 418.69 431.45
   Q 413.58 435.70 408.11 441.73
   A 0.07 0.07 0.0 0 1 408.08 441.76
@@ -5012,11 +5013,11 @@ function Logo() {
   Q 428.99 421.69 425.91 424.31
   Q 424.18 425.79 422.35 427.88
   Q 420.68 429.80 418.69 431.45"
-          />
-          <path
-            stroke="#270c4e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#270c4e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 406.30 456.14
   Q 405.12 456.53 404.04 457.34
   Q 402.88 458.22 402.07 459.41
@@ -5069,11 +5070,11 @@ function Logo() {
   Q 413.39 450.76 411.29 452.13
   C 410.29 452.79 409.66 453.68 408.85 454.53
   A 6.28 6.19 12.3 0 1 406.30 456.14"
-          />
-          <path
-            stroke="#270c4e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#270c4e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 392.89 484.48
   Q 391.39 485.35 390.03 486.54
   Q 389.42 487.08 389.64 487.77
@@ -5114,11 +5115,11 @@ function Logo() {
   Q 396.07 480.07 393.54 483.37
   Q 393.39 483.56 393.36 483.79
   Q 393.29 484.25 392.89 484.48"
-          />
-          <path
-            stroke="#11083e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#11083e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 447.53 447.33
   C 449.24 445.89 450.68 444.27 452.48 442.89
   Q 454.48 441.35 456.22 439.53
@@ -5155,21 +5156,21 @@ function Logo() {
   Q 439.76 454.92 446.54 448.71
   Q 446.83 448.45 446.98 448.09
   Q 447.16 447.64 447.53 447.33"
-          />
-          <path
-            stroke="#808593"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#808593"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 540.90 435.69
   A 14.13 14.13 0.0 0 0 526.77 421.56
   A 14.13 14.13 0.0 0 0 512.64 435.69
   A 14.13 14.13 0.0 0 0 526.77 449.82
   A 14.13 14.13 0.0 0 0 540.90 435.69"
-          />
-          <path
-            stroke="#270c4e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#270c4e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 443.98 461.00
   Q 442.48 461.62 441.58 462.81
   Q 440.85 463.78 439.89 464.46
@@ -5206,11 +5207,11 @@ function Logo() {
   Q 445.12 459.61 445.00 459.84
   Q 444.87 460.09 444.74 460.33
   Q 444.48 460.80 443.98 461.00"
-          />
-          <path
-            stroke="#11083e"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#11083e"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 457.98 462.53
   C 455.45 464.94 453.41 467.36 450.93 469.46
   Q 448.42 471.58 445.91 473.75
@@ -5235,11 +5236,11 @@ function Logo() {
   Q 468.60 451.32 468.36 451.76
   C 467.57 453.24 466.09 454.17 465.24 455.10
   Q 461.68 459.01 457.98 462.53"
-          />
-          <path
-            stroke="#8212c2"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#8212c2"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 444.60 237.81
   L 454.08 226.98
   A 0.61 0.61 0.0 0 0 453.79 226.00
@@ -5253,11 +5254,11 @@ function Logo() {
   Q 443.85 237.61 443.87 237.80
   Q 443.91 238.07 444.14 238.04
   Q 444.42 238.02 444.60 237.81"
-          />
-          <path
-            stroke="#700fa6"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#700fa6"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 464.5909 233.7602
   A 0.29 0.29 0.0 0 0 464.1821 233.7273
   L 458.9427 238.1864
@@ -5267,11 +5268,11 @@ function Logo() {
   L 464.8173 234.4736
   A 0.29 0.29 0.0 0 0 464.8502 234.0648
   L 464.5909 233.7602"
-          />
-          <path
-            stroke="#700fa6"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#700fa6"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 466.48 236.27
   L 459.86 242.35
   A 0.43 0.43 0.0 0 0 460.04 243.08
@@ -5283,11 +5284,11 @@ function Logo() {
   Q 466.95 234.96 466.89 235.34
   L 466.84 235.61
   Q 466.77 236.00 466.48 236.27"
-          />
-          <path
-            stroke="#700fa6"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#700fa6"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 458.75 239.92
   L 458.09 239.37
   Q 457.66 239.01 457.27 239.41
@@ -5299,11 +5300,11 @@ function Logo() {
   A 0.22 0.21 -67.4 0 0 462.74 237.88
   Q 461.10 238.23 459.94 239.79
   A 0.82 0.82 0.0 0 1 458.75 239.92"
-          />
-          <path
-            stroke="#8212c2"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#8212c2"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 433.2289 243.7006
   A 0.27 0.27 0.0 0 0 433.2076 243.3193
   L 433.0436 243.1727
@@ -5313,11 +5314,11 @@ function Logo() {
   L 422.5964 255.1873
   A 0.27 0.27 0.0 0 0 422.9776 255.1660
   L 433.2289 243.7006"
-          />
-          <path
-            stroke="#700fa6"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#700fa6"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 455.20 245.63
   Q 455.19 245.77 455.41 245.82
   Q 455.65 245.88 455.76 245.66
@@ -5327,11 +5328,11 @@ function Logo() {
   Q 453.35 243.53 453.58 244.27
   Q 453.84 245.07 454.68 245.08
   Q 455.27 245.08 455.20 245.63"
-          />
-          <path
-            stroke="#8212c2"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#8212c2"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 419.58 257.09
   Q 418.75 257.71 418.21 258.64
   Q 417.72 259.46 418.51 258.92
@@ -5339,21 +5340,21 @@ function Logo() {
   Q 421.24 256.26 420.58 256.22
   Q 420.10 256.18 419.95 256.58
   Q 419.84 256.89 419.58 257.09"
-          />
-          <path
-            stroke="#700fa6"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#700fa6"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 456.1582 242.5863
   A 1.44 0.61 129.8 0 0 457.5487 241.8705
   A 1.44 0.61 129.8 0 0 458.0018 240.3737
   A 1.44 0.61 129.8 0 0 456.6113 241.0895
   A 1.44 0.61 129.8 0 0 456.1582 242.5863"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 454.51 271.30
   Q 452.59 274.20 450.13 276.58
   Q 449.98 276.72 450.12 276.87
@@ -5364,11 +5365,11 @@ function Logo() {
   Q 457.56 269.50 457.82 268.52
   Q 458.02 267.77 457.40 268.24
   Q 455.67 269.55 454.51 271.30"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 457.63 272.14
   L 457.88 271.88
   Q 458.11 271.66 458.04 271.36
@@ -5376,11 +5377,11 @@ function Logo() {
   Q 457.25 270.80 457.25 271.34
   L 457.26 271.99
   Q 457.26 272.51 457.63 272.14"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 439.22 288.34
   Q 438.35 289.13 437.88 290.26
   Q 437.67 290.74 437.18 290.90
@@ -5399,11 +5400,11 @@ function Logo() {
   Q 447.60 278.88 447.43 279.29
   C 447.18 279.88 447.07 280.43 446.61 280.92
   Q 442.85 285.03 439.22 288.34"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 452.14 283.90
   Q 449.30 286.89 446.21 290.31
   Q 444.62 292.08 442.65 293.27
@@ -5414,31 +5415,31 @@ function Logo() {
   Q 452.78 284.23 452.66 284.10
   L 452.44 283.89
   Q 452.29 283.74 452.14 283.90"
-          />
-          <path
-            stroke="#2e1059"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#2e1059"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 436.3757 297.8922
   A 0.81 0.45 -41.6 0 0 435.4712 298.0935
   A 0.81 0.45 -41.6 0 0 435.1643 298.9678
   A 0.81 0.45 -41.6 0 0 436.0688 298.7665
   A 0.81 0.45 -41.6 0 0 436.3757 297.8922"
-          />
-          <path
-            stroke="#8212c2"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#8212c2"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 99.85 264.60
   L 97.77 266.50
   Q 96.95 267.24 98.02 266.96
   Q 99.48 266.58 100.30 264.95
   Q 101.02 263.54 99.85 264.60"
-          />
-          <path
-            stroke="#401375"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#401375"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 446.46 327.97
   Q 446.02 328.27 446.11 328.81
   Q 446.13 328.95 446.20 329.07
@@ -5447,11 +5448,11 @@ function Logo() {
   Q 448.35 326.06 447.67 326.32
   Q 447.07 326.54 446.92 327.27
   Q 446.83 327.71 446.46 327.97"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 410.13 316.58
   L 409.88 316.25
   Q 409.66 315.97 409.41 316.22
@@ -5461,11 +5462,11 @@ function Logo() {
   Q 405.55 321.19 405.72 320.98
   Q 407.55 318.64 410.10 316.82
   Q 410.24 316.72 410.13 316.58"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 406.27 322.38
   C 404.98 323.93 403.53 325.28 402.39 326.95
   Q 401.70 327.95 402.67 327.22
@@ -5473,11 +5474,11 @@ function Logo() {
   Q 405.23 323.98 405.70 323.83
   Q 406.67 323.54 406.80 322.61
   Q 406.95 321.56 406.27 322.38"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 410.07 322.97
   Q 409.71 323.12 409.45 323.40
   A 0.35 0.35 0.0 0 0 409.66 323.98
@@ -5485,11 +5486,11 @@ function Logo() {
   A 0.48 0.47 -52.8 0 0 410.61 322.68
   Q 410.42 322.61 410.29 322.78
   Q 410.21 322.91 410.07 322.97"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 410.19 327.17
   Q 410.44 327.35 410.61 327.09
   L 413.04 323.25
@@ -5499,22 +5500,22 @@ function Logo() {
   L 409.91 326.87
   Q 409.87 326.94 409.93 326.99
   L 410.19 327.17"
-          />
-          <path
-            stroke="#370965"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#370965"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 420.18 326.57
   Q 420.43 326.19 420.72 325.83
   Q 421.52 324.83 420.35 325.35
   Q 419.68 325.65 419.18 326.34
   A 0.39 0.39 0.0 0 0 419.49 326.96
   Q 419.91 326.97 420.18 326.57"
-          />
-          <path
-            stroke="#370965"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#370965"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 407.60 326.97
   Q 407.94 326.75 407.97 326.30
   Q 408.01 325.71 407.53 326.07
@@ -5523,11 +5524,11 @@ function Logo() {
   Q 406.23 327.83 406.48 327.82
   Q 406.62 327.81 406.72 327.72
   C 407.05 327.45 407.19 327.23 407.60 326.97"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 378.14 354.75
   Q 377.39 354.90 377.02 355.56
   Q 376.71 356.11 377.33 356.01
@@ -5544,11 +5545,11 @@ function Logo() {
   Q 381.94 351.03 379.82 352.82
   Q 379.27 353.28 378.99 354.03
   A 1.17 1.17 0.0 0 1 378.14 354.75"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 381.74 345.99
   L 370.61 357.19
   Q 370.23 357.57 370.15 358.10
@@ -5557,27 +5558,27 @@ function Logo() {
   Q 370.56 358.95 370.61 358.75
   C 370.98 357.29 372.08 356.96 372.94 355.87
   C 375.74 352.30 379.33 349.62 382.24 346.15"
-          />
-          <path
-            stroke="#370965"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#370965"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 382.24 346.15
   Q 383.82 345.08 384.56 343.47
   Q 384.79 342.96 384.33 343.29
   Q 382.83 344.38 381.74 345.99"
-          />
-          <path
-            stroke="#601091"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#601091"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 382.24 346.15
   Q 381.92 346.14 381.74 345.99"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 395.23 353.49
   L 389.24 359.74
   Q 388.82 360.17 388.85 360.77
@@ -5590,41 +5591,41 @@ function Logo() {
   Q 388.38 362.57 389.93 360.30
   Q 391.60 357.85 393.61 356.42
   Q 394.57 355.74 395.23 353.49"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 395.23 353.49
   L 398.25 349.70
   Q 398.77 349.05 398.09 349.52
   Q 395.95 351.01 395.23 353.49"
-          />
-          <path
-            stroke="#370965"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#370965"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 385.38 351.13
   Q 384.83 351.85 384.30 352.57
   Q 383.97 353.03 384.48 352.80
   Q 385.52 352.34 386.10 351.16
   A 0.36 0.36 0.0 0 0 385.68 350.65
   Q 385.32 350.74 385.38 351.13"
-          />
-          <path
-            stroke="#370965"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#370965"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 387.2713 353.8383
   A 1.78 0.33 134.1 0 0 388.7470 352.7897
   A 1.78 0.33 134.1 0 0 389.7487 351.2817
   A 1.78 0.33 134.1 0 0 388.2730 352.3303
   A 1.78 0.33 134.1 0 0 387.2713 353.8383"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 397.9262 354.8225
   A 0.26 0.26 0.0 0 0 397.9051 354.4554
   L 397.8901 354.4421
@@ -5634,11 +5635,11 @@ function Logo() {
   L 389.5099 363.8779
   A 0.26 0.26 0.0 0 0 389.8769 363.8568
   L 397.9262 354.8225"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 377.73 361.25
   C 378.21 359.58 379.13 358.92 380.34 357.92
   Q 380.72 357.61 380.83 357.12
@@ -5652,21 +5653,21 @@ function Logo() {
   Q 376.52 361.19 376.74 361.44
   Q 376.86 361.58 377.01 361.63
   Q 377.56 361.81 377.73 361.25"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 384.0340 357.8055
   A 1.00 0.36 127.3 0 0 384.9264 357.2282
   A 1.00 0.36 127.3 0 0 385.2460 356.2145
   A 1.00 0.36 127.3 0 0 384.3536 356.7918
   A 1.00 0.36 127.3 0 0 384.0340 357.8055"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 376.62 357.14
   Q 376.54 356.98 376.39 357.08
   L 372.07 360.20
@@ -5676,11 +5677,11 @@ function Logo() {
   Q 374.32 358.81 376.65 357.69
   Q 376.85 357.59 376.75 357.39
   L 376.62 357.14"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 386.88 358.13
   Q 387.15 358.05 387.34 357.88
   Q 388.01 357.29 387.11 357.35
@@ -5689,11 +5690,11 @@ function Logo() {
   L 386.35 358.20
   Q 386.37 358.47 386.62 358.35
   Q 386.79 358.27 386.88 358.13"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 383.25 357.89
   L 378.83 363.06
   A 0.01 0.01 0.0 0 0 378.83 363.07
@@ -5703,21 +5704,21 @@ function Logo() {
   A 1.38 0.77 -49.5 0 0 383.37 357.98
   L 383.26 357.88
   A 0.01 0.01 0.0 0 0 383.25 357.89"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 368.81 359.41
   Q 368.32 359.67 368.12 360.24
   Q 367.95 360.75 368.46 360.57
   Q 369.09 360.35 369.20 359.70
   Q 369.29 359.16 368.81 359.41"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 385.37 360.26
   A 0.53 0.52 -59.5 0 0 385.13 359.31
   Q 384.97 359.30 384.81 359.36
@@ -5727,11 +5728,11 @@ function Logo() {
   Q 383.01 363.00 383.30 362.90
   Q 383.59 362.80 383.82 362.22
   Q 384.31 361.02 385.37 360.26"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 374.71 363.97
   Q 374.31 364.24 374.16 364.71
   Q 374.03 365.12 374.36 364.84
@@ -5739,11 +5740,11 @@ function Logo() {
   Q 376.10 361.82 375.54 362.14
   Q 375.05 362.43 375.14 362.95
   Q 375.26 363.60 374.71 363.97"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 376.98 369.75
   L 377.36 370.07
   A 0.16 0.16 0.0 0 0 377.58 370.05
@@ -5753,11 +5754,11 @@ function Logo() {
   A 7.25 0.29 -50.0 0 0 377.08 369.38
   L 376.96 369.52
   A 0.16 0.16 0.0 0 0 376.98 369.75"
-          />
-          <path
-            stroke="#370965"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#370965"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 373.63 365.74
   Q 373.58 365.69 373.53 365.75
   Q 372.59 367.11 371.30 368.21
@@ -5767,21 +5768,21 @@ function Logo() {
   L 373.88 366.32
   Q 374.08 366.09 373.84 365.90
   L 373.63 365.74"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 368.87 367.86
   Q 369.50 366.93 370.22 366.58
   Q 371.28 366.05 370.11 366.23
   Q 368.97 366.41 368.50 367.67
   Q 367.92 369.28 368.87 367.86"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 373.65 370.34
   Q 375.18 368.55 376.57 366.80
   Q 377.96 365.04 376.22 366.46
@@ -5791,11 +5792,11 @@ function Logo() {
   Q 372.20 372.90 372.66 372.33
   Q 373.07 371.82 373.21 371.21
   A 2.18 2.10 72.8 0 1 373.65 370.34"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 375.16 375.99
   A 0.28 0.28 0.0 0 1 375.31 376.47
   Q 373.17 378.63 371.51 381.31
@@ -5815,11 +5816,11 @@ function Logo() {
   Q 376.11 375.54 374.49 375.37
   Q 373.72 375.29 374.37 375.70
   Q 374.73 375.92 375.16 375.99"
-          />
-          <path
-            stroke="#370965"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#370965"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 366.36 367.19
   Q 367.01 367.09 367.40 366.66
   Q 367.90 366.10 367.16 366.25
@@ -5827,22 +5828,22 @@ function Logo() {
   Q 364.46 368.60 365.71 368.21
   Q 365.94 368.14 365.88 367.86
   A 0.57 0.57 0.0 0 1 366.36 367.19"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 362.46 368.49
   Q 362.00 368.14 361.61 368.07
   Q 361.22 368.01 361.29 368.40
   Q 361.37 368.80 361.72 368.84
   Q 362.00 368.88 362.32 368.88
   Q 362.96 368.88 362.46 368.49"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 364.7512 369.4764
   A 0.27 0.27 0.0 0 0 364.7292 369.0952
   L 364.6844 369.0552
@@ -5852,11 +5853,11 @@ function Logo() {
   L 358.7156 375.8448
   A 0.27 0.27 0.0 0 0 359.0968 375.8228
   L 364.7512 369.4764"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 375.04 372.45
   L 376.16 371.30
   Q 376.28 371.18 376.20 371.04
@@ -5868,11 +5869,11 @@ function Logo() {
   Q 374.93 373.36 374.89 373.16
   Q 374.82 372.84 374.99 372.52
   A 0.29 0.24 85.3 0 1 375.04 372.45"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 366.87 374.80
   Q 367.08 374.72 367.31 374.73
   Q 367.81 374.75 367.90 374.25
@@ -5886,21 +5887,21 @@ function Logo() {
   Q 365.08 377.25 365.68 376.69
   Q 366.20 376.22 366.32 375.49
   Q 366.40 374.99 366.87 374.80"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 364.51 372.38
   A 0.24 0.23 15.7 0 0 364.72 372.75
   Q 365.78 372.67 366.13 371.70
   Q 366.37 371.04 365.75 371.35
   Q 364.96 371.75 364.51 372.38"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 384.39 371.27
   Q 384.21 372.73 382.92 373.28
   Q 382.48 373.46 382.86 373.75
@@ -5910,11 +5911,11 @@ function Logo() {
   Q 385.09 371.46 384.85 371.32
   L 384.60 371.17
   A 0.14 0.14 0.0 0 0 384.39 371.27"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 389.49 376.31
   Q 389.14 376.44 389.11 376.82
   Q 389.07 377.31 389.46 377.02
@@ -5924,11 +5925,11 @@ function Logo() {
   Q 393.51 372.80 392.81 373.24
   Q 390.96 374.37 389.73 376.13
   A 0.66 0.62 -80.3 0 1 389.49 376.31"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 373.82 374.04
   Q 373.66 373.89 373.49 374.04
   Q 370.60 376.74 369.00 380.32
@@ -5940,11 +5941,11 @@ function Logo() {
   Q 372.49 375.87 374.01 374.41
   Q 374.12 374.31 374.01 374.20
   L 373.82 374.04"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 385.47 375.88
   Q 385.62 375.88 385.76 375.88
   Q 385.88 375.88 385.88 375.75
@@ -5956,11 +5957,11 @@ function Logo() {
   Q 384.27 376.23 384.78 376.12
   Q 384.95 376.08 385.10 375.99
   Q 385.27 375.88 385.47 375.88"
-          />
-          <path
-            stroke="#370965"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#370965"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 356.63 377.90
   Q 356.25 378.08 356.27 378.48
   Q 356.30 379.13 356.78 378.70
@@ -5968,21 +5969,21 @@ function Logo() {
   A 0.40 0.39 -2.6 0 0 357.56 376.41
   Q 357.05 376.68 357.01 377.31
   Q 356.99 377.72 356.63 377.90"
-          />
-          <path
-            stroke="#370965"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#370965"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 389.1565 380.8826
   A 2.84 0.34 134.3 0 0 391.3833 379.0875
   A 2.84 0.34 134.3 0 0 393.1235 376.8174
   A 2.84 0.34 134.3 0 0 390.8967 378.6125
   A 2.84 0.34 134.3 0 0 389.1565 380.8826"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 401.41 386.39
   A 1.95 1.94 47.8 0 1 401.32 388.37
   Q 400.85 389.09 400.04 389.29
@@ -6022,11 +6023,11 @@ function Logo() {
   Q 397.97 388.23 400.19 386.01
   A 0.69 0.69 0.0 0 1 401.28 386.15
   Q 401.35 386.27 401.41 386.39"
-          />
-          <path
-            stroke="#370965"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#370965"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 382.72 387.42
   Q 383.22 386.16 384.46 385.94
   Q 384.65 385.90 384.78 385.76
@@ -6036,11 +6037,11 @@ function Logo() {
   Q 382.34 386.31 382.16 386.67
   Q 381.93 387.15 382.43 387.50
   A 0.19 0.19 0.0 0 0 382.72 387.42"
-          />
-          <path
-            stroke="#370965"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#370965"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 383.65 389.62
   Q 384.53 388.97 385.42 388.15
   Q 385.77 387.84 385.91 387.39
@@ -6052,11 +6053,11 @@ function Logo() {
   Q 384.91 387.96 384.42 388.10
   Q 383.48 388.38 383.15 389.24
   Q 382.75 390.30 383.65 389.62"
-          />
-          <path
-            stroke="#370965"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#370965"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 390.33 392.74
   A 0.29 0.28 -43.6 0 0 390.73 392.74
   L 394.14 389.32
@@ -6066,21 +6067,21 @@ function Logo() {
   L 390.15 392.34
   Q 390.04 392.44 390.15 392.55
   L 390.33 392.74"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 365.74 396.00
   Q 366.09 395.77 366.26 395.44
   Q 366.49 394.98 365.98 395.05
   Q 365.34 395.15 365.33 395.78
   Q 365.33 396.28 365.74 396.00"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 353.13 398.77
   L 352.78 399.24
   Q 352.49 399.63 352.97 399.63
@@ -6088,11 +6089,11 @@ function Logo() {
   Q 353.76 399.63 353.88 399.29
   Q 354.02 398.90 353.69 398.68
   Q 353.37 398.46 353.13 398.77"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 367.31 409.75
   L 369.61 408.27
   Q 370.04 407.99 370.30 407.54
@@ -6106,11 +6107,11 @@ function Logo() {
   Q 365.37 411.86 366.06 411.59
   Q 366.70 411.34 366.77 410.63
   A 1.20 1.19 76.6 0 1 367.31 409.75"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 347.39 419.80
   Q 347.46 419.88 347.55 419.82
   Q 349.27 418.61 350.33 416.91
@@ -6129,11 +6130,11 @@ function Logo() {
   Q 349.14 417.89 347.39 419.54
   Q 347.26 419.66 347.38 419.80
   L 347.39 419.80"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 361.35 407.91
   Q 361.02 408.92 360.17 409.67
   Q 357.08 412.43 354.44 415.39
@@ -6148,11 +6149,11 @@ function Logo() {
   Q 363.60 405.67 363.48 406.17
   Q 363.20 407.30 362.08 407.36
   Q 361.53 407.39 361.35 407.91"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 352.30 407.32
   Q 349.36 408.36 348.34 411.29
   Q 348.26 411.50 348.46 411.60
@@ -6162,11 +6163,11 @@ function Logo() {
   Q 352.65 407.57 352.60 407.46
   L 352.59 407.45
   Q 352.50 407.25 352.30 407.32"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 352.71 409.99
   Q 351.79 411.03 350.72 412.03
   Q 350.45 412.27 350.19 412.34
@@ -6178,21 +6179,21 @@ function Logo() {
   Q 353.89 408.31 353.52 408.51
   Q 353.15 408.70 353.10 409.11
   Q 353.04 409.61 352.71 409.99"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 362.1405 415.6982
   A 2.33 0.37 129.1 0 0 363.8971 414.1234
   A 2.33 0.37 129.1 0 0 365.0795 412.0818
   A 2.33 0.37 129.1 0 0 363.3229 413.6566
   A 2.33 0.37 129.1 0 0 362.1405 415.6982"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 348.54 414.02
   L 347.54 415.27
   Q 346.87 416.11 347.73 415.47
@@ -6200,11 +6201,11 @@ function Logo() {
   Q 349.16 414.41 349.11 414.13
   Q 349.08 413.88 348.78 413.89
   A 0.33 0.33 0.0 0 0 348.54 414.02"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 359.22 422.79
   Q 360.05 422.34 360.65 421.64
   Q 363.63 418.13 366.81 414.86
@@ -6225,11 +6226,11 @@ function Logo() {
   Q 355.56 426.73 355.67 426.66
   Q 357.41 425.46 358.54 423.46
   Q 358.78 423.03 359.22 422.79"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 357.74 416.66
   C 358.08 416.16 358.79 415.80 359.25 415.37
   Q 359.40 415.24 359.26 415.09
@@ -6238,21 +6239,21 @@ function Logo() {
   Q 357.01 416.56 356.13 417.69
   Q 353.80 420.68 356.62 418.15
   Q 356.82 417.98 357.74 416.66"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 360.82 417.34
   Q 361.21 417.05 361.39 416.56
   Q 361.58 416.05 361.06 416.20
   Q 360.38 416.39 360.39 417.12
   Q 360.40 417.65 360.82 417.34"
-          />
-          <path
-            stroke="#490c81"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#490c81"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 354.53 423.34
   C 353.76 424.23 352.67 424.72 352.18 425.84
   Q 351.79 426.76 352.46 426.02
@@ -6261,21 +6262,21 @@ function Logo() {
   Q 357.38 419.06 357.03 420.36
   Q 356.90 420.88 356.51 421.24
   Q 355.46 422.23 354.53 423.34"
-          />
-          <path
-            stroke="#170c48"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#170c48"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 333.90 460.20
   Q 332.72 460.53 332.86 461.63
   A 0.58 0.58 0.0 0 0 333.87 461.94
   Q 335.23 460.39 335.03 460.30
   A 1.58 1.54 -39.2 0 0 333.90 460.20"
-          />
-          <path
-            stroke="#2e1059"
-            vectorEffect="non-scaling-stroke"
-            d="
+        />
+        <path
+          stroke="#2e1059"
+          vectorEffect="non-scaling-stroke"
+          d="
   M 442.74 348.01
   Q 442.36 348.16 442.22 348.52
   Q 442.11 348.80 442.21 349.06
@@ -6284,11 +6285,11 @@ function Logo() {
   Q 443.95 347.20 443.53 347.33
   Q 443.25 347.41 443.09 347.71
   Q 442.97 347.93 442.74 348.01"
-          />
-        </g>
-        <path
-          fill="#b2a5b4"
-          d="
+        />
+      </g>
+      <path
+        fill="#b2a5b4"
+        d="
   M 247.81 29.49
   Q 247.04 28.99 246.75 28.49
   Q 242.52 20.89 234.94 17.00
@@ -6302,10 +6303,10 @@ function Logo() {
   C 237.36 17.92 238.41 18.21 239.24 18.88
   Q 244.64 23.23 247.81 29.49
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 461.43 68.14
   Q 462.95 67.01 465.54 66.87
   Q 466.05 66.85 466.49 66.57
@@ -6327,10 +6328,10 @@ function Logo() {
   Q 481.95 55.12 480.54 56.91
   Q 473.10 66.35 461.43 68.14
   Z"
-        />
-        <path
-          fill="#010a27"
-          d="
+      />
+      <path
+        fill="#010a27"
+        d="
   M 461.43 68.14
   L 455.68 68.11
   Q 454.92 67.46 454.64 67.87
@@ -7855,28 +7856,28 @@ function Logo() {
   C 467.57 453.24 466.09 454.17 465.24 455.10
   Q 461.68 459.01 457.98 462.53
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 446.34 16.40
   L 441.02 19.41
   Q 443.44 17.09 446.34 16.40
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 201.32 24.07
   Q 198.04 29.36 197.31 31.52
   Q 195.09 38.11 195.62 45.27
   C 193.77 38.35 196.28 31.57 199.95 25.48
   Q 200.64 24.33 201.32 24.07
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 247.81 29.49
   Q 249.95 33.41 250.70 38.03
   Q 250.81 38.71 250.61 39.77
@@ -7886,10 +7887,10 @@ function Logo() {
   Q 249.80 35.23 248.88 33.10
   Q 248.13 31.37 247.81 29.49
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 431.62 53.48
   Q 429.77 48.60 430.10 43.17
   Q 430.35 41.06 430.17 38.95
@@ -7900,18 +7901,18 @@ function Logo() {
   A 1.98 1.93 26.5 0 0 430.99 50.40
   Q 431.88 51.75 431.62 53.48
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 195.72 47.17
   L 198.87 54.51
   Q 196.53 51.30 195.72 47.17
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 248.85 51.66
   Q 248.25 53.08 248.21 54.30
   Q 248.17 55.53 249.12 56.58
@@ -7924,10 +7925,10 @@ function Logo() {
   Q 264.27 75.48 248.38 56.10
   C 246.97 54.38 247.04 52.98 248.85 51.66
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 431.74 53.79
   Q 432.44 54.33 431.85 55.11
   Q 427.36 61.02 422.56 66.68
@@ -7937,37 +7938,37 @@ function Logo() {
   Q 428.76 58.62 431.46 54.97
   Q 431.91 54.35 431.74 53.79
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 208.05 63.91
   Q 215.22 67.57 222.63 68.01
   Q 215.45 68.82 208.05 63.91
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 455.68 68.11
   L 449.98 73.41
   Q 450.43 72.89 450.97 72.34
   Q 453.00 70.27 454.64 67.87
   Q 454.92 67.46 455.68 68.11
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 449.57 74.13
   L 435.73 90.73
   Q 441.38 82.96 447.69 75.70
   Q 448.52 74.75 449.57 74.13
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 418.14 112.51
   L 395.56 141.12
   Q 395.25 141.52 395.57 141.91
@@ -7977,10 +7978,10 @@ function Logo() {
   A 1.67 1.67 0.0 0 1 395.34 140.71
   L 418.14 112.51
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 350.72 120.92
   Q 355.80 121.59 360.75 122.66
   Q 362.62 123.06 364.58 124.04
@@ -7989,26 +7990,26 @@ function Logo() {
   Q 361.72 123.28 359.78 122.96
   Q 355.21 122.20 350.72 120.92
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 305.48 123.17
   L 309.18 126.84
   Q 307.20 126.45 305.48 123.17
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 284.55 141.99
   Q 284.89 143.16 283.17 143.28
   L 284.55 141.99
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 416.11 173.56
   Q 416.45 174.16 417.07 174.67
   A 1.40 1.39 65.1 0 0 417.97 175.00
@@ -8021,10 +8022,10 @@ function Logo() {
   Q 461.31 175.76 419.00 175.78
   Q 416.20 175.79 416.11 173.56
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 263.77 174.67
   Q 264.51 175.54 262.50 175.55
   Q 220.31 175.79 178.13 175.87
@@ -8034,18 +8035,18 @@ function Logo() {
   Q 221.87 175.00 263.25 175.01
   Q 263.51 175.01 263.77 174.67
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 154.48 179.21
   Q 152.01 180.84 149.26 180.97
   L 154.48 179.21
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 532.81 181.73
   C 536.77 182.82 539.08 184.41 542.28 185.94
   Q 544.91 187.19 547.30 188.98
@@ -8078,10 +8079,10 @@ function Logo() {
   Q 551.12 191.88 544.63 187.87
   Q 542.04 186.28 532.81 181.73
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 115.78 209.44
   L 112.47 216.17
   A 1.04 1.04 0.0 0 1 111.46 216.75
@@ -8095,10 +8096,10 @@ function Logo() {
   A 1.28 1.28 0.0 0 0 112.78 215.09
   Q 113.73 211.91 115.78 209.44
   Z"
-        />
-        <path
-          fill="#e419fa"
-          d="
+      />
+      <path
+        fill="#e419fa"
+        d="
   M 380.25 209.80
   L 384.58 209.93
   A 0.99 0.99 0.0 0 1 385.33 211.53
@@ -8193,10 +8194,10 @@ function Logo() {
   Q 314.87 212.92 308.50 209.86
   L 380.25 209.80
   Z"
-        />
-        <path
-          fill="#ffffff"
-          d="
+      />
+      <path
+        fill="#ffffff"
+        d="
   M 308.50 209.86
   Q 314.87 212.92 316.93 217.00
   C 320.28 223.63 317.30 232.00 309.70 234.11
@@ -8228,10 +8229,10 @@ function Logo() {
   Q 194.77 209.75 203.50 209.73
   Q 256.31 209.61 308.50 209.86
   Z"
-        />
-        <path
-          fill="#cb16f0"
-          d="
+      />
+      <path
+        fill="#cb16f0"
+        d="
   M 380.25 209.80
   L 425.53 210.09
   Q 425.78 210.52 425.82 210.90
@@ -8332,10 +8333,10 @@ function Logo() {
   A 0.99 0.99 0.0 0 0 384.58 209.93
   L 380.25 209.80
   Z"
-        />
-        <path
-          fill="#9210d7"
-          d="
+      />
+      <path
+        fill="#9210d7"
+        d="
   M 425.53 210.09
   Q 426.25 210.01 426.71 210.18
   Q 429.53 210.80 432.38 211.24
@@ -8601,10 +8602,10 @@ function Logo() {
   Q 420.10 256.18 419.95 256.58
   Q 419.84 256.89 419.58 257.09
   Z"
-        />
-        <path
-          fill="#200554"
-          d="
+      />
+      <path
+        fill="#200554"
+        d="
   M 426.71 210.18
   Q 428.71 209.89 430.39 210.29
   Q 433.94 211.13 437.48 211.15
@@ -8615,10 +8616,10 @@ function Logo() {
   Q 435.73 211.74 432.38 211.24
   Q 429.53 210.80 426.71 210.18
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 454.08 226.98
   L 444.60 237.81
   Q 444.42 238.02 444.14 238.04
@@ -8633,10 +8634,10 @@ function Logo() {
   Q 453.03 225.79 453.79 226.00
   A 0.61 0.61 0.0 0 1 454.08 226.98
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 447.85 236.48
   Q 446.87 237.98 445.94 237.93
   Q 450.95 231.96 456.41 226.40
@@ -8645,10 +8646,10 @@ function Logo() {
   Q 456.73 226.49 456.64 226.60
   Q 452.59 231.84 447.85 236.48
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 425.79 263.71
   C 422.83 266.43 420.32 270.01 417.82 272.53
   Q 409.55 280.85 407.36 283.51
@@ -8670,10 +8671,10 @@ function Logo() {
   Q 457.90 228.23 457.76 228.38
   Q 441.61 245.89 425.79 263.71
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 447.77 242.43
   L 416.76 275.79
   Q 416.76 275.18 415.97 275.48
@@ -8684,10 +8685,10 @@ function Logo() {
   Q 459.28 229.88 459.12 230.06
   L 447.77 242.43
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 456.27 235.94
   L 410.56 285.31
   A 1.67 1.63 70.8 0 0 410.14 286.21
@@ -8949,20 +8950,20 @@ function Logo() {
   Q 460.92 230.51 460.91 230.51
   Q 458.30 232.96 456.27 235.94
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 457.98 236.04
   Q 459.45 233.49 461.57 231.72
   Q 461.84 231.49 462.00 231.81
   Q 462.15 232.11 461.85 232.41
   Q 460.02 234.26 457.98 236.04
   Z"
-        />
-        <path
-          fill="#e419fa"
-          d="
+      />
+      <path
+        fill="#e419fa"
+        d="
   M 164.99 329.70
   Q 163.73 330.33 163.98 331.15
   Q 164.11 331.61 163.93 332.05
@@ -8983,19 +8984,19 @@ function Logo() {
   Q 165.01 298.37 165.01 310.90
   Q 165.01 320.31 164.99 329.70
   Z"
-        />
-        <rect
-          fill="#4d0d75"
-          x="-3.73"
-          y="-0.49"
-          transform="translate(461.88,236.33) rotate(-40.4)"
-          width="7.46"
-          height="0.98"
-          rx="0.29"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <rect
+        fill="#4d0d75"
+        x="-3.73"
+        y="-0.49"
+        transform="translate(461.88,236.33) rotate(-40.4)"
+        width="7.46"
+        height="0.98"
+        rx="0.29"
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 466.84 235.61
   L 466.89 235.34
   Q 466.95 234.96 467.31 235.10
@@ -9008,10 +9009,10 @@ function Logo() {
   L 466.48 236.27
   Q 466.77 236.00 466.84 235.61
   Z"
-        />
-        <path
-          fill="#cb16f0"
-          d="
+      />
+      <path
+        fill="#cb16f0"
+        d="
   M 450.02 235.65
   Q 447.33 238.30 444.97 240.98
   Q 444.84 241.65 444.21 241.44
@@ -9046,10 +9047,10 @@ function Logo() {
   Q 446.87 237.98 447.85 236.48
   Q 448.18 236.92 450.02 235.65
   Z"
-        />
-        <path
-          fill="#cb16f0"
-          d="
+      />
+      <path
+        fill="#cb16f0"
+        d="
   M 456.27 235.94
   Q 457.11 235.96 456.97 236.66
   L 425.32 270.94
@@ -9059,10 +9060,10 @@ function Logo() {
   A 1.67 1.63 70.8 0 1 410.56 285.31
   L 456.27 235.94
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 457.98 236.04
   Q 455.79 240.07 452.24 243.19
   Q 451.84 243.53 452.10 243.99
@@ -9074,10 +9075,10 @@ function Logo() {
   L 456.97 236.66
   L 457.98 236.04
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 406.77 275.79
   Q 406.87 275.09 406.49 275.12
   L 422.18 256.73
@@ -9097,20 +9098,20 @@ function Logo() {
   Q 421.65 258.94 421.33 259.30
   L 406.77 275.79
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 445.94 237.93
   Q 445.78 239.26 444.68 240.01
   Q 444.40 240.20 444.20 239.93
   Q 444.13 239.84 444.08 239.70
   L 445.94 237.93
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 458.75 239.92
   A 0.82 0.82 0.0 0 0 459.94 239.79
   Q 461.10 238.23 462.74 237.88
@@ -9129,18 +9130,18 @@ function Logo() {
   A 1.44 0.61 129.8 0 0 456.6113 241.0895
   A 1.44 0.61 129.8 0 0 456.1582 242.5863
   Z"
-        />
-        <ellipse
-          fill="#9210d7"
-          cx={0.0}
-          cy={0.0}
-          transform="translate(457.08,241.48) rotate(129.8)"
-          rx="1.44"
-          ry="0.61"
-        />
-        <path
-          fill="#cb16f0"
-          d="
+      />
+      <ellipse
+        fill="#9210d7"
+        cx={0.0}
+        cy={0.0}
+        transform="translate(457.08,241.48) rotate(129.8)"
+        rx="1.44"
+        ry="0.61"
+      />
+      <path
+        fill="#cb16f0"
+        d="
   M 447.77 242.43
   Q 448.19 242.31 448.33 243.25
   Q 446.10 245.43 444.05 247.77
@@ -9158,29 +9159,29 @@ function Logo() {
   L 416.76 275.79
   L 447.77 242.43
   Z"
-        />
-        <rect
-          fill="#7213ad"
-          x="-0.38"
-          y="-7.96"
-          transform="translate(427.82,249.18) rotate(41.8)"
-          width="0.76"
-          height="15.92"
-          rx="0.27"
-        />
-        <path
-          fill="#200554"
-          d="
+      />
+      <rect
+        fill="#7213ad"
+        x="-0.38"
+        y="-7.96"
+        transform="translate(427.82,249.18) rotate(41.8)"
+        width="0.76"
+        height="15.92"
+        rx="0.27"
+      />
+      <path
+        fill="#200554"
+        d="
   M 460.46 244.65
   Q 460.30 245.05 459.81 245.22
   Q 459.06 244.84 458.57 243.82
   Q 458.31 243.30 458.87 243.47
   Q 459.73 243.73 460.46 244.65
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 454.68 245.08
   Q 453.84 245.07 453.58 244.27
   Q 453.35 243.53 454.10 243.73
@@ -9191,10 +9192,10 @@ function Logo() {
   Q 455.19 245.77 455.20 245.63
   Q 455.27 245.08 454.68 245.08
   Z"
-        />
-        <path
-          fill="#cb16f0"
-          d="
+      />
+      <path
+        fill="#cb16f0"
+        d="
   M 440.09 263.46
   L 437.81 265.56
   Q 437.47 265.86 437.02 265.90
@@ -9248,10 +9249,10 @@ function Logo() {
   Q 438.31 264.26 438.45 264.11
   Q 439.74 262.62 440.09 263.46
   Z"
-        />
-        <path
-          fill="#cb16f0"
-          d="
+      />
+      <path
+        fill="#cb16f0"
+        d="
   M 446.53 249.94
   Q 447.11 249.91 447.01 250.43
   Q 439.89 258.33 432.67 266.16
@@ -9271,20 +9272,20 @@ function Logo() {
   Q 423.75 274.72 425.87 271.83
   L 446.53 249.94
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 452.45 252.03
   L 447.11 256.96
   Q 448.00 253.72 451.33 251.13
   Q 451.72 250.83 451.94 251.28
   Q 452.20 251.82 452.45 252.03
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 478.08 262.16
   L 453.98 289.12
   L 447.77 295.84
@@ -9339,10 +9340,10 @@ function Logo() {
   Q 478.66 260.79 478.47 261.24
   L 478.08 262.16
   Z"
-        />
-        <path
-          fill="#cb16f0"
-          d="
+      />
+      <path
+        fill="#cb16f0"
+        d="
   M 432.04 251.22
   Q 432.80 251.18 432.76 251.70
   L 400.46 287.02
@@ -9354,10 +9355,10 @@ function Logo() {
   Q 419.31 264.30 420.75 262.85
   Q 426.48 257.10 432.04 251.22
   Z"
-        />
-        <path
-          fill="#0e123c"
-          d="
+      />
+      <path
+        fill="#0e123c"
+        d="
   M 458.93 281.86
   Q 458.81 281.34 458.49 281.08
   Q 459.47 279.75 460.64 278.60
@@ -9679,10 +9680,10 @@ function Logo() {
   A 0.81 0.45 -41.6 0 0 436.0688 298.7665
   A 0.81 0.45 -41.6 0 0 436.3757 297.8922
   Z"
-        />
-        <path
-          fill="#200554"
-          d="
+      />
+      <path
+        fill="#200554"
+        d="
   M 471.69 254.77
   L 472.05 255.59
   L 464.31 263.92
@@ -9691,10 +9692,10 @@ function Logo() {
   A 0.33 0.33 0.0 0 1 463.64 262.75
   L 471.69 254.77
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 58.51 256.79
   Q 45.56 258.56 40.17 268.80
   Q 36.90 274.99 38.09 280.96
@@ -9727,10 +9728,10 @@ function Logo() {
   L 52.19 255.41
   L 58.51 256.79
   Z"
-        />
-        <path
-          fill="#200554"
-          d="
+      />
+      <path
+        fill="#200554"
+        d="
   M 473.96 255.70
   Q 474.17 256.22 473.91 256.48
   Q 468.86 261.54 464.06 266.84
@@ -9741,10 +9742,10 @@ function Logo() {
   A 0.52 0.50 -65.5 0 1 473.70 255.75
   Q 473.84 255.76 473.96 255.70
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 473.96 255.70
   Q 474.94 256.10 475.62 257.12
   Q 475.90 257.55 475.56 257.94
@@ -9771,10 +9772,10 @@ function Logo() {
   Q 468.86 261.54 473.91 256.48
   Q 474.17 256.22 473.96 255.70
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 419.95 256.58
   Q 420.10 256.18 420.58 256.22
   Q 421.24 256.26 420.82 256.77
@@ -9783,10 +9784,10 @@ function Logo() {
   Q 418.75 257.71 419.58 257.09
   Q 419.84 256.89 419.95 256.58
   Z"
-        />
-        <path
-          fill="#9210d7"
-          d="
+      />
+      <path
+        fill="#9210d7"
+        d="
   M 591.29 256.62
   Q 591.10 256.60 590.97 256.66
   A 0.40 0.39 -22.5 0 0 590.75 257.18
@@ -9829,10 +9830,10 @@ function Logo() {
   Q 577.22 258.30 577.09 256.86
   L 591.29 256.62
   Z"
-        />
-        <path
-          fill="#e419fa"
-          d="
+      />
+      <path
+        fill="#e419fa"
+        d="
   M 58.51 256.79
   L 86.45 256.80
   Q 82.95 260.26 79.64 263.24
@@ -9848,10 +9849,10 @@ function Logo() {
   Q 36.90 274.99 40.17 268.80
   Q 45.56 258.56 58.51 256.79
   Z"
-        />
-        <path
-          fill="#cb16f0"
-          d="
+      />
+      <path
+        fill="#cb16f0"
+        d="
   M 86.45 256.80
   L 93.03 256.82
   Q 93.95 260.76 90.63 263.17
@@ -9874,10 +9875,10 @@ function Logo() {
   Q 75.41 267.05 79.64 263.24
   Q 82.95 260.26 86.45 256.80
   Z"
-        />
-        <path
-          fill="#9210d7"
-          d="
+      />
+      <path
+        fill="#9210d7"
+        d="
   M 93.03 256.82
   L 104.31 256.94
   Q 104.84 256.95 104.83 257.48
@@ -9938,10 +9939,10 @@ function Logo() {
   Q 99.48 266.58 100.30 264.95
   Q 101.02 263.54 99.85 264.60
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 591.29 256.62
   Q 592.20 256.73 593.01 257.15
   Q 593.84 258.54 595.08 259.02
@@ -9969,10 +9970,10 @@ function Logo() {
   A 0.40 0.39 -22.5 0 1 590.97 256.66
   Q 591.10 256.60 591.29 256.62
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 577.09 256.86
   Q 577.22 258.30 576.53 259.47
   Q 576.23 259.96 576.04 259.42
@@ -9981,10 +9982,10 @@ function Logo() {
   Q 575.72 257.11 576.27 257.01
   L 577.09 256.86
   Z"
-        />
-        <path
-          fill="#200554"
-          d="
+      />
+      <path
+        fill="#200554"
+        d="
   M 454.22 281.38
   Q 454.10 281.16 453.98 280.95
   Q 453.92 279.64 452.77 279.23
@@ -10002,10 +10003,10 @@ function Logo() {
   Q 473.98 258.42 473.85 258.57
   L 454.22 281.38
   Z"
-        />
-        <path
-          fill="#cb16f0"
-          d="
+      />
+      <path
+        fill="#cb16f0"
+        d="
   M 591.97 258.52
   Q 595.00 259.48 597.02 261.84
   C 598.05 263.05 599.20 262.97 600.25 264.05
@@ -10020,10 +10021,10 @@ function Logo() {
   Q 591.58 259.49 591.79 258.96
   L 591.97 258.52
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 410.04 268.94
   L 410.06 268.45
   Q 410.09 267.96 410.38 267.58
@@ -10033,10 +10034,10 @@ function Logo() {
   Q 417.20 260.50 417.06 260.66
   L 410.04 268.94
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 458.49 281.08
   L 443.70 296.83
   Q 443.36 297.19 442.88 297.11
@@ -10090,10 +10091,10 @@ function Logo() {
   Q 461.93 277.32 460.64 278.60
   Q 459.47 279.75 458.49 281.08
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 462.00 262.22
   L 461.31 263.41
   Q 461.03 263.88 461.50 264.15
@@ -10113,10 +10114,10 @@ function Logo() {
   Q 458.80 265.89 459.19 265.26
   Q 460.34 263.38 462.00 262.22
   Z"
-        />
-        <path
-          fill="#0e123c"
-          d="
+      />
+      <path
+        fill="#0e123c"
+        d="
   M 478.08 262.16
   L 478.21 262.77
   Q 477.98 263.63 477.49 264.24
@@ -10129,10 +10130,10 @@ function Logo() {
   Q 454.36 289.09 453.98 289.12
   L 478.08 262.16
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 478.21 262.77
   Q 478.63 262.66 478.84 262.99
   Q 478.98 263.22 478.90 263.56
@@ -10155,10 +10156,10 @@ function Logo() {
   C 469.61 272.85 473.89 268.77 477.49 264.24
   Q 477.98 263.63 478.21 262.77
   Z"
-        />
-        <path
-          fill="#cb16f0"
-          d="
+      />
+      <path
+        fill="#cb16f0"
+        d="
   M 425.79 263.71
   Q 426.35 263.61 426.71 263.71
   L 415.97 275.48
@@ -10177,20 +10178,20 @@ function Logo() {
   Q 409.55 280.85 417.82 272.53
   C 420.32 270.01 422.83 266.43 425.79 263.71
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 100.30 264.95
   Q 99.48 266.58 98.02 266.96
   Q 96.95 267.24 97.77 266.50
   L 99.85 264.60
   Q 101.02 263.54 100.30 264.95
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 392.01 287.88
   Q 388.78 291.31 385.84 294.98
   Q 385.75 295.10 385.86 295.20
@@ -10377,10 +10378,10 @@ function Logo() {
   Q 390.69 287.35 391.21 287.72
   Q 391.50 287.92 392.01 287.88
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 104.62 265.27
   L 104.61 290.27
   Q 100.95 292.45 98.52 295.57
@@ -10415,10 +10416,10 @@ function Logo() {
   C 99.34 268.81 99.85 267.61 100.75 267.01
   Q 102.45 265.89 104.62 265.27
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 468.46 277.94
   L 478.82 265.74
   Q 479.19 265.31 479.30 265.87
@@ -10442,10 +10443,10 @@ function Logo() {
   Q 467.39 278.76 467.79 278.52
   Q 468.17 278.29 468.46 277.94
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 458.94 266.32
   Q 458.92 267.34 459.80 268.08
   Q 460.32 268.52 459.91 269.07
@@ -10458,10 +10459,10 @@ function Logo() {
   L 457.69 266.46
   Q 458.26 265.97 458.94 266.32
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 457.04 266.71
   Q 457.12 266.81 457.15 266.99
   Q 457.20 267.35 456.95 267.61
@@ -10471,10 +10472,10 @@ function Logo() {
   Q 452.24 271.95 452.18 271.48
   L 457.04 266.71
   Z"
-        />
-        <path
-          fill="#ffffff"
-          d="
+      />
+      <path
+        fill="#ffffff"
+        d="
   M 532.14 295.40
   C 524.68 297.41 516.75 294.93 513.59 287.27
   C 511.07 281.16 513.87 274.10 519.03 270.40
@@ -10482,10 +10483,10 @@ function Logo() {
   Q 544.03 279.65 538.36 290.83
   C 537.25 293.03 534.52 294.76 532.14 295.40
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 454.51 271.30
   Q 455.67 269.55 457.40 268.24
   Q 458.02 267.77 457.82 268.52
@@ -10497,10 +10498,10 @@ function Logo() {
   Q 449.98 276.72 450.13 276.58
   Q 452.59 274.20 454.51 271.30
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 471.80 277.10
   Q 474.22 274.04 477.07 271.25
   C 477.85 270.48 478.36 269.50 478.99 268.65
@@ -10523,19 +10524,19 @@ function Logo() {
   Q 465.02 285.24 466.74 282.93
   C 468.27 280.87 470.21 279.11 471.80 277.10
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 410.04 268.94
   Q 407.68 272.52 404.87 275.60
   Q 404.55 275.94 403.97 276.02
   Q 406.19 271.83 410.04 268.94
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 457.26 271.99
   L 457.25 271.34
   Q 457.25 270.80 457.75 271.00
@@ -10544,10 +10545,10 @@ function Logo() {
   L 457.63 272.14
   Q 457.26 272.51 457.26 271.99
   Z"
-        />
-        <path
-          fill="#200554"
-          d="
+      />
+      <path
+        fill="#200554"
+        d="
   M 425.32 270.94
   Q 425.88 270.88 425.87 271.83
   Q 423.75 274.72 420.85 276.86
@@ -10557,10 +10558,10 @@ function Logo() {
   Q 409.90 287.08 410.46 286.72
   L 425.32 270.94
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 461.12 293.51
   C 461.72 292.93 462.07 291.92 462.81 291.31
   Q 463.24 290.95 463.57 290.49
@@ -10584,10 +10585,10 @@ function Logo() {
   C 453.40 301.08 454.79 300.30 455.87 298.97
   C 457.50 296.97 459.28 295.31 461.12 293.51
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 451.76 272.68
   Q 451.95 272.74 452.06 272.77
   A 0.25 0.25 0.0 0 1 452.18 273.17
@@ -10615,10 +10616,10 @@ function Logo() {
   Q 448.58 275.95 448.97 275.54
   L 451.76 272.68
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 437.26 295.16
   Q 436.79 294.97 436.99 294.53
   L 455.38 273.25
@@ -10629,39 +10630,39 @@ function Logo() {
   Q 454.93 275.46 454.60 275.83
   L 437.26 295.16
   Z"
-        />
-        <rect
-          fill="#7213ad"
-          x="-0.45"
-          y="-7.66"
-          transform="translate(474.73,280.69) rotate(38.8)"
-          width="0.90"
-          height="15.32"
-          rx="0.29"
-        />
-        <path
-          fill="#200554"
-          d="
+      />
+      <rect
+        fill="#7213ad"
+        x="-0.45"
+        y="-7.66"
+        transform="translate(474.73,280.69) rotate(38.8)"
+        width="0.90"
+        height="15.32"
+        rx="0.29"
+      />
+      <path
+        fill="#200554"
+        d="
   M 406.49 275.12
   Q 406.87 275.09 406.77 275.79
   L 405.45 277.08
   Q 405.09 277.26 404.97 276.72
   L 406.49 275.12
   Z"
-        />
-        <path
-          fill="#200554"
-          d="
+      />
+      <path
+        fill="#200554"
+        d="
   M 415.97 275.48
   Q 416.76 275.18 416.76 275.79
   L 412.86 280.19
   Q 412.02 280.15 412.20 279.43
   L 415.97 275.48
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 403.97 276.02
   L 400.71 279.70
   Q 396.62 283.81 392.75 288.09
@@ -10674,10 +10675,10 @@ function Logo() {
   Q 403.33 276.06 403.53 276.03
   Q 403.75 276.00 403.97 276.02
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 404.97 276.72
   Q 405.09 277.26 405.45 277.08
   L 398.23 285.21
@@ -10688,19 +10689,19 @@ function Logo() {
   L 401.73 280.08
   L 404.97 276.72
   Z"
-        />
-        <rect
-          fill="#7213ad"
-          x="-0.48"
-          y="-5.95"
-          transform="translate(475.84,282.32) rotate(38.7)"
-          width="0.96"
-          height="11.90"
-          rx="0.26"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <rect
+        fill="#7213ad"
+        x="-0.48"
+        y="-5.95"
+        transform="translate(475.84,282.32) rotate(38.7)"
+        width="0.96"
+        height="11.90"
+        rx="0.26"
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 439.22 288.34
   Q 442.85 285.03 446.61 280.92
   C 447.07 280.43 447.18 279.88 447.43 279.29
@@ -10720,10 +10721,10 @@ function Logo() {
   Q 437.67 290.74 437.88 290.26
   Q 438.35 289.13 439.22 288.34
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 452.77 279.23
   Q 453.92 279.64 453.98 280.95
   L 453.13 280.93
@@ -10743,20 +10744,20 @@ function Logo() {
   Q 452.56 280.76 452.47 280.48
   Q 452.10 279.26 452.77 279.23
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 412.20 279.43
   Q 412.02 280.15 412.86 280.19
   L 407.76 285.81
   Q 408.00 285.09 407.18 285.08
   L 412.20 279.43
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 472.74 288.82
   C 474.04 287.67 475.07 286.21 476.38 285.02
   Q 476.79 284.65 476.92 284.12
@@ -10766,10 +10767,10 @@ function Logo() {
   Q 469.69 292.72 470.45 291.48
   Q 471.28 290.11 472.74 288.82
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 479.07 284.22
   Q 479.29 283.89 479.62 284.13
   L 479.83 284.29
@@ -10791,10 +10792,10 @@ function Logo() {
   Q 471.48 293.02 471.82 292.71
   Q 475.92 288.93 479.07 284.22
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 452.14 283.90
   Q 452.29 283.74 452.44 283.89
   L 452.66 284.10
@@ -10806,10 +10807,10 @@ function Logo() {
   Q 444.62 292.08 446.21 290.31
   Q 449.30 286.89 452.14 283.90
   Z"
-        />
-        <path
-          fill="#200554"
-          d="
+      />
+      <path
+        fill="#200554"
+        d="
   M 407.18 285.08
   Q 408.00 285.09 407.76 285.81
   Q 406.62 287.81 405.87 288.62
@@ -10818,10 +10819,10 @@ function Logo() {
   Q 394.78 298.77 395.04 298.28
   L 407.18 285.08
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 434.83 289.66
   Q 433.99 290.57 432.98 291.06
   Q 432.50 291.29 432.22 291.73
@@ -10858,10 +10859,10 @@ function Logo() {
   Q 435.93 287.45 435.80 287.62
   Q 435.12 288.54 434.83 289.66
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 478.12 290.00
   L 440.55 328.30
   Q 440.20 328.66 440.01 329.12
@@ -10879,10 +10880,10 @@ function Logo() {
   Q 479.68 286.79 479.47 287.74
   Q 479.23 288.87 478.12 290.00
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 467.84 289.08
   L 467.69 288.83
   Q 467.34 288.24 468.01 288.11
@@ -10927,19 +10928,19 @@ function Logo() {
   Q 467.05 290.16 467.65 289.81
   Q 468.11 289.54 467.84 289.08
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 468.90 291.23
   Q 469.65 289.21 471.52 288.01
   Q 471.99 287.71 471.78 288.23
   Q 470.97 290.23 468.90 291.23
   Z"
-        />
-        <path
-          fill="#cb16f0"
-          d="
+      />
+      <path
+        fill="#cb16f0"
+        d="
   M 397.71 300.71
   Q 397.16 301.02 397.24 300.25
   L 408.57 288.93
@@ -10948,10 +10949,10 @@ function Logo() {
   A 0.41 0.41 0.0 0 1 409.01 289.86
   L 397.71 300.71
   Z"
-        />
-        <path
-          fill="#0e123c"
-          d="
+      />
+      <path
+        fill="#0e123c"
+        d="
   M 478.12 290.00
   L 478.09 290.69
   Q 478.06 291.23 478.59 291.13
@@ -11037,10 +11038,10 @@ function Logo() {
   Q 447.07 326.54 446.92 327.27
   Q 446.83 327.71 446.46 327.97
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 104.61 290.27
   L 104.61 291.76
   Q 101.92 292.88 100.62 294.60
@@ -11048,10 +11049,10 @@ function Logo() {
   Q 98.17 296.02 98.52 295.57
   Q 100.95 292.45 104.61 290.27
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 475.07 296.41
   Q 468.42 303.26 461.67 310.04
   Q 460.74 310.97 459.62 311.47
@@ -11069,10 +11070,10 @@ function Logo() {
   A 0.43 0.41 -34.4 0 1 479.63 291.46
   L 475.07 296.41
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 468.90 291.23
   Q 469.25 292.28 468.94 292.75
   Q 467.56 294.82 465.68 296.73
@@ -11084,10 +11085,10 @@ function Logo() {
   C 464.72 296.16 465.50 295.72 466.09 294.81
   Q 467.36 292.85 468.90 291.23
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 477.96 296.29
   L 462.82 312.63
   Q 462.44 313.04 461.88 313.08
@@ -11104,10 +11105,10 @@ function Logo() {
   Q 480.07 293.89 479.90 294.08
   L 477.96 296.29
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 436.99 294.53
   Q 436.79 294.97 437.26 295.16
   Q 436.62 295.78 437.29 296.30
@@ -11120,10 +11121,10 @@ function Logo() {
   Q 434.16 297.72 433.55 297.93
   L 436.99 294.53
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 427.98 300.00
   L 429.85 297.60
   A 0.41 0.41 0.0 0 0 429.78 297.03
@@ -11140,10 +11141,10 @@ function Logo() {
   Q 430.40 297.80 430.15 298.52
   Q 429.67 299.84 427.98 300.00
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 450.96 324.28
   Q 450.33 325.03 449.66 325.80
   Q 449.49 325.99 449.34 325.97
@@ -11170,18 +11171,18 @@ function Logo() {
   Q 458.09 316.39 457.80 316.71
   L 450.96 324.28
   Z"
-        />
-        <ellipse
-          fill="#4d0d75"
-          cx={0.0}
-          cy={0.0}
-          transform="translate(435.77,298.43) rotate(-41.6)"
-          rx="0.81"
-          ry="0.45"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <ellipse
+        fill="#4d0d75"
+        cx={0.0}
+        cy={0.0}
+        transform="translate(435.77,298.43) rotate(-41.6)"
+        rx="0.81"
+        ry="0.45"
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 433.55 297.93
   Q 434.16 297.72 434.11 298.55
   L 432.81 301.16
@@ -11195,20 +11196,20 @@ function Logo() {
   Q 427.20 305.70 427.50 305.33
   L 433.55 297.93
   Z"
-        />
-        <path
-          fill="#200554"
-          d="
+      />
+      <path
+        fill="#200554"
+        d="
   M 392.26 298.21
   Q 393.08 297.95 393.09 298.56
   L 391.32 300.12
   Q 390.90 300.10 390.93 299.71
   L 392.26 298.21
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 478.10 301.82
   Q 478.01 302.42 477.61 302.86
   Q 466.05 315.52 454.76 327.17
@@ -11236,10 +11237,10 @@ function Logo() {
   Q 478.78 301.09 478.47 301.27
   Q 478.15 301.45 478.10 301.82
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 416.22 316.69
   Q 414.95 317.51 414.77 318.43
   Q 414.66 318.99 415.23 319.00
@@ -11260,19 +11261,19 @@ function Logo() {
   Q 430.86 299.61 430.74 299.75
   L 416.22 316.69
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 390.93 299.71
   Q 390.90 300.10 391.32 300.12
   Q 390.37 301.98 388.99 302.04
   Q 388.71 300.71 390.93 299.71
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 427.98 300.00
   L 427.94 300.26
   Q 427.89 300.64 427.64 300.92
@@ -11287,10 +11288,10 @@ function Logo() {
   Q 424.69 302.90 427.11 300.34
   Q 427.45 299.98 427.98 300.00
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 397.24 300.25
   Q 397.16 301.02 397.71 300.71
   Q 393.18 305.46 388.31 309.87
@@ -11317,10 +11318,10 @@ function Logo() {
   A 0.28 0.26 -43.5 0 0 385.92 310.96
   L 397.24 300.25
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 438.89 300.47
   Q 439.17 300.38 439.44 300.52
   A 0.48 0.48 0.0 0 1 439.59 301.25
@@ -11343,10 +11344,10 @@ function Logo() {
   A 0.49 0.48 41.1 0 1 429.89 309.99
   L 438.89 300.47
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 576.04 300.33
   L 578.00 306.48
   Q 578.20 307.11 578.76 306.77
@@ -11364,10 +11365,10 @@ function Logo() {
   A 1.23 1.22 -0.2 0 1 576.10 339.59
   L 576.04 300.33
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 399.01 302.10
   Q 398.82 303.19 399.22 303.07
   Q 398.25 304.58 396.67 305.16
@@ -11388,10 +11389,10 @@ function Logo() {
   Q 399.01 300.82 399.01 301.53
   L 399.01 302.10
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 607.58 301.05
   Q 623.42 306.10 623.01 321.24
   Q 622.86 326.50 620.12 330.69
@@ -11404,10 +11405,10 @@ function Logo() {
   Q 621.60 314.43 621.58 314.39
   Q 617.88 305.05 607.58 301.05
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 417.21 309.69
   Q 415.41 310.82 413.60 313.37
   Q 413.30 313.79 412.75 313.91
@@ -11421,10 +11422,10 @@ function Logo() {
   A 0.23 0.23 0.0 0 1 422.68 303.84
   L 417.21 309.69
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 446.44 338.27
   Q 449.83 334.44 453.19 330.56
   Q 453.55 330.14 454.09 330.03
@@ -11445,19 +11446,19 @@ function Logo() {
   Q 445.12 339.16 445.71 338.84
   Q 446.15 338.60 446.44 338.27
   Z"
-        />
-        <rect
-          fill="#7213ad"
-          x="-0.45"
-          y="-14.07"
-          transform="translate(470.11,316.57) rotate(43.2)"
-          width="0.90"
-          height="28.14"
-          rx="0.26"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <rect
+        fill="#7213ad"
+        x="-0.45"
+        y="-14.07"
+        transform="translate(470.11,316.57) rotate(43.2)"
+        width="0.90"
+        height="28.14"
+        rx="0.26"
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 427.02 306.71
   Q 427.12 307.46 426.62 307.86
   Q 425.79 308.52 425.76 308.55
@@ -11470,10 +11471,10 @@ function Logo() {
   Q 425.85 307.04 426.29 306.88
   Q 426.65 306.75 427.02 306.71
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 424.95 325.98
   L 424.51 325.92
   Q 424.12 325.87 424.10 325.48
@@ -11498,10 +11499,10 @@ function Logo() {
   A 1.06 1.06 0.0 0 0 425.00 325.63
   L 424.95 325.98
   Z"
-        />
-        <path
-          fill="#200554"
-          d="
+      />
+      <path
+        fill="#200554"
+        d="
   M 416.87 307.64
   Q 416.91 308.19 417.52 308.06
   L 410.25 315.32
@@ -12379,10 +12380,10 @@ function Logo() {
   Q 335.23 460.39 335.03 460.30
   A 1.58 1.54 -39.2 0 0 333.90 460.20
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 433.94 308.02
   L 434.80 308.02
   A 0.27 0.27 0.0 0 1 435.02 308.45
@@ -12408,10 +12409,10 @@ function Logo() {
   Q 432.64 309.56 433.93 308.73
   Q 434.48 308.39 433.94 308.02
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 473.96 316.26
   L 444.72 347.01
   Q 444.68 347.05 444.63 347.01
@@ -12429,10 +12430,10 @@ function Logo() {
   A 0.25 0.25 0.0 0 1 479.84 309.63
   L 473.96 316.26
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 431.84 315.67
   L 427.67 320.68
   Q 427.20 321.24 427.07 320.52
@@ -12447,10 +12448,10 @@ function Logo() {
   Q 435.90 310.65 435.70 310.84
   Q 433.49 313.01 431.84 315.67
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 431.64 321.75
   Q 431.14 322.12 430.93 321.57
   Q 431.71 320.33 433.44 318.93
@@ -12468,10 +12469,10 @@ function Logo() {
   Q 434.90 318.56 434.54 318.91
   L 431.64 321.75
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 423.87 316.68
   Q 422.23 317.51 423.99 315.24
   L 426.14 312.51
@@ -12480,10 +12481,10 @@ function Logo() {
   Q 426.84 313.06 426.72 313.20
   L 423.87 316.68
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 476.61 316.42
   C 472.28 320.54 468.63 325.20 464.38 329.39
   Q 461.76 331.96 459.64 334.90
@@ -12580,10 +12581,10 @@ function Logo() {
   Q 479.83 312.85 479.75 312.97
   Q 478.51 314.98 476.61 316.42
   Z"
-        />
-        <path
-          fill="#0e123c"
-          d="
+      />
+      <path
+        fill="#0e123c"
+        d="
   M 427.95 316.95
   Q 426.80 317.40 426.05 318.75
   Q 426.26 319.00 425.33 319.22
@@ -12594,10 +12595,10 @@ function Logo() {
   A 0.62 0.61 36.4 0 1 430.01 313.71
   Q 428.02 315.02 427.95 316.95
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 433.95 322.32
   Q 433.44 323.42 432.45 324.15
   Q 432.07 324.44 431.99 324.90
@@ -12620,10 +12621,10 @@ function Logo() {
   Q 436.60 320.35 434.57 321.61
   Q 434.15 321.87 433.95 322.32
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 410.10 316.82
   Q 407.55 318.64 405.72 320.98
   Q 405.55 321.19 405.35 321.02
@@ -12634,10 +12635,10 @@ function Logo() {
   L 410.13 316.58
   Q 410.24 316.72 410.10 316.82
   Z"
-        />
-        <path
-          fill="#0e123c"
-          d="
+      />
+      <path
+        fill="#0e123c"
+        d="
   M 473.96 316.26
   Q 473.73 316.96 474.29 317.20
   L 454.71 338.62
@@ -12679,10 +12680,10 @@ function Logo() {
   Q 443.25 347.41 443.09 347.71
   Q 442.97 347.93 442.74 348.01
   Z"
-        />
-        <path
-          fill="#0e123c"
-          d="
+      />
+      <path
+        fill="#0e123c"
+        d="
   M 476.61 316.42
   Q 476.67 316.65 476.71 316.81
   Q 476.78 317.11 477.09 317.13
@@ -12721,10 +12722,10 @@ function Logo() {
   Q 461.76 331.96 464.38 329.39
   C 468.63 325.20 472.28 320.54 476.61 316.42
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 427.95 316.95
   Q 428.19 317.64 427.13 318.17
   Q 426.92 318.38 426.90 318.62
@@ -12732,10 +12733,10 @@ function Logo() {
   L 426.05 318.75
   Q 426.80 317.40 427.95 316.95
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 457.95 318.97
   L 458.07 317.87
   Q 458.16 316.99 458.70 317.70
@@ -12743,19 +12744,19 @@ function Logo() {
   Q 459.41 318.78 458.68 318.88
   L 457.95 318.97
   Z"
-        />
-        <rect
-          fill="#7213ad"
-          x="-0.34"
-          y="-31.22"
-          transform="translate(457.89,341.09) rotate(44.4)"
-          width="0.68"
-          height="62.44"
-          rx="0.28"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <rect
+        fill="#7213ad"
+        x="-0.34"
+        y="-31.22"
+        transform="translate(457.89,341.09) rotate(44.4)"
+        width="0.68"
+        height="62.44"
+        rx="0.28"
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 457.95 318.97
   Q 457.95 319.56 458.45 320.38
   Q 458.73 320.85 458.20 320.75
@@ -12763,10 +12764,10 @@ function Logo() {
   Q 456.73 319.67 456.95 319.31
   Q 457.18 318.93 457.95 318.97
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 425.33 319.22
   Q 425.47 319.16 425.65 319.21
   Q 425.97 319.30 425.88 319.63
@@ -12775,10 +12776,10 @@ function Logo() {
   Q 424.27 320.40 424.48 320.13
   Q 425.03 320.16 425.33 319.22
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 442.02 319.27
   Q 442.34 320.82 440.78 321.64
   A 1.63 1.60 -89.1 0 0 440.09 322.32
@@ -12797,11 +12798,11 @@ function Logo() {
   Q 441.09 319.85 441.38 319.61
   Q 441.65 319.37 442.02 319.27
   Z"
-        />
-        <circle fill="#ffffff" cx="526.54" cy="333.76" r="14.28" />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <circle fill="#ffffff" cx="526.54" cy="333.76" r="14.28" />
+      <path
+        fill="#7213ad"
+        d="
   M 439.48 339.89
   Q 439.04 339.72 439.23 339.31
   L 452.03 325.08
@@ -12815,10 +12816,10 @@ function Logo() {
   Q 447.61 331.16 447.31 331.49
   L 439.48 339.89
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 444.00 328.63
   Q 442.46 329.23 441.58 330.38
   Q 439.94 332.52 439.83 332.62
@@ -12836,10 +12837,10 @@ function Logo() {
   Q 446.82 324.86 444.55 327.30
   Q 443.95 327.94 444.00 328.63
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 402.39 326.95
   C 403.53 325.28 404.98 323.93 406.27 322.38
   Q 406.95 321.56 406.80 322.61
@@ -12848,10 +12849,10 @@ function Logo() {
   Q 404.13 326.10 402.67 327.22
   Q 401.70 327.95 402.39 326.95
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 410.29 322.78
   Q 410.42 322.61 410.61 322.68
   A 0.48 0.47 -52.8 0 1 410.72 323.49
@@ -12860,10 +12861,10 @@ function Logo() {
   Q 409.71 323.12 410.07 322.97
   Q 410.21 322.91 410.29 322.78
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 409.91 326.87
   L 412.49 323.04
   Q 412.59 322.89 412.74 322.98
@@ -12874,10 +12875,10 @@ function Logo() {
   L 409.93 326.99
   Q 409.87 326.94 409.91 326.87
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 66.97 323.65
   Q 67.92 325.68 68.66 327.85
   Q 69.70 330.89 70.35 332.00
@@ -12886,10 +12887,10 @@ function Logo() {
   Q 81.01 341.18 80.17 340.92
   Q 68.14 336.22 66.97 323.65
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 429.90 330.15
   Q 429.91 330.35 429.74 330.50
   Q 429.49 330.74 429.37 330.70
@@ -12905,10 +12906,10 @@ function Logo() {
   L 430.06 329.75
   Q 429.90 329.92 429.90 330.15
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 420.18 326.57
   Q 419.91 326.97 419.49 326.96
   A 0.39 0.39 0.0 0 1 419.18 326.34
@@ -12916,10 +12917,10 @@ function Logo() {
   Q 421.52 324.83 420.72 325.83
   Q 420.43 326.19 420.18 326.57
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 429.10 327.85
   Q 429.03 328.22 428.96 328.57
   Q 428.88 328.96 428.48 328.92
@@ -12932,10 +12933,10 @@ function Logo() {
   Q 429.61 327.00 429.40 327.22
   Q 429.18 327.44 429.10 327.85
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 407.60 326.97
   C 407.19 327.23 407.05 327.45 406.72 327.72
   Q 406.62 327.81 406.48 327.82
@@ -12945,20 +12946,20 @@ function Logo() {
   Q 408.01 325.71 407.97 326.30
   Q 407.94 326.75 407.60 326.97
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 425.99 326.49
   Q 425.90 328.91 425.17 327.48
   L 425.28 326.66
   Q 425.32 326.30 425.68 326.29
   Q 425.93 326.28 425.99 326.49
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 446.92 327.27
   Q 447.07 326.54 447.67 326.32
   Q 448.35 326.06 447.93 326.65
@@ -12968,10 +12969,10 @@ function Logo() {
   Q 446.02 328.27 446.46 327.97
   Q 446.83 327.71 446.92 327.27
   Z"
-        />
-        <path
-          fill="#9210d7"
-          d="
+      />
+      <path
+        fill="#9210d7"
+        d="
   M 209.27 326.44
   C 229.83 328.00 248.92 338.31 258.95 356.53
   Q 262.78 363.49 265.14 372.49
@@ -12998,20 +12999,20 @@ function Logo() {
   Q 188.94 355.59 188.92 328.28
   Q 199.13 325.84 209.27 326.44
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 435.49 330.86
   Q 435.18 330.67 434.97 330.79
   Q 435.22 328.42 436.98 328.25
   Q 437.44 328.21 437.17 328.58
   L 435.49 330.86
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 424.00 328.82
   Q 424.00 328.46 424.28 328.23
   Q 424.48 328.07 424.72 328.13
@@ -13021,10 +13022,10 @@ function Logo() {
   Q 423.35 329.07 423.78 329.04
   A 0.23 0.23 0.0 0 0 424.00 328.82
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 444.22 329.05
   Q 444.75 329.13 444.86 329.43
   Q 444.94 329.65 444.69 330.01
@@ -13038,10 +13039,10 @@ function Logo() {
   A 0.62 0.61 68.1 0 1 443.37 330.25
   Q 444.04 329.88 444.22 329.05
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 424.79 330.70
   Q 425.02 330.29 425.36 330.01
   Q 425.85 329.61 426.10 330.18
@@ -13054,20 +13055,20 @@ function Logo() {
   Q 424.28 331.05 424.46 330.98
   Q 424.67 330.90 424.79 330.70
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 434.97 330.79
   Q 435.18 330.67 435.49 330.86
   Q 434.92 331.39 434.85 331.73
   Q 434.45 333.68 434.03 331.73
   Q 433.90 331.13 434.97 330.79
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 430.13 336.94
   Q 431.09 337.35 430.75 338.36
   Q 430.53 339.03 430.16 338.43
@@ -13082,10 +13083,10 @@ function Logo() {
   L 430.01 336.01
   Q 429.29 336.58 430.13 336.94
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 423.98 333.99
   Q 424.22 333.60 423.97 333.24
   Q 423.43 332.46 424.26 332.92
@@ -13093,10 +13094,10 @@ function Logo() {
   Q 425.34 333.72 424.66 333.86
   L 423.98 333.99
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 436.01 332.99
   Q 435.81 334.14 435.03 334.67
   Q 434.82 334.81 433.91 334.89
@@ -13109,10 +13110,10 @@ function Logo() {
   Q 434.71 334.28 434.97 333.85
   Q 435.35 333.20 436.01 332.99
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 423.28 333.96
   Q 423.75 334.26 423.98 333.99
   Q 423.95 334.92 423.52 335.25
@@ -13120,20 +13121,20 @@ function Logo() {
   Q 423.24 335.20 423.19 335.08
   Q 422.91 334.48 423.28 333.96
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 426.60 335.51
   Q 426.77 334.67 427.35 334.16
   Q 427.90 333.67 427.91 334.41
   Q 427.91 335.26 427.14 335.85
   Q 426.41 336.41 426.60 335.51
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 364.42 336.81
   L 346.11 354.13
   L 363.17 334.71
@@ -13142,10 +13143,10 @@ function Logo() {
   Q 362.73 335.93 363.22 336.30
   Q 363.84 336.77 364.42 336.81
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 439.96 334.77
   Q 439.99 335.56 440.33 335.57
   Q 439.01 336.85 438.08 337.08
@@ -13153,10 +13154,10 @@ function Logo() {
   Q 438.11 336.05 439.38 335.63
   Q 439.80 335.49 439.96 334.77
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 421.48 341.12
   C 420.55 343.03 418.28 343.26 418.02 345.52
   Q 417.98 345.88 417.62 345.83
@@ -13172,10 +13173,10 @@ function Logo() {
   Q 422.73 340.59 422.14 340.65
   A 0.86 0.85 9.0 0 0 421.48 341.12
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 378.99 354.03
   Q 379.27 353.28 379.82 352.82
   Q 381.94 351.03 384.44 347.74
@@ -13193,10 +13194,10 @@ function Logo() {
   Q 377.39 354.90 378.14 354.75
   A 1.17 1.17 0.0 0 0 378.99 354.03
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 437.68 336.79
   Q 437.88 336.93 438.08 337.08
   L 431.97 345.70
@@ -13204,10 +13205,10 @@ function Logo() {
   A 0.31 0.31 0.0 0 1 431.05 345.70
   L 437.68 336.79
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 418.53 340.03
   L 413.33 345.08
   Q 414.72 342.62 417.15 340.54
@@ -13216,10 +13217,10 @@ function Logo() {
   Q 418.56 338.86 418.54 339.49
   L 418.53 340.03
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 429.91 339.75
   Q 429.93 340.00 429.87 340.22
   Q 429.56 341.40 429.15 340.26
@@ -13227,10 +13228,10 @@ function Logo() {
   A 0.32 0.32 0.0 0 1 429.63 339.14
   Q 429.87 339.40 429.91 339.75
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 432.98 339.71
   Q 433.20 339.93 433.53 340.04
   Q 433.02 341.37 432.13 341.47
@@ -13249,20 +13250,20 @@ function Logo() {
   Q 432.33 340.34 432.72 339.96
   L 432.98 339.71
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 57.53 340.93
   Q 56.42 342.07 54.19 341.71
   Q 53.70 341.63 53.23 341.80
   L 47.16 344.04
   Q 51.71 340.93 57.53 340.93
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 427.86 342.16
   Q 427.89 342.33 427.84 342.50
   Q 427.76 342.82 427.51 342.88
@@ -13273,10 +13274,10 @@ function Logo() {
   Q 428.48 341.84 428.10 341.85
   Q 427.81 341.87 427.86 342.16
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 622.37 341.06
   C 626.45 340.95 629.73 342.62 633.12 344.62
   C 638.10 347.57 640.81 353.88 641.82 359.62
@@ -13297,20 +13298,20 @@ function Logo() {
   C 631.06 344.19 629.34 342.39 627.27 342.16
   Q 623.92 341.79 622.37 341.06
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 382.24 346.15
   Q 381.92 346.14 381.74 345.99
   Q 382.83 344.38 384.33 343.29
   Q 384.79 342.96 384.56 343.47
   Q 383.82 345.08 382.24 346.15
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 426.71 347.34
   Q 425.88 346.77 425.36 345.71
   Q 425.13 345.26 425.46 344.87
@@ -13325,10 +13326,10 @@ function Logo() {
   Q 427.16 347.89 426.98 347.62
   Q 426.88 347.45 426.71 347.34
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 381.74 345.99
   Q 381.92 346.14 382.24 346.15
   C 379.33 349.62 375.74 352.30 372.94 355.87
@@ -13339,10 +13340,10 @@ function Logo() {
   Q 370.23 357.57 370.61 357.19
   L 381.74 345.99
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 421.94 356.07
   Q 422.49 355.30 423.13 354.64
   Q 426.45 351.23 429.31 347.15
@@ -13359,10 +13360,10 @@ function Logo() {
   Q 420.68 357.17 421.30 356.72
   A 2.91 2.76 -88.9 0 0 421.94 356.07
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 421.04 354.67
   Q 420.76 354.84 420.59 354.79
   Q 420.19 354.68 420.49 354.40
@@ -13374,10 +13375,10 @@ function Logo() {
   Q 426.34 347.96 425.91 348.72
   Q 424.01 352.15 421.04 354.67
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 443.09 347.71
   Q 443.25 347.41 443.53 347.33
   Q 443.95 347.20 443.79 347.61
@@ -13387,19 +13388,19 @@ function Logo() {
   Q 442.36 348.16 442.74 348.01
   Q 442.97 347.93 443.09 347.71
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 395.23 353.49
   Q 395.95 351.01 398.09 349.52
   Q 398.77 349.05 398.25 349.70
   L 395.23 353.49
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 385.38 351.13
   Q 385.32 350.74 385.68 350.65
   A 0.36 0.36 0.0 0 1 386.10 351.16
@@ -13407,18 +13408,18 @@ function Logo() {
   Q 383.97 353.03 384.30 352.57
   Q 384.83 351.85 385.38 351.13
   Z"
-        />
-        <ellipse
-          fill="#4d0d75"
-          cx={0.0}
-          cy={0.0}
-          transform="translate(388.51,352.56) rotate(134.1)"
-          rx="1.78"
-          ry="0.33"
-        />
-        <path
-          fill="#200554"
-          d="
+      />
+      <ellipse
+        fill="#4d0d75"
+        cx={0.0}
+        cy={0.0}
+        transform="translate(388.51,352.56) rotate(134.1)"
+        rx="1.78"
+        ry="0.33"
+      />
+      <path
+        fill="#200554"
+        d="
   M 440.94 351.94
   Q 441.04 352.06 441.09 352.19
   Q 441.20 352.45 441.00 352.64
@@ -13430,10 +13431,10 @@ function Logo() {
   Q 438.65 353.81 439.37 353.01
   Q 440.03 352.28 440.94 351.94
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 395.23 353.49
   Q 394.57 355.74 393.61 356.42
   Q 391.60 357.85 389.93 360.30
@@ -13447,19 +13448,19 @@ function Logo() {
   Q 388.82 360.17 389.24 359.74
   L 395.23 353.49
   Z"
-        />
-        <rect
-          fill="#7213ad"
-          x="-0.27"
-          y="-6.31"
-          transform="translate(393.70,359.16) rotate(41.7)"
-          width="0.54"
-          height="12.62"
-          rx="0.26"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <rect
+        fill="#7213ad"
+        x="-0.27"
+        y="-6.31"
+        transform="translate(393.70,359.16) rotate(41.7)"
+        width="0.54"
+        height="12.62"
+        rx="0.26"
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 380.34 357.92
   C 379.13 358.92 378.21 359.58 377.73 361.25
   Q 377.56 361.81 377.01 361.63
@@ -13474,18 +13475,18 @@ function Logo() {
   Q 381.10 355.91 380.83 357.12
   Q 380.72 357.61 380.34 357.92
   Z"
-        />
-        <ellipse
-          fill="#7213ad"
-          cx={0.0}
-          cy={0.0}
-          transform="translate(384.64,357.01) rotate(127.3)"
-          rx={1.0}
-          ry="0.36"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <ellipse
+        fill="#7213ad"
+        cx={0.0}
+        cy={0.0}
+        transform="translate(384.64,357.01) rotate(127.3)"
+        rx={1.0}
+        ry="0.36"
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 376.65 357.69
   Q 374.32 358.81 372.60 360.72
   Q 372.46 360.89 372.23 360.85
@@ -13496,10 +13497,10 @@ function Logo() {
   L 376.75 357.39
   Q 376.85 357.59 376.65 357.69
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 386.88 358.13
   Q 386.79 358.27 386.62 358.35
   Q 386.37 358.47 386.35 358.20
@@ -13509,10 +13510,10 @@ function Logo() {
   Q 388.01 357.29 387.34 357.88
   Q 387.15 358.05 386.88 358.13
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 383.25 357.89
   A 0.01 0.01 0.0 0 1 383.26 357.88
   L 383.37 357.98
@@ -13523,10 +13524,10 @@ function Logo() {
   A 0.01 0.01 0.0 0 1 378.83 363.06
   L 383.25 357.89
   Z"
-        />
-        <path
-          fill="#0e123c"
-          d="
+      />
+      <path
+        fill="#0e123c"
+        d="
   M 427.99 363.29
   Q 427.69 363.76 427.64 364.50
   Q 427.60 365.10 427.06 364.84
@@ -13545,29 +13546,29 @@ function Logo() {
   Q 428.74 363.04 428.32 363.10
   Q 428.11 363.14 427.99 363.29
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 37.52 358.49
   Q 37.83 360.34 37.76 362.50
   Q 37.68 364.93 41.00 371.34
   Q 36.22 365.03 37.52 358.49
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 368.81 359.41
   Q 369.29 359.16 369.20 359.70
   Q 369.09 360.35 368.46 360.57
   Q 367.95 360.75 368.12 360.24
   Q 368.32 359.67 368.81 359.41
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 385.37 360.26
   Q 384.31 361.02 383.82 362.22
   Q 383.59 362.80 383.30 362.90
@@ -13578,10 +13579,10 @@ function Logo() {
   Q 384.97 359.30 385.13 359.31
   A 0.53 0.52 -59.5 0 1 385.37 360.26
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 371.00 464.90
   Q 375.64 460.06 380.15 455.47
   Q 381.49 454.11 383.02 452.97
@@ -13627,10 +13628,10 @@ function Logo() {
   Q 365.54 469.90 367.50 468.21
   Q 369.45 466.51 371.00 464.90
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 375.14 362.95
   Q 375.05 362.43 375.54 362.14
   Q 376.10 361.82 375.92 362.44
@@ -13639,10 +13640,10 @@ function Logo() {
   Q 374.31 364.24 374.71 363.97
   Q 375.26 363.60 375.14 362.95
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 376.98 369.75
   A 0.16 0.16 0.0 0 1 376.96 369.52
   L 377.08 369.38
@@ -13653,10 +13654,10 @@ function Logo() {
   A 0.16 0.16 0.0 0 1 377.36 370.07
   L 376.98 369.75
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 373.88 366.32
   L 371.62 368.91
   Q 371.56 368.99 371.49 368.92
@@ -13667,20 +13668,20 @@ function Logo() {
   L 373.84 365.90
   Q 374.08 366.09 373.88 366.32
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 368.50 367.67
   Q 368.97 366.41 370.11 366.23
   Q 371.28 366.05 370.22 366.58
   Q 369.50 366.93 368.87 367.86
   Q 367.92 369.28 368.50 367.67
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 373.21 371.21
   Q 373.07 371.82 372.66 372.33
   Q 372.20 372.90 372.05 372.18
@@ -13691,10 +13692,10 @@ function Logo() {
   Q 375.18 368.55 373.65 370.34
   A 2.18 2.10 72.8 0 0 373.21 371.21
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 375.16 375.99
   Q 374.73 375.92 374.37 375.70
   Q 373.72 375.29 374.49 375.37
@@ -13715,10 +13716,10 @@ function Logo() {
   Q 373.17 378.63 375.31 376.47
   A 0.28 0.28 0.0 0 0 375.16 375.99
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 365.88 367.86
   Q 365.94 368.14 365.71 368.21
   Q 364.46 368.60 365.20 367.49
@@ -13727,10 +13728,10 @@ function Logo() {
   Q 367.01 367.09 366.36 367.19
   A 0.57 0.57 0.0 0 0 365.88 367.86
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 362.46 368.49
   Q 362.96 368.88 362.32 368.88
   Q 362.00 368.88 361.72 368.84
@@ -13738,19 +13739,19 @@ function Logo() {
   Q 361.22 368.01 361.61 368.07
   Q 362.00 368.14 362.46 368.49
   Z"
-        />
-        <rect
-          fill="#7213ad"
-          x="-0.30"
-          y="-4.52"
-          transform="translate(361.70,372.45) rotate(41.7)"
-          width="0.60"
-          height="9.04"
-          rx="0.27"
-        />
-        <path
-          fill="#ffffff"
-          d="
+      />
+      <rect
+        fill="#7213ad"
+        x="-0.30"
+        y="-4.52"
+        transform="translate(361.70,372.45) rotate(41.7)"
+        width="0.60"
+        height="9.04"
+        rx="0.27"
+      />
+      <path
+        fill="#ffffff"
+        d="
   M 513.57 390.54
   C 512.59 388.73 512.67 386.24 512.14 384.20
   Q 512.01 383.72 512.19 383.25
@@ -13763,10 +13764,10 @@ function Logo() {
   Q 533.36 398.39 531.37 398.70
   Q 519.05 400.66 513.57 390.54
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 374.99 372.52
   Q 374.82 372.84 374.89 373.16
   Q 374.93 373.36 374.75 373.45
@@ -13779,10 +13780,10 @@ function Logo() {
   L 375.04 372.45
   A 0.29 0.24 85.3 0 0 374.99 372.52
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 366.32 375.49
   Q 366.20 376.22 365.68 376.69
   Q 365.08 377.25 365.08 376.42
@@ -13797,20 +13798,20 @@ function Logo() {
   Q 367.08 374.72 366.87 374.80
   Q 366.40 374.99 366.32 375.49
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 364.51 372.38
   Q 364.96 371.75 365.75 371.35
   Q 366.37 371.04 366.13 371.70
   Q 365.78 372.67 364.72 372.75
   A 0.24 0.23 15.7 0 1 364.51 372.38
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 384.39 371.27
   A 0.14 0.14 0.0 0 1 384.60 371.17
   L 384.85 371.32
@@ -13821,10 +13822,10 @@ function Logo() {
   Q 382.48 373.46 382.92 373.28
   Q 384.21 372.73 384.39 371.27
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 389.73 376.13
   Q 390.96 374.37 392.81 373.24
   Q 393.51 372.80 393.06 373.49
@@ -13835,10 +13836,10 @@ function Logo() {
   Q 389.14 376.44 389.49 376.31
   A 0.66 0.62 -80.3 0 0 389.73 376.13
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 418.69 431.45
   Q 420.68 429.80 422.35 427.88
   Q 424.18 425.79 425.91 424.31
@@ -13895,10 +13896,10 @@ function Logo() {
   A 0.07 0.07 0.0 0 0 408.11 441.73
   Q 413.58 435.70 418.69 431.45
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 374.01 374.41
   Q 372.49 375.87 371.69 377.75
   Q 371.52 378.16 371.10 378.31
@@ -13911,10 +13912,10 @@ function Logo() {
   L 374.01 374.20
   Q 374.12 374.31 374.01 374.41
   Z"
-        />
-        <path
-          fill="#52139a"
-          d="
+      />
+      <path
+        fill="#52139a"
+        d="
   M 298.77 374.88
   Q 296.71 378.25 293.45 380.62
   Q 293.10 380.88 292.96 381.28
@@ -13968,10 +13969,10 @@ function Logo() {
   Q 296.77 375.63 297.20 375.47
   L 298.77 374.88
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 385.10 375.99
   Q 384.95 376.08 384.78 376.12
   Q 384.27 376.23 384.35 375.72
@@ -13984,10 +13985,10 @@ function Logo() {
   Q 385.62 375.88 385.47 375.88
   Q 385.27 375.88 385.10 375.99
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 357.01 377.31
   Q 357.05 376.68 357.56 376.41
   A 0.40 0.39 -2.6 0 1 358.11 376.91
@@ -13996,10 +13997,10 @@ function Logo() {
   Q 356.25 378.08 356.63 377.90
   Q 356.99 377.72 357.01 377.31
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 45.97 377.06
   Q 48.43 377.85 50.98 379.04
   Q 52.57 379.78 54.08 379.84
@@ -14027,18 +14028,18 @@ function Logo() {
   Q 72.32 380.92 57.87 380.91
   Q 51.65 380.90 45.97 377.06
   Z"
-        />
-        <ellipse
-          fill="#4d0d75"
-          cx={0.0}
-          cy={0.0}
-          transform="translate(391.14,378.85) rotate(134.3)"
-          rx="2.84"
-          ry="0.34"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <ellipse
+        fill="#4d0d75"
+        cx={0.0}
+        cy={0.0}
+        transform="translate(391.14,378.85) rotate(134.3)"
+        rx="2.84"
+        ry="0.34"
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 84.98 422.46
   Q 85.29 422.31 85.50 422.15
   Q 85.70 421.99 85.72 421.78
@@ -14058,10 +14059,10 @@ function Logo() {
   Q 95.46 423.14 89.56 423.36
   C 87.95 423.42 86.49 422.97 84.98 422.46
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 591.71 380.31
   Q 591.78 380.82 592.00 380.99
   Q 592.01 381.46 591.84 381.79
@@ -14081,10 +14082,10 @@ function Logo() {
   Q 591.32 381.04 591.38 380.69
   Q 591.43 380.32 591.71 380.31
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 591.84 381.79
   Q 591.83 382.70 592.67 383.11
   Q 598.43 385.89 602.30 390.80
@@ -14101,10 +14102,10 @@ function Logo() {
   A 0.29 0.29 0.0 0 1 591.22 381.56
   Q 591.69 381.29 591.84 381.79
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 401.41 386.39
   Q 401.35 386.27 401.28 386.15
   A 0.69 0.69 0.0 0 0 400.19 386.01
@@ -14145,10 +14146,10 @@ function Logo() {
   Q 400.85 389.09 401.32 388.37
   A 1.95 1.94 47.8 0 0 401.41 386.39
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 88.51 382.69
   Q 88.66 386.00 87.90 388.84
   Q 87.00 392.20 86.97 393.79
@@ -14163,10 +14164,10 @@ function Logo() {
   C 71.80 396.87 76.92 390.48 80.25 387.90
   Q 83.21 385.60 88.51 382.69
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 590.93 383.39
   Q 596.08 385.57 600.64 390.04
   Q 605.64 394.95 606.09 401.47
@@ -14190,10 +14191,10 @@ function Logo() {
   C 590.85 414.87 590.69 409.18 591.01 402.68
   Q 591.50 392.93 590.93 383.39
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 382.72 387.42
   A 0.19 0.19 0.0 0 1 382.43 387.50
   Q 381.93 387.15 382.16 386.67
@@ -14204,10 +14205,10 @@ function Logo() {
   Q 384.65 385.90 384.46 385.94
   Q 383.22 386.16 382.72 387.42
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 383.65 389.62
   Q 382.75 390.30 383.15 389.24
   Q 383.48 388.38 384.42 388.10
@@ -14220,10 +14221,10 @@ function Logo() {
   Q 385.77 387.84 385.42 388.15
   Q 384.53 388.97 383.65 389.62
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 406.30 456.14
   A 6.28 6.19 12.3 0 0 408.85 454.53
   C 409.66 453.68 410.29 452.79 411.29 452.13
@@ -14277,10 +14278,10 @@ function Logo() {
   Q 402.88 458.22 404.04 457.34
   Q 405.12 456.53 406.30 456.14
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 390.15 392.34
   L 393.66 389.03
   Q 393.80 388.90 393.94 389.03
@@ -14291,20 +14292,20 @@ function Logo() {
   L 390.15 392.55
   Q 390.04 392.44 390.15 392.34
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 365.33 395.78
   Q 365.34 395.15 365.98 395.05
   Q 366.49 394.98 366.26 395.44
   Q 366.09 395.77 365.74 396.00
   Q 365.33 396.28 365.33 395.78
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 353.13 398.77
   Q 353.37 398.46 353.69 398.68
   Q 354.02 398.90 353.88 399.29
@@ -14313,10 +14314,10 @@ function Logo() {
   Q 352.49 399.63 352.78 399.24
   L 353.13 398.77
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 393.36 483.79
   Q 393.39 483.56 393.54 483.37
   Q 396.07 480.07 398.95 477.54
@@ -14358,10 +14359,10 @@ function Logo() {
   Q 391.39 485.35 392.89 484.48
   Q 393.29 484.25 393.36 483.79
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 366.77 410.63
   Q 366.70 411.34 366.06 411.59
   Q 365.37 411.86 365.77 411.23
@@ -14376,10 +14377,10 @@ function Logo() {
   L 367.31 409.75
   A 1.20 1.19 76.6 0 0 366.77 410.63
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 347.39 419.54
   Q 349.14 417.89 350.36 415.76
   C 351.32 414.09 353.21 413.07 354.44 411.43
@@ -14399,10 +14400,10 @@ function Logo() {
   L 347.38 419.80
   Q 347.26 419.66 347.39 419.54
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 361.35 407.91
   Q 361.53 407.39 362.08 407.36
   Q 363.20 407.30 363.48 406.17
@@ -14418,10 +14419,10 @@ function Logo() {
   Q 357.08 412.43 360.17 409.67
   Q 361.02 408.92 361.35 407.91
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 352.30 407.32
   Q 352.50 407.25 352.59 407.45
   L 352.60 407.46
@@ -14432,10 +14433,10 @@ function Logo() {
   Q 348.26 411.50 348.34 411.29
   Q 349.36 408.36 352.30 407.32
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 353.10 409.11
   Q 353.15 408.70 353.52 408.51
   Q 353.89 408.31 353.75 408.71
@@ -14448,18 +14449,18 @@ function Logo() {
   Q 351.79 411.03 352.71 409.99
   Q 353.04 409.61 353.10 409.11
   Z"
-        />
-        <ellipse
-          fill="#7213ad"
-          cx={0.0}
-          cy={0.0}
-          transform="translate(363.61,413.89) rotate(129.1)"
-          rx="2.33"
-          ry="0.37"
-        />
-        <path
-          fill="#200554"
-          d="
+      />
+      <ellipse
+        fill="#7213ad"
+        cx={0.0}
+        cy={0.0}
+        transform="translate(363.61,413.89) rotate(129.1)"
+        rx="2.33"
+        ry="0.37"
+      />
+      <path
+        fill="#200554"
+        d="
   M 446.98 448.09
   Q 446.83 448.45 446.54 448.71
   Q 439.76 454.92 433.70 461.07
@@ -14497,10 +14498,10 @@ function Logo() {
   C 450.68 444.27 449.24 445.89 447.53 447.33
   Q 447.16 447.64 446.98 448.09
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 348.54 414.02
   A 0.33 0.33 0.0 0 1 348.78 413.89
   Q 349.08 413.88 349.11 414.13
@@ -14509,10 +14510,10 @@ function Logo() {
   Q 346.87 416.11 347.54 415.27
   L 348.54 414.02
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 358.54 423.46
   Q 357.41 425.46 355.67 426.66
   Q 355.56 426.73 355.46 426.63
@@ -14534,10 +14535,10 @@ function Logo() {
   Q 360.05 422.34 359.22 422.79
   Q 358.78 423.03 358.54 423.46
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 357.74 416.66
   Q 356.82 417.98 356.62 418.15
   Q 353.80 420.68 356.13 417.69
@@ -14547,20 +14548,20 @@ function Logo() {
   Q 359.40 415.24 359.25 415.37
   C 358.79 415.80 358.08 416.16 357.74 416.66
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 360.82 417.34
   Q 360.40 417.65 360.39 417.12
   Q 360.38 416.39 361.06 416.20
   Q 361.58 416.05 361.39 416.56
   Q 361.21 417.05 360.82 417.34
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 354.53 423.34
   Q 355.46 422.23 356.51 421.24
   Q 356.90 420.88 357.03 420.36
@@ -14570,20 +14571,20 @@ function Logo() {
   Q 351.79 426.76 352.18 425.84
   C 352.67 424.72 353.76 424.23 354.53 423.34
   Z"
-        />
-        <circle fill="#ffffff" cx="526.77" cy="435.69" r="14.13" />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <circle fill="#ffffff" cx="526.77" cy="435.69" r="14.13" />
+      <path
+        fill="#b2a5b4"
+        d="
   M 83.71 423.16
   Q 83.57 423.70 83.00 423.69
   Q 70.26 423.39 57.39 423.49
   Q 70.49 422.56 83.71 423.16
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 444.74 460.33
   Q 444.87 460.09 445.00 459.84
   Q 445.12 459.61 445.31 459.46
@@ -14621,18 +14622,18 @@ function Logo() {
   Q 442.48 461.62 443.98 461.00
   Q 444.48 460.80 444.74 460.33
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 41.85 432.99
   Q 41.23 435.22 39.75 437.24
   Q 40.40 434.95 41.85 432.99
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 639.57 437.52
   C 640.51 441.18 640.65 445.39 638.94 448.86
   C 636.92 452.95 635.68 455.62 631.53 458.41
@@ -14650,10 +14651,10 @@ function Logo() {
   Q 640.51 442.23 639.36 437.80
   Q 639.08 437.77 639.57 437.52
   Z"
-        />
-        <path
-          fill="#200554"
-          d="
+      />
+      <path
+        fill="#200554"
+        d="
   M 457.98 462.53
   Q 461.68 459.01 465.24 455.10
   C 466.09 454.17 467.57 453.24 468.36 451.76
@@ -14679,18 +14680,18 @@ function Logo() {
   Q 448.42 471.58 450.93 469.46
   C 453.41 467.36 455.45 464.94 457.98 462.53
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 39.12 446.52
   Q 41.03 448.09 40.90 450.47
   Q 39.61 448.64 39.12 446.52
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 49.64 459.50
   Q 56.15 462.56 62.50 462.42
   Q 83.37 461.96 104.52 462.12
@@ -14701,62 +14702,62 @@ function Logo() {
   Q 82.50 462.94 61.00 463.02
   Q 54.44 463.04 49.64 459.50
   Z"
-        />
-        <path
-          fill="#0e123c"
-          d="
+      />
+      <path
+        fill="#0e123c"
+        d="
   M 333.90 460.20
   A 1.58 1.54 -39.2 0 1 335.03 460.30
   Q 335.23 460.39 333.87 461.94
   A 0.58 0.58 0.0 0 1 332.86 461.63
   Q 332.72 460.53 333.90 460.20
   Z"
-        />
-        <path
-          fill="#4d0d75"
-          d="
+      />
+      <path
+        fill="#4d0d75"
+        d="
   M 335.60 461.55
   L 328.74 468.36
   Q 331.43 463.78 335.60 461.55
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 575.92 465.03
   Q 575.59 467.30 574.18 469.45
   Q 573.81 469.58 574.01 469.29
   L 575.92 465.03
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 574.01 469.29
   Q 573.81 469.58 574.18 469.45
   L 571.89 475.41
   Q 572.39 472.30 574.01 469.29
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 558.52 496.06
   Q 556.85 498.63 554.50 500.36
   Q 556.08 497.89 558.52 496.06
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 132.77 505.37
   L 149.67 515.56
   Q 140.52 511.95 132.77 505.37
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 547.84 506.24
   Q 540.93 511.17 533.37 514.83
   Q 529.00 516.94 523.86 518.34
@@ -14767,18 +14768,18 @@ function Logo() {
   Q 539.53 511.12 542.62 509.18
   Q 545.14 507.60 547.84 506.24
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 171.84 521.38
   Q 160.89 520.74 151.23 516.03
   Q 161.21 519.49 171.84 521.38
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 511.45 520.62
   Q 506.50 522.59 501.00 521.86
   Q 499.99 521.73 500.39 522.67
@@ -14790,10 +14791,10 @@ function Logo() {
   A 0.90 0.89 -15.0 0 1 500.33 521.46
   L 511.45 520.62
   Z"
-        />
-        <path
-          fill="#ffffff"
-          d="
+      />
+      <path
+        fill="#ffffff"
+        d="
   M 429.49 522.84
   Q 425.95 521.92 418.75 521.93
   Q 335.91 522.04 253.13 521.99
@@ -14805,10 +14806,10 @@ function Logo() {
   Q 414.81 521.24 419.25 521.11
   Q 425.56 520.94 429.49 522.84
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 174.57 578.04
   Q 171.56 576.57 168.56 573.00
   Q 165.74 569.64 164.90 566.73
@@ -14824,19 +14825,19 @@ function Logo() {
   Q 164.66 565.55 166.06 568.37
   Q 168.88 574.04 174.57 578.04
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 222.14 550.06
   Q 214.72 557.79 207.19 565.44
   Q 202.97 569.73 198.32 573.52
   L 222.14 550.06
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 468.78 561.42
   Q 476.03 567.66 482.78 574.53
   C 484.29 576.07 486.71 577.86 488.76 578.51
@@ -14846,10 +14847,10 @@ function Logo() {
   Q 487.91 579.54 484.52 576.46
   Q 476.45 569.15 468.78 561.42
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 196.25 575.30
   Q 193.67 577.83 190.81 578.84
   Q 183.15 581.54 175.98 578.92
@@ -14857,10 +14858,10 @@ function Logo() {
   Q 191.39 578.19 193.16 577.00
   Q 194.61 576.03 196.25 575.30
   Z"
-        />
-        <path
-          fill="#0e123c"
-          d="
+      />
+      <path
+        fill="#0e123c"
+        d="
   M 418.02 602.95
   Q 418.98 603.76 420.75 603.75
   Q 426.36 603.72 431.93 604.29
@@ -14924,10 +14925,10 @@ function Logo() {
   Q 393.02 602.02 401.35 602.33
   Q 409.80 602.64 418.02 602.95
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 285.99 602.11
   Q 279.22 602.64 272.50 603.05
   C 269.51 603.24 266.19 602.79 263.44 603.40
@@ -14938,10 +14939,10 @@ function Logo() {
   Q 244.70 603.59 250.46 603.40
   Q 268.19 602.80 285.99 602.11
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 418.02 602.95
   Q 427.07 603.05 435.85 603.72
   Q 446.62 604.53 453.68 604.80
@@ -14961,10 +14962,10 @@ function Logo() {
   Q 426.36 603.72 420.75 603.75
   Q 418.98 603.76 418.02 602.95
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 207.72 606.56
   Q 203.72 608.08 199.30 607.96
   C 195.85 607.86 193.47 609.28 190.03 609.02
@@ -14973,28 +14974,28 @@ function Logo() {
   Q 177.16 609.72 180.74 609.18
   Q 194.19 607.15 207.72 606.56
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 173.29 611.14
   Q 170.36 612.17 167.21 612.74
   Q 164.76 613.19 163.08 614.01
   Q 161.16 614.96 159.23 616.04
   C 163.17 612.49 167.62 611.97 173.29 611.14
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 511.76 612.15
   L 516.22 613.60
   Q 513.30 613.69 511.76 612.15
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 518.58 614.77
   C 520.46 615.26 522.59 616.55 521.98 618.81
   C 521.27 621.40 516.73 622.73 514.45 623.30
@@ -15016,10 +15017,10 @@ function Logo() {
   Q 522.82 617.64 520.69 616.30
   Q 519.07 615.26 518.58 614.77
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 159.23 616.04
   Q 157.23 619.20 160.51 620.82
   Q 165.06 623.07 174.12 624.55
@@ -15027,10 +15028,10 @@ function Logo() {
   C 159.27 620.68 157.62 620.04 157.90 617.50
   Q 158.04 616.20 159.23 616.04
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 174.25 624.81
   C 176.39 624.89 178.31 624.66 180.35 625.41
   Q 182.17 626.08 184.25 625.88
@@ -15039,35 +15040,35 @@ function Logo() {
   Q 210.84 628.59 209.00 628.49
   Q 191.53 627.49 174.25 624.81
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 244.98 629.97
   L 227.26 629.26
   Q 236.26 628.80 244.98 629.97
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 425.27 630.28
   L 421.02 630.69
   Q 422.50 629.65 425.27 630.28
   Z"
-        />
-        <path
-          fill="#7213ad"
-          d="
+      />
+      <path
+        fill="#7213ad"
+        d="
   M 414.22 630.74
   L 386.32 631.22
   Q 385.38 630.61 383.51 630.93
   L 414.22 630.74
   Z"
-        />
-        <path
-          fill="#b2a5b4"
-          d="
+      />
+      <path
+        fill="#b2a5b4"
+        d="
   M 383.51 630.93
   Q 385.38 630.61 386.32 631.22
   Q 378.53 631.92 370.75 631.97
@@ -15075,9 +15076,8 @@ function Logo() {
   C 296.68 631.76 291.01 631.19 285.79 631.16
   L 383.51 630.93
   Z"
-        />
-      </svg>
-    </>
+      />
+    </svg>
   );
 }
 

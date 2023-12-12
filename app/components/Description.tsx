@@ -11,24 +11,24 @@ function Description() {
             viewBox="0.00 0.00 512.00 512.00"
             className="w-20"
           >
-            <g stroke-width="2.00" fill="none" stroke-linecap="butt">
+            <g strokeWidth="2.00" fill="none" strokeLinecap="butt">
               <path
                 stroke="#a1def9"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 293.12 3.90
   Q 228.28 19.42 187.24 69.63"
               />
               <path
                 stroke="#93d7cf"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 187.24 69.63
   Q 187.24 70.26 187.14 69.44"
               />
               <path
                 stroke="#84cdcf"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 187.14 69.44
   Q 178.66 60.06 166.99 60.05
@@ -37,7 +37,7 @@ function Description() {
               />
               <path
                 stroke="#a3ddcf"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 410.76 82.22
   Q 370.76 82.28 330.76 82.20
@@ -70,14 +70,14 @@ function Description() {
               />
               <path
                 stroke="#cbbae5"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 364.42 338.74
   Q 349.67 349.18 333.52 356.58"
               />
               <path
                 stroke="#a1def9"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 293.24 369.64
   Q 286.91 367.70 280.77 365.95
@@ -88,7 +88,7 @@ function Description() {
               />
               <path
                 stroke="#a3ddcf"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 170.90 279.46
   C 184.20 271.11 188.82 255.65 181.54 241.82
@@ -103,28 +103,28 @@ function Description() {
               />
               <path
                 stroke="#95d3cf"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 146.81 171.61
   Q 146.86 171.56 146.36 171.45"
               />
               <path
                 stroke="#a1def9"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 146.36 171.45
   Q 147.34 168.28 146.81 165.28"
               />
               <path
                 stroke="#95d3cf"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 146.81 165.28
   Q 147.37 164.82 147.49 164.45"
               />
               <path
                 stroke="#a3ddcf"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 147.49 164.45
   Q 159.97 152.31 155.49 135.49
@@ -132,14 +132,14 @@ function Description() {
               />
               <path
                 stroke="#95d3cf"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 154.33 132.80
   L 154.23 131.96"
               />
               <path
                 stroke="#a1def9"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 154.23 131.96
   L 159.30 117.09
@@ -148,14 +148,14 @@ function Description() {
               />
               <path
                 stroke="#95d3cf"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 159.29 115.99
   Q 159.91 116.06 160.25 115.74"
               />
               <path
                 stroke="#a3ddcf"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 160.25 115.74
   Q 168.39 116.30 172.26 115.25
@@ -164,7 +164,7 @@ function Description() {
               />
               <path
                 stroke="#87cca4"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 187.14 69.44
   Q 187.10 69.86 187.04 69.94
@@ -173,7 +173,7 @@ function Description() {
               />
               <path
                 stroke="#84cdcf"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 159.29 115.99
   L 135.57 116.01
@@ -182,7 +182,7 @@ function Description() {
               />
               <path
                 stroke="#87cca4"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 154.33 132.80
   Q 153.78 133.52 153.71 133.75
@@ -190,7 +190,7 @@ function Description() {
               />
               <path
                 stroke="#84cdcf"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 146.81 165.28
   Q 140.99 169.73 134.55 171.24
@@ -199,7 +199,7 @@ function Description() {
               />
               <path
                 stroke="#87cca4"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 146.81 171.61
   Q 146.56 172.43 146.52 173.00
@@ -207,7 +207,7 @@ function Description() {
               />
               <path
                 stroke="#84cdcf"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 170.68 279.57
   Q 165.35 282.66 161.00 282.87
@@ -218,7 +218,7 @@ function Description() {
               />
               <path
                 stroke="#aea9ba"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 105.55 298.00
   Q 105.55 297.74 105.53 297.52
@@ -231,7 +231,7 @@ function Description() {
               />
               <path
                 stroke="#bdb3ba"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 423.25 271.16
   Q 422.68 271.06 422.38 271.63
@@ -239,14 +239,14 @@ function Description() {
               />
               <path
                 stroke="#93d7cf"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 170.90 279.46
   Q 170.71 279.49 170.68 279.57"
               />
               <path
                 stroke="#f2b09a"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 84.50 319.06
   Q 79.17 306.87 67.89 299.84
@@ -254,7 +254,7 @@ function Description() {
               />
               <path
                 stroke="#f2b09a"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 448.82 296.73
   Q 448.82 296.91 448.80 297.05
@@ -264,21 +264,21 @@ function Description() {
               />
               <path
                 stroke="#bab4e5"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 271.45 372.89
   Q 256.08 374.32 240.55 372.95"
               />
               <path
                 stroke="#bab4e5"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 178.46 356.76
   Q 162.44 349.44 147.59 338.99"
               />
               <path
                 stroke="#fce064"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 29.73 374.05
   Q 44.63 366.84 50.69 353.71
@@ -287,7 +287,7 @@ function Description() {
               />
               <path
                 stroke="#fce064"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 482.11 297.18
   Q 464.60 306.15 459.23 322.98
@@ -296,28 +296,28 @@ function Description() {
               />
               <path
                 stroke="#f2b09a"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 391.46 406.10
   Q 376.48 412.88 369.58 427.87"
               />
               <path
                 stroke="#efc09a"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 142.27 428.16
   Q 135.87 413.72 121.29 406.62"
               />
               <path
                 stroke="#f2b09a"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 121.29 406.62
   L 120.61 406.05"
               />
               <path
                 stroke="#f2b09a"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 271.44 431.01
   Q 267.77 430.21 264.20 429.45
@@ -327,7 +327,7 @@ function Description() {
               />
               <path
                 stroke="#fce064"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 121.29 406.62
   Q 119.53 406.68 118.71 407.09
@@ -336,7 +336,7 @@ function Description() {
               />
               <path
                 stroke="#fce064"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 424.27 406.21
   Q 408.29 414.18 402.39 429.12
@@ -345,7 +345,7 @@ function Description() {
               />
               <path
                 stroke="#fce064"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 271.96 431.81
   L 271.44 432.35
@@ -1228,10 +1228,10 @@ function Description() {
             viewBox="0.00 0.00 512.00 512.00"
             className="w-20"
           >
-            <g stroke-width="2.00" fill="none" stroke-linecap="butt">
+            <g strokeWidth="2.00" fill="none" strokeLinecap="butt">
               <path
                 stroke="#01607d"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 344.49 93.58
   Q 337.02 92.59 337.01 84.75
@@ -1242,7 +1242,7 @@ function Description() {
               />
               <path
                 stroke="#045579"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 62.61 28.13
   Q 46.58 28.11 30.33 28.17
@@ -1255,7 +1255,7 @@ function Description() {
               />
               <path
                 stroke="#01607d"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 61.81 286.68
   L 271.72 286.68
@@ -1270,7 +1270,7 @@ function Description() {
               />
               <path
                 stroke="#80713c"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 504.49 273.03
   Q 496.97 272.14 496.98 265.26
@@ -1281,7 +1281,7 @@ function Description() {
               />
               <path
                 stroke="#80692e"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 325.90 211.95
   C 317.56 211.91 309.23 212.21 301.07 211.94
@@ -1293,7 +1293,7 @@ function Description() {
               />
               <path
                 stroke="#80713c"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 325.81 421.95
   Q 402.46 421.96 479.16 421.96
@@ -1305,7 +1305,7 @@ function Description() {
               />
               <path
                 stroke="#05b5f6"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 62.61 28.13
   Q 58.14 33.20 58.07 40.49
@@ -1313,7 +1313,7 @@ function Description() {
               />
               <path
                 stroke="#045579"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 58.00 54.23
   Q 53.55 54.28 48.99 54.24
@@ -1322,14 +1322,14 @@ function Description() {
               />
               <path
                 stroke="#05b5f6"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 57.99 69.28
   L 57.98 245.48"
               />
               <path
                 stroke="#045579"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 57.98 245.48
   Q 53.26 245.53 48.99 245.52
@@ -1339,7 +1339,7 @@ function Description() {
               />
               <path
                 stroke="#05b5f6"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 58.08 260.52
   Q 57.91 267.69 58.07 274.75
@@ -1348,7 +1348,7 @@ function Description() {
               />
               <path
                 stroke="#01607d"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 58.08 260.52
   Q 63.41 260.55 68.53 260.49
@@ -1359,7 +1359,7 @@ function Description() {
               />
               <path
                 stroke="#01607d"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 57.99 69.28
   Q 63.20 69.27 68.34 69.22
@@ -1370,7 +1370,7 @@ function Description() {
               />
               <path
                 stroke="#01607d"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 135.17 61.42
   A 7.13 7.13 0.0 0 0 128.04 54.29
@@ -1384,7 +1384,7 @@ function Description() {
               />
               <path
                 stroke="#01607d"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 192.7006 61.4393
   A 7.12 7.12 0.0 0 0 185.5930 54.3069
@@ -1398,7 +1398,7 @@ function Description() {
               />
               <path
                 stroke="#01607d"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 251.42 61.41
   A 7.12 7.12 0.0 0 0 244.30 54.29
@@ -1412,7 +1412,7 @@ function Description() {
               />
               <path
                 stroke="#01607d"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 310.1306 61.4395
   A 7.12 7.12 0.0 0 0 303.0230 54.3071
@@ -1426,7 +1426,7 @@ function Description() {
               />
               <path
                 stroke="#01607d"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 139.93 103.60
   A 12.53 12.53 0.0 0 0 121.75 114.79
@@ -1438,7 +1438,7 @@ function Description() {
               />
               <path
                 stroke="#01607d"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 135.1605 252.7302
   A 7.13 7.13 0.0 0 0 128.0430 245.5878
@@ -1452,7 +1452,7 @@ function Description() {
               />
               <path
                 stroke="#01607d"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 192.72 252.70
   A 7.13 7.13 0.0 0 0 185.59 245.57
@@ -1466,7 +1466,7 @@ function Description() {
               />
               <path
                 stroke="#01607d"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 251.42 252.69
   A 7.12 7.12 0.0 0 0 244.30 245.57
@@ -1480,7 +1480,7 @@ function Description() {
               />
               <path
                 stroke="#3d373d"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 154.44 187.11
   L 212.86 157.62
@@ -1489,7 +1489,7 @@ function Description() {
               />
               <path
                 stroke="#342f34"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 154.45 127.74
   L 137.24 119.21
@@ -1500,14 +1500,14 @@ function Description() {
               />
               <path
                 stroke="#716671"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 154.45 127.74
   L 154.44 187.11"
               />
               <path
                 stroke="#ffd969"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 325.90 211.95
   Q 322.04 218.39 322.00 224.50
@@ -1515,7 +1515,7 @@ function Description() {
               />
               <path
                 stroke="#80692e"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 322.13 320.42
   Q 318.24 325.30 313.55 330.87
@@ -1525,7 +1525,7 @@ function Description() {
               />
               <path
                 stroke="#ffd969"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 322.00 344.86
   Q 322.00 377.19 322.13 409.50
@@ -1534,7 +1534,7 @@ function Description() {
               />
               <path
                 stroke="#80713c"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 322.00 344.86
   L 361.17 344.86
@@ -1552,7 +1552,7 @@ function Description() {
               />
               <path
                 stroke="#80713c"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 410.93 308.34
   Q 410.97 290.83 410.91 275.78
@@ -1575,7 +1575,7 @@ function Description() {
               />
               <path
                 stroke="#80713c"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 361.43 297.57
   A 0.34 0.34 0.0 0 0 360.83 297.36
@@ -1587,7 +1587,7 @@ function Description() {
               />
               <path
                 stroke="#01607d"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 229.04 416.53
   Q 221.58 415.66 221.57 408.50
@@ -1598,7 +1598,7 @@ function Description() {
               />
               <path
                 stroke="#045579"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 88.05 355.50
   Q 78.09 355.47 68.25 355.47
@@ -1610,7 +1610,7 @@ function Description() {
               />
               <path
                 stroke="#01607d"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 87.84 483.83
   Q 150.24 483.87 212.75 483.82
@@ -1621,7 +1621,7 @@ function Description() {
               />
               <path
                 stroke="#05b5f6"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 88.05 355.50
   Q 86.36 359.91 86.37 362.75
@@ -1630,7 +1630,7 @@ function Description() {
               />
               <path
                 stroke="#01607d"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 115.36 380.23
   A 12.54 12.54 0.0 0 0 97.18 391.43
@@ -1642,7 +1642,7 @@ function Description() {
               />
               <path
                 stroke="#3d373d"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 127.05 436.44
   L 159.78 419.91
@@ -1651,7 +1651,7 @@ function Description() {
               />
               <path
                 stroke="#342f34"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 127.16 402.97
   L 112.68 395.75
@@ -1662,7 +1662,7 @@ function Description() {
               />
               <path
                 stroke="#716671"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
                 d="
   M 127.16 402.97
   L 127.05 436.44"
