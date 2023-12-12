@@ -13,7 +13,7 @@ const config: Config = {
           "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "image-1": "url('/images/4.png')",
+        "image-1": "url('/images/background.webp')",
       },
       colors: {
         primary: {

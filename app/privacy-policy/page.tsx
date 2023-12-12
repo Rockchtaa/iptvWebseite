@@ -2,8 +2,8 @@ import React from "react";
 
 function page() {
   return (
-    <div className="flex flex-col mt-32 mb-10 justify-center items-center px-4 sm:px-0">
-      <section className="max-w-4xl flex flex-col gap-16">
+    <div className="flex flex-col justify-center items-center px-4 sm:px-0 ">
+      <section className="mt-32 mb-10  max-w-4xl flex flex-col gap-16">
         <h1 className="text-3xl font-extrabold tracking-tight leading-none md:text-4xl lg:text-5xl 2xl:text-6xl text-white">
           Privacy and Refund Policy
         </h1>

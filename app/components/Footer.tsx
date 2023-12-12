@@ -5,18 +5,16 @@ function Footer() {
   return (
     <footer className="p-4 md:p-8 lg:p-10 bg-primary-950/10">
       <div className="mx-auto max-w-screen-xl text-center">
-        <a
-          href="/"
-          className="flex mr-4 items-center justify-center"
-        >
-          <Logo />
-          <span className="translate-y-1 text-2xl font-semibold whitespace-nowrap dark:text-white">
-            IPTV
-          </span>
-        </a>
+       
+        <a href="/" className="flex items-center justify-center space-x-3 m-auto">
+              <Logo  className="-translate-y-1 w-12 h-12"/>
+              <span className=" text-2xl font-semibold whitespace-nowrap dark:text-white">
+                IPTV
+              </span>
+            </a>
         <p className="my-6 text-gray-500 dark:text-gray-400">
-          Open-source library of over 400+ web components and
-          interactive elements built for better web.
+          Open-source library of over 400+ web components and interactive
+          elements built for better web.
         </p>
         <ul className="flex flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white">
           <li>
