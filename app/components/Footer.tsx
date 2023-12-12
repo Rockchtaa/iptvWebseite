@@ -12,16 +12,16 @@ function Footer() {
           className="flex items-center justify-center space-x-3 m-auto"
         >
           <Logo className="-translate-y-1 w-12 h-12" />
-          <span className=" text-2xl font-semibold whitespace-nowrap dark:text-white">
+          <span className=" text-2xl font-semibold whitespace-nowrap text-white">
             IPTV
           </span>
         </a>
-        <p className="my-6 text-gray-500 dark:text-gray-400">
+        <p className="my-6 text-gray-400">
           Enjoy your time with excellent image quality up to 4K, on any device,
           anytime and anywhere, with over +18,000 channels, +88,000 VOD and
           uptime 100%
         </p>
-        <ul className="flex flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white">
+        <ul className="flex flex-wrap justify-center items-center mb-6 text-white">
           {headerNavLinks.map((link) => (
             <li key={link.title}>
               <Link
@@ -33,11 +33,11 @@ function Footer() {
             </li>
           ))}
         </ul>
-        <div className="flex  justify-center text-sm text-gray-500 sm:text-center dark:text-gray-400 space-x-2">
+        <div className="flex  justify-center text-sm sm:text-center text-gray-400 space-x-2">
           <span>Copyright © 2023 |</span>
           <a href="/" className="flex items-center justify-center gap-2">
             <Logo className=" w-4 h-4" />
-            <span className=" text-sm font-semibold whitespace-nowrap dark:text-white">
+            <span className=" text-sm font-semibold whitespace-nowrap text-white">
               IPTV
             </span>
           </a>

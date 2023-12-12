@@ -16,7 +16,7 @@ function Navbar() {
               className="flex items-center justify-center space-x-3 m-auto"
             >
               <Logo className="-translate-y-1 w-12 h-12" />
-              <span className=" text-2xl font-semibold whitespace-nowrap dark:text-white">
+              <span className=" text-2xl font-semibold whitespace-nowrap text-white">
                 IPTV
               </span>
             </a>
